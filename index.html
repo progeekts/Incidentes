@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Histórico práctico de incidentes de ciberseguridad relevantes para usuarios cotidianos." />
+  <title>Incidentes | Ciberseguridad para usuarios</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <p class="eyebrow">VIGILANCIA GLOBAL</p>
+        <h1>Incidentes</h1>
+        <p class="subtitle">Ciberseguridad importante, explicada sin ruido.</p>
+      </div>
+      <div class="status-pill"><span></span> Histórico público</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h2>Qué está pasando y qué puedes hacer</h2>
+        <p>Recopilamos incidentes, campañas de fraude, filtraciones y vulnerabilidades con impacto real en usuarios. Solo se incluyen desarrollos con relevancia material.</p>
+      </div>
+      <div class="hero-note">Información práctica · Fuentes enlazadas · Sin alarmismo</div>
+    </section>
+
+    <section class="controls" aria-label="Filtros">
+      <input id="search" type="search" placeholder="Buscar por empresa, servicio o incidente…" />
+      <select id="typeFilter">
+        <option value="all">Todos los tipos</option>
+        <option value="fraude">Fraude / phishing</option>
+        <option value="brecha">Brecha de datos</option>
+        <option value="vulnerabilidad">Vulnerabilidad</option>
+        <option value="malware">Malware</option>
+        <option value="otro">Otros</option>
+      </select>
+      <select id="severityFilter">
+        <option value="all">Toda severidad</option>
+        <option value="critica">Crítica</option>
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+      </select>
+    </section>
+
+    <section class="summary-grid" id="summary"></section>
+    <section class="incident-list" id="incidentList" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>Proyecto informativo. Verifica siempre avisos y recomendaciones con las fuentes oficiales enlazadas.</p>
+      <p id="lastUpdated"></p>
+    </div>
+  </footer>
+
+  <script src="incidents.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
