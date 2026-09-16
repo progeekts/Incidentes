@@ -40,7 +40,7 @@ function render() {
   const filtered = incidents
     .filter(i => t === 'all' || i.type === t)
     .filter(i => s === 'all' || i.severity === s)
-    .filter(i => !q || [i.title,i.organization,i.summary,i.scope,i.affected].join(' ').toLowerCase().includes(q))
+    .filter(i => !q || [i.title,i.organization,i.lead,i.reportedScale,i.summary,i.scope,i.affected].join(' ').toLowerCase().includes(q))
     .sort((a,b) => b.date.localeCompare(a.date));
 
   renderSummary(filtered);
@@ -61,15 +61,17 @@ function render() {
           </div>
           <h3>${esc(i.title)}</h3>
           <div class="meta">${esc(i.date)} · ${esc(i.organization)} · ${esc(i.scope)}</div>
+          ${i.lead ? `<p class="incident-lead">${esc(i.lead)}</p>` : ''}
+          ${i.reportedScale ? `<div class="scale-callout"><span>${esc(i.reportedScaleStatus || 'Alcance reportado')}</span><strong>${esc(i.reportedScale)}</strong></div>` : ''}
         </div>
       </div>
       <div class="incident-grid">
-        <div class="info-box"><h4>Qué cambió</h4><p>${esc(i.summary)}</p></div>
+        <div class="info-box"><h4>Qué ocurrió</h4><p>${esc(i.summary)}</p></div>
         <div class="info-box"><h4>Por qué importa</h4><p>${esc(i.whyItMatters)}</p></div>
         <div class="info-box"><h4>Quién puede estar afectado</h4><p>${esc(i.affected)}</p></div>
         <div class="info-box"><h4>Qué hacer ahora</h4><ul class="actions">${(i.actions||[]).map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>
       </div>
-      ${i.notes ? `<div class="sources"><strong>Nota:</strong> ${esc(i.notes)}</div>` : ''}
+      ${i.notes ? `<div class="sources"><strong>Contexto de verificación:</strong> ${esc(i.notes)}</div>` : ''}
       <div class="sources"><strong>Fuentes:</strong> ${(i.sources||[]).map(src => `<a href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.label)}</a>`).join('')}</div>
     </article>`).join('');
 }
