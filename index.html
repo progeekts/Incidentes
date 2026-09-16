@@ -1,72 +1,10 @@
 <!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Histórico práctico de incidentes de ciberseguridad relevantes para usuarios cotidianos." />
-  <title>Incidentes | Ciberseguridad para usuarios</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <div>
-        <p class="eyebrow">VIGILANCIA GLOBAL</p>
-        <h1>Incidentes</h1>
-        <p class="subtitle">Ciberseguridad importante, explicada sin ruido.</p>
-      </div>
-      <div class="status-pill"><span></span> Histórico público</div>
-    </div>
-  </header>
-
-  <main class="wrap">
-    <section class="hero">
-      <div>
-        <h2>Qué está pasando y qué puedes hacer</h2>
-        <p>Recopilamos incidentes, campañas de fraude, filtraciones y vulnerabilidades con impacto real en usuarios. Solo se incluyen desarrollos con relevancia material.</p>
-      </div>
-      <div class="hero-note">Información práctica · Fuentes enlazadas · Sin alarmismo</div>
-    </section>
-
-    <section class="review-status" aria-label="Estado de la vigilancia">
-      <div class="review-icon" aria-hidden="true"><span></span></div>
-      <div>
-        <p class="review-label">ÚLTIMA REVISIÓN</p>
-        <p class="review-time" id="lastReview">Pendiente de registrar</p>
-        <p class="review-copy">Momento de la última comprobación global de nuevos incidentes, haya o no novedades publicadas.</p>
-      </div>
-    </section>
-
-    <section class="controls" aria-label="Filtros">
-      <input id="search" type="search" placeholder="Buscar por empresa, servicio o incidente…" />
-      <select id="typeFilter">
-        <option value="all">Todos los tipos</option>
-        <option value="fraude">Fraude / phishing</option>
-        <option value="brecha">Brecha de datos</option>
-        <option value="vulnerabilidad">Vulnerabilidad</option>
-        <option value="malware">Malware</option>
-        <option value="otro">Otros</option>
-      </select>
-      <select id="severityFilter">
-        <option value="all">Toda severidad</option>
-        <option value="critica">Crítica</option>
-        <option value="alta">Alta</option>
-        <option value="media">Media</option>
-      </select>
-    </section>
-
-    <section class="summary-grid" id="summary"></section>
-    <section class="incident-list" id="incidentList" aria-live="polite"></section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-inner">
-      <p>Proyecto informativo. Verifica siempre avisos y recomendaciones con las fuentes oficiales enlazadas.</p>
-      <p id="lastUpdated"></p>
-    </div>
-  </footer>
-
-  <script src="incidents.js"></script>
-  <script src="app.js"></script>
-</body>
-</html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Observatorio público de incidentes de ciberseguridad relevantes para usuarios."><title>Incidentes | Observatorio de ciberseguridad</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><div class="wrap header-inner"><div><p class="eyebrow">OBSERVATORIO · VIGILANCIA GLOBAL</p><h1>Incidentes</h1><p class="subtitle">Ciberseguridad importante, explicada sin ruido.</p></div><div class="status-pill"><span></span> Vigilancia activa</div></div></header>
+<main class="wrap">
+<section class="hero"><div><h2>Qué está pasando y qué puedes hacer</h2><p>Histórico público de brechas, fraudes, vulnerabilidades y otros incidentes con impacto material. Cada ficha separa hechos confirmados, alcance reportado y recomendaciones prácticas.</p></div><div class="hero-note">Información práctica · Fuentes clasificadas · Histórico actualizado</div></section>
+<section class="review-status"><div class="review-icon"><span></span></div><div><p class="review-label">ÚLTIMA REVISIÓN</p><p class="review-time" id="lastReview">Pendiente de registrar</p><p class="review-copy">Última comprobación global, haya o no novedades publicadas.</p></div></section>
+<section class="controls" aria-label="Filtros"><input id="search" type="search" placeholder="Buscar empresa, servicio, dato o incidente…"><select id="typeFilter"><option value="all">Todos los tipos</option><option value="fraude">Fraude / phishing</option><option value="brecha">Brecha de datos</option><option value="vulnerabilidad">Vulnerabilidad</option><option value="malware">Malware</option><option value="otro">Otros</option></select><select id="severityFilter"><option value="all">Toda severidad</option><option value="critica">Crítica</option><option value="alta">Alta</option><option value="media">Media</option></select><select id="stateFilter"><option value="all">Todos los estados</option><option value="activo">Activo</option><option value="investigacion">En investigación</option><option value="contenido">Contenido</option><option value="resuelto">Resuelto</option><option value="seguimiento">Seguimiento</option></select><select id="geoFilter"><option value="all">Todo ámbito</option><option value="espana">España</option><option value="europa">Europa</option><option value="global">Global</option><option value="norteamerica">Norteamérica</option><option value="otro">Otros</option></select></section>
+<section class="summary-grid" id="summary"></section><section class="incident-list" id="incidentList" aria-live="polite"></section>
+<section class="methodology" id="metodologia"><p class="eyebrow">METODOLOGÍA</p><h2>Cómo se construye este histórico</h2><div class="method-grid"><div><strong>Selección</strong><p>Se priorizan incidentes con impacto material potencial para usuarios, evitando ruido rutinario.</p></div><div><strong>Verificación</strong><p>Se distingue entre información confirmada, cifras reportadas y datos todavía no confirmados.</p></div><div><strong>Fuentes</strong><p>Se priorizan comunicaciones oficiales, organismos públicos, CERT y fabricantes; otras fuentes aportan contexto adicional.</p></div><div><strong>Seguimiento</strong><p>Cuando un caso evoluciona se actualiza su ficha y cronología en lugar de crear duplicados.</p></div></div></section>
+</main><footer><div class="wrap footer-inner"><p>Proyecto informativo. Contrasta las recomendaciones con las fuentes oficiales enlazadas.</p><p id="lastUpdated"></p></div></footer><script src="incidents.js"></script><script src="app.js"></script></body></html>
