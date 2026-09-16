@@ -2,15 +2,18 @@ window.INCIDENTS = [
   {
     id: "2026-09-idscan",
     date: "2026-09-04",
-    title: "Incidente de seguridad en IDScan.net",
+    title: "Filtración vinculada a IDScan.net expone millones de documentos de identidad",
     organization: "IDScan.net",
     type: "brecha",
     severity: "alta",
     status: "confirmado",
     scope: "Principalmente Estados Unidos y Canadá",
-    summary: "IDScan.net publicó una notificación sobre un incidente de seguridad que afecta a su entorno de verificación de identidad. La empresa trabaja con documentos como permisos de conducir, documentos de identidad y pasaportes.",
-    whyItMatters: "Los datos usados para verificar identidad pueden ser especialmente sensibles y útiles para intentos posteriores de suplantación o phishing dirigido.",
-    affected: "Personas cuyos documentos hayan sido procesados a través de organizaciones que utilizan servicios de IDScan.net. El alcance individual debe confirmarse mediante comunicaciones oficiales.",
+    lead: "Un servicio criminal afirmó disponer de más de 153 millones de registros de permisos de conducir, además de otros documentos de identidad. IDScan.net confirmó que un tercero no autorizado pudo acceder o copiar información almacenada en cuentas de clientes de su nube.",
+    reportedScale: "Más de 153 millones de registros de permisos de conducir anunciados por el servicio criminal; la cifra no equivale a un recuento oficialmente confirmado de personas afectadas.",
+    reportedScaleStatus: "Cifra reportada · alcance exacto no confirmado",
+    summary: "IDScan.net informó de que un tercero no autorizado pudo haber accedido o copiado determinada información de clientes almacenada en su nube. Investigaciones periodísticas relacionaron el incidente con una colección de documentos de identidad ofrecida por un servicio criminal. El FBI está investigando el caso.",
+    whyItMatters: "Las imágenes y datos de documentos oficiales pueden facilitar suplantaciones de identidad, fraude y campañas de phishing muy convincentes. A diferencia de una contraseña, un documento de identidad no puede sustituirse con la misma facilidad.",
+    affected: "Personas cuyos documentos hayan sido procesados a través de organizaciones que utilizan servicios de IDScan.net, principalmente en Estados Unidos y Canadá. El número exacto de personas afectadas no está confirmado públicamente.",
     actions: [
       "Revisa cualquier notificación oficial que recibas de una empresa donde hayas verificado tu identidad.",
       "Desconfía de mensajes que usen datos personales correctos para aparentar legitimidad.",
@@ -18,9 +21,10 @@ window.INCIDENTS = [
       "Vigila movimientos o altas de servicios que no reconozcas si sabes que tus datos han estado expuestos."
     ],
     sources: [
-      { label: "Notificación oficial de IDScan.net", url: "https://www.idscan.net/security-incident-notice/" }
+      { label: "Notificación oficial de IDScan.net", url: "https://idscan.net/press-release/notification-of-data-security-incident/" },
+      { label: "Reuters · investigación del FBI", url: "https://www.reuters.com/world/us/fbi-says-it-is-investigating-report-that-millions-us-drivers-licenses-exposed-2026-09-02/" }
     ],
-    notes: "Las cifras difundidas por terceros sobre el volumen exacto de documentos afectados deben considerarse no confirmadas hasta que exista respaldo oficial verificable."
+    notes: "La existencia del incidente y la posible copia no autorizada de información han sido reconocidas por IDScan.net. La cifra de más de 153 millones procede del conjunto anunciado por el servicio criminal y de investigaciones posteriores; no debe interpretarse como 153 millones de víctimas únicas confirmadas."
   }
 ];
 
