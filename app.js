@@ -5,6 +5,7 @@ const search = document.getElementById('search');
 const typeFilter = document.getElementById('typeFilter');
 const severityFilter = document.getElementById('severityFilter');
 const lastUpdated = document.getElementById('lastUpdated');
+const lastReview = document.getElementById('lastReview');
 
 const labels = {
   fraude: 'Fraude / phishing',
@@ -74,5 +75,6 @@ function render() {
 }
 
 [search,typeFilter,severityFilter].forEach(el => el.addEventListener('input', render));
-lastUpdated.textContent = `Última actualización: ${window.INCIDENT_META?.lastUpdated || 'sin fecha'}`;
+lastUpdated.textContent = `Última publicación: ${window.INCIDENT_META?.lastUpdated || 'sin fecha'}`;
+if (lastReview) lastReview.textContent = window.INCIDENT_META?.lastReview || 'Pendiente de registrar';
 render();
