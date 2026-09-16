@@ -26,5 +26,6 @@ window.INCIDENTS = [
 
 window.INCIDENT_META = {
   lastUpdated: "2026-09-16",
+  lastReview: "16 de septiembre de 2026 · 08:24 (CEST)",
   methodology: "Solo se incluyen incidentes con impacto material potencial para usuarios cotidianos y con fuentes verificables."
 };
