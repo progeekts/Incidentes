@@ -1,1 +1,525 @@
-{"updated":"2026-09-18","license":"Datos informativos; consulta las fuentes enlazadas en cada ficha.","incidents":[{"id":"2026-09-gyazo-data-breach","date":"2026-09-11","lastIncidentUpdate":"2026-09-16","title":"Gyazo confirma una brecha que expuso millones de registros de usuarios y metadatos de imágenes","organization":"Gyazo / Helpfeel","type":"brecha","severity":"alta","status":"confirmado","incidentState":"investigacion","geo":"global","scope":"Usuarios de Gyazo a nivel global; Helpfeel indica que Gyazo se utiliza en 242 países y regiones","exploitation":"Acceso no autorizado mediante una vulnerabilidad del servidor de subida de imágenes que permitió ejecutar comandos arbitrarios","summary":"Helpfeel confirmó acceso a la base de datos de Gyazo y la divulgación no autorizada de aproximadamente 23,62 millones de registros relacionados con usuarios y unos 490 millones de registros de metadatos de imágenes; la cifra de registros no equivale al número de personas afectadas.","sources":[{"label":"Helpfeel · Notice and Apology Regarding a Data Breach Resulting from Unauthorized Access to Gyazo","url":"https://corp.helpfeel.com/en/news/news-20260916","kind":"Fuente oficial"}]},{"id":"2026-09-cisco-secure-email-cve-76461","date":"2026-09-14","lastIncidentUpdate":"2026-09-17","title":"Cisco corrige una vulnerabilidad crítica de Secure Email Gateway explotada activamente","organization":"Cisco Secure Email Gateway","type":"vulnerabilidad","severity":"critica","status":"confirmado","incidentState":"activo","geo":"global","scope":"Organizaciones que utilicen Cisco Secure Email Gateway físico o virtual con versiones vulnerables de AsyncOS","exploitation":"Explotación activa confirmada por Cisco; CVE-2026-76461 incluida por CISA en Known Exploited Vulnerabilities","summary":"CVE-2026-76461 permite a un atacante remoto sin autenticación provocar ejecución de comandos con privilegios root mediante un correo manipulado procesado por Cisco Secure Email Gateway.","sources":[{"label":"Cisco · aviso de seguridad CVE-2026-76461","url":"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-esa-sql-inject-XJUsjO2","kind":"Fabricante"},{"label":"CISA · Known Exploited Vulnerabilities Catalog","url":"https://www.cisa.gov/known-exploited-vulnerabilities-catalog","kind":"Organismo/CERT"}]},{"id":"2026-09-pixel-cve-58704","date":"2026-09-15","lastIncidentUpdate":"2026-09-17","title":"Google corrige una vulnerabilidad de Pixel utilizada en ataques dirigidos","organization":"Google Pixel","type":"vulnerabilidad","severity":"alta","status":"confirmado","incidentState":"activo","geo":"global","scope":"Dispositivos Google Pixel compatibles que no hayan instalado el parche de seguridad de septiembre de 2026","exploitation":"Explotación limitada y dirigida indicada por Google","summary":"Google corrigió CVE-2026-58704 en la actualización de seguridad de septiembre para Pixel y señaló indicios de explotación limitada y dirigida.","sources":[{"label":"Google · Pixel Update Bulletin September 2026","url":"https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01","kind":"Fabricante"}]},{"id":"2026-09-revolut-impersonation","date":"2026-09-12","lastIncidentUpdate":"2026-09-16","title":"Una suplantación de un organismo público provoca la entrega de datos de clientes de Revolut","organization":"Revolut","type":"brecha","severity":"alta","status":"confirmado","incidentState":"investigacion","geo":"europa","scope":"Número limitado de clientes de Revolut en varios países europeos, según la información disponible","exploitation":"Ingeniería social / suplantación mediante un dominio legítimo de un organismo público","summary":"Revolut confirmó la divulgación de información sensible a un tercero no autorizado tras recibir solicitudes fraudulentas.","sources":[{"label":"Reuters · confirmación inicial de Revolut","url":"https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/","kind":"Medio / contexto"}]},{"id":"2026-09-idscan","date":"2026-09-04","lastIncidentUpdate":"2026-09-16","title":"Filtración vinculada a IDScan.net expone millones de documentos de identidad","organization":"IDScan.net","type":"brecha","severity":"alta","status":"confirmado","incidentState":"investigacion","geo":"norteamerica","scope":"Principalmente Estados Unidos y Canadá","exploitation":"No aplica / sin determinar","summary":"IDScan.net informó de que un tercero no autorizado pudo haber accedido o copiado determinada información de clientes almacenada en su nube.","sources":[{"label":"IDScan.net · notificación oficial","url":"https://idscan.net/press-release/notification-of-data-security-incident/","kind":"Fuente oficial"}]}]}
+{
+  "updated": "2026-10-07",
+  "license": "Datos informativos; consulta las fuentes enlazadas en cada ficha.",
+  "incidents": [
+    {
+      "publishedDate": "2026-10-07",
+      "lastIncidentUpdate": "2026-10-07",
+      "status": "confirmado",
+      "id": "2026-09-dgt-falsas-multas",
+      "date": "2026-09-28",
+      "discoveredDate": "2026-09-28",
+      "title": "Falsas multas de la DGT buscan robar datos personales y bancarios",
+      "organization": "DGT (suplantada)",
+      "type": "fraude",
+      "severity": "alta",
+      "incidentState": "seguimiento",
+      "geo": "espana",
+      "scope": "Destinatarios de correos y SMS en España",
+      "dataTypes": [
+        "Nombre",
+        "Matrícula",
+        "Datos de tarjeta"
+      ],
+      "exploitation": "Phishing y smishing identificados por INCIBE",
+      "lead": "INCIBE detectó mensajes que imitan a la DGT y enlazan a formularios fraudulentos de pago.",
+      "reportedScale": "Sin recuento de afectados en el aviso.",
+      "reportedScaleStatus": "Campaña confirmada; alcance no cuantificado",
+      "summary": "El engaño utiliza multas pendientes y amenazas de recargos para solicitar información personal y bancaria.",
+      "whyItMatters": "La apariencia institucional y la urgencia pueden inducir a pagar en una web falsa.",
+      "affected": "Personas que reciban estas comunicaciones, especialmente si facilitaron datos.",
+      "actions": [
+        "Comprueba la multa entrando por tu cuenta en los canales oficiales de la DGT.",
+        "Si diste datos de tarjeta, contacta inmediatamente con tu banco; conserva pruebas y denuncia.",
+        "No sigas los enlaces del mensaje."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-28",
+          "text": "INCIBE publica el aviso."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Incorporación al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "INCIBE · falsas multas",
+          "url": "https://www.incibe.es/ciudadania/avisos/correos-y-sms-suplantan-la-dgt-para-robar-tus-datos-con-falsas-multas",
+          "kind": "Organismo/CERT"
+        }
+      ],
+      "notes": "Fecha original: aviso público, no inicio conocido. Los avisos legítimos de notificaciones DEV por SMS o correo no equivalen a solicitudes fraudulentas de pago."
+    },
+    {
+      "publishedDate": "2026-10-07",
+      "lastIncidentUpdate": "2026-10-07",
+      "status": "confirmado",
+      "id": "2026-10-asos-notificaciones",
+      "date": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "title": "ASOS confirma una notificación no autorizada e investiga posible acceso a datos",
+      "organization": "ASOS",
+      "type": "brecha",
+      "severity": "alta",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Clientes de ASOS; sin desglose por países en el comunicado",
+      "dataTypes": [
+        "Nombre y contacto: posible exposición"
+      ],
+      "exploitation": "Actividad no autorizada en plataformas externas de comunicación",
+      "lead": "ASOS confirmó el envío de una notificación no autorizada el 6 de octubre. Investiga posible acceso a nombres y datos de contacto.",
+      "reportedScale": "No se publica el número de afectados.",
+      "reportedScaleStatus": "Incidente confirmado; exposición bajo investigación",
+      "summary": "La empresa restringió el acceso a las plataformas de notificaciones. Según su evaluación inicial, no cree que tarjetas o contraseñas estén afectadas.",
+      "whyItMatters": "Una notificación recibida por un canal habitual también puede ser fraudulenta.",
+      "affected": "Clientes que recibieron el aviso; el comunicado no confirma un alcance específico en España.",
+      "actions": [
+        "Por precaución, no uses enlaces de notificaciones sospechosas; entra directamente en ASOS.",
+        "Consulta las comunicaciones oficiales antes de facilitar datos o pagar."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-06",
+          "text": "ASOS comunica el incidente; web y aplicación siguen operativas."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Alta en el observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "ASOS · comunicado RNS",
+          "url": "https://tools.euroland.com/tools/PressReleases/GetPressRelease/?ID=8153669&companycode=services&lang=en-GB",
+          "kind": "Fuente oficial"
+        }
+      ],
+      "notes": "No se atribuye el incidente a un grupo ni se confirma una brecha de Snowflake."
+    },
+    {
+      "publishedDate": "2026-10-07",
+      "lastIncidentUpdate": "2026-10-07",
+      "status": "confirmado",
+      "id": "2026-09-netscaler-88771-88772",
+      "date": "2026-09-27",
+      "discoveredDate": "2026-09-27",
+      "title": "Dos fallos de NetScaler permiten ejecución remota y están siendo explotados",
+      "organization": "Citrix NetScaler",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "incidentState": "activo",
+      "geo": "global",
+      "scope": "Despliegues NetScaler gestionados por clientes",
+      "dataTypes": [
+        "No se identifica una filtración concreta"
+      ],
+      "exploitation": "Explotación activa de CVE-2026-88771 y CVE-2026-88772, según CERT-EU",
+      "lead": "CERT-EU recoge explotación confirmada de dos vulnerabilidades que permiten ejecutar código sin autenticación en NetScaler ADC y Gateway.",
+      "reportedScale": "Sin cifra de equipos comprometidos.",
+      "reportedScaleStatus": "Explotación confirmada; alcance no cuantificado",
+      "summary": "CVE-2026-88771 no requiere una configuración especial; CVE-2026-88772 requiere DTLS habilitado.",
+      "whyItMatters": "La infraestructura de acceso remoto vulnerable requiere intervención administrativa.",
+      "affected": "Versiones 13.1 anteriores a 13.1-64.23 y 14.1 anteriores a 14.1-73.37; las ediciones FIPS/NDcPP tienen versiones específicas.",
+      "actions": [
+        "Actualiza según la tabla oficial aplicable a tu edición.",
+        "Realiza una evaluación de compromiso en equipos vulnerables expuestos a Internet."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-27",
+          "text": "CERT-EU publica el aviso y recoge la confirmación de explotación de Citrix."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Alta en el observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CERT-EU · aviso 2026-014",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+          "kind": "Organismo/CERT"
+        }
+      ],
+      "notes": "Fecha original: divulgación del aviso; no fecha conocida del primer ataque."
+    },
+    {
+      "publishedDate": "2026-10-07",
+      "lastIncidentUpdate": "2026-10-07",
+      "status": "confirmado",
+      "id": "2026-09-cisco-ise-cve-76460",
+      "date": "2026-09-16",
+      "discoveredDate": "2026-09-16",
+      "title": "Atacantes explotan Cisco ISE para acceder sin autenticación",
+      "organization": "Cisco ISE / ISE-PIC",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "incidentState": "activo",
+      "geo": "global",
+      "scope": "Organizaciones con versiones vulnerables de ISE o ISE-PIC",
+      "dataTypes": [
+        "No se cuantifica exposición de datos"
+      ],
+      "exploitation": "CVE-2026-76460: explotación activa confirmada por Cisco",
+      "lead": "Cisco confirma ataques contra una API de ISE que permite eludir la autenticación. Hay actualizaciones disponibles.",
+      "reportedScale": "Sin recuento público en el aviso.",
+      "reportedScaleStatus": "Explotación confirmada; alcance no cuantificado",
+      "summary": "El fallo puede dar acceso remoto sin credenciales y permitir ejecución con privilegios root.",
+      "whyItMatters": "El sistema participa en el control de acceso a redes corporativas.",
+      "affected": "ISE e ISE-PIC vulnerables, independientemente de su configuración.",
+      "actions": [
+        "Instala la versión corregida indicada por Cisco para tu rama.",
+        "Revisa registros de todos los nodos y telemetría externa; sigue las instrucciones de recuperación ante sospechas."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-16",
+          "text": "Cisco publica el aviso y confirma explotación."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Alta efectiva en el observatorio; la publicación anterior quedó interrumpida."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Cisco · CVE-2026-76460",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5",
+          "kind": "Fabricante"
+        }
+      ],
+      "notes": "Fecha original: divulgación pública. Es un caso distinto del fallo de Secure Email Gateway."
+    },
+    {
+      "id": "2026-09-gyazo-data-breach",
+      "date": "2026-09-11",
+      "discoveredDate": "2026-09-11",
+      "publishedDate": "2026-09-18",
+      "lastIncidentUpdate": "2026-10-07",
+      "title": "Gyazo confirma una brecha que expuso millones de registros de usuarios y metadatos de imágenes",
+      "organization": "Gyazo / Helpfeel",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Usuarios de Gyazo a nivel global; Helpfeel indica que Gyazo se utiliza en 242 países y regiones",
+      "dataTypes": [
+        "Nombre o alias",
+        "Correo electrónico",
+        "Hash de contraseña",
+        "ID de usuario y dispositivo",
+        "ID de sesión",
+        "Token de integración con X si estaba conectado",
+        "Metadatos de imágenes, incluidos IP, EXIF y texto OCR",
+        "Hash de frase de acceso de imágenes privadas"
+      ],
+      "exploitation": "Acceso no autorizado mediante una vulnerabilidad del servidor de subida de imágenes que permitió ejecutar comandos arbitrarios",
+      "lead": "Gyazo amplió el alcance confirmado: además de los registros anunciados inicialmente, comunicó exposición de metadatos de imágenes borradas. El servicio se reanudó el 27 de septiembre; la investigación continúa.",
+      "reportedScale": "23,62 millones de registros de usuarios: aproximadamente 18,01 millones anónimos y 5,62 millones con correo. Metadatos: unos 490 millones de registros, 2,4 millones obtenidos con filtros y 174 millones relacionados con imágenes borradas. Son registros, no personas ni archivos de imagen filtrados.",
+      "reportedScaleStatus": "Desglose confirmado por Helpfeel; no equivale a víctimas únicas",
+      "summary": "El 11 de septiembre un tercero explotó una vulnerabilidad del servidor de subida de imágenes de Gyazo y ejecutó comandos arbitrarios. Helpfeel detectó actividad sospechosa esa misma noche y bloqueó las rutas de acceso identificadas durante la madrugada del día 12. La investigación posterior confirmó acceso a la base de datos y divulgación no autorizada de información de usuarios y metadatos asociados a imágenes. El 25 de septiembre Helpfeel amplió el alcance y el 27 reanudó el servicio.",
+      "whyItMatters": "Entre los datos confirmados figuran correos, hashes de contraseñas, identificadores de sesión y, cuando existían, tokens de integración con X. Los metadatos también pueden contener direcciones IP, ubicación EXIF y texto extraído por OCR. Helpfeel indica además que no puede descartar que algunas imágenes privadas hayan sido vistas por el tercero.",
+      "affected": "Usuarios de Gyazo, incluidos algunos registros de cuentas anónimas. Helpfeel está identificando a las personas afectadas y prevé avisarlas por correo o mediante la interfaz de Gyazo. No se ha confirmado exposición de números de tarjeta ni otros datos de pago.",
+      "actions": [
+        "Cambia la contraseña de Gyazo, tal como solicita Helpfeel.",
+        "Si reutilizabas la misma contraseña o una similar en otros servicios, cámbiala también allí.",
+        "Mantente atento a correos o mensajes sospechosos que puedan aprovechar información relacionada con Gyazo.",
+        "Si utilizabas Gyazo para imágenes privadas o sensibles, revisa la comunicación oficial y las futuras actualizaciones de Helpfeel.",
+        "Antes de reactivar la entrega de imágenes antiguas, revisa su contenido y sus permisos: recuperan la configuración de visibilidad previa."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-11",
+          "text": "Se produce el acceso no autorizado; Helpfeel detecta actividad sospechosa y comienza la investigación."
+        },
+        {
+          "date": "2026-09-12",
+          "text": "Helpfeel bloquea las rutas de acceso identificadas, corta las conexiones no autorizadas y corrige la vulnerabilidad explotada."
+        },
+        {
+          "date": "2026-09-14",
+          "text": "La investigación confirma la divulgación no autorizada de información y se aplican medidas preventivas sobre la entrega de imágenes."
+        },
+        {
+          "date": "2026-09-15",
+          "text": "Helpfeel comunica el caso a la Comisión de Protección de Información Personal de Japón y aplica medidas adicionales."
+        },
+        {
+          "date": "2026-09-16",
+          "text": "Helpfeel publica el aviso con el alcance confirmado hasta ese momento; la investigación continúa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "El caso se incorpora al observatorio manteniendo las cifras como registros y no como número de víctimas únicas."
+        },
+        {
+          "date": "2026-09-24",
+          "text": "Suspensión temporal del servicio por medidas adicionales de seguridad."
+        },
+        {
+          "date": "2026-09-25",
+          "text": "Helpfeel añade metadatos de imágenes borradas y desglosa registros anónimos y con correo. Aclara que los tokens de X expuestos no permiten por sí solos operar cuentas; invalida las credenciales OAuth relacionadas."
+        },
+        {
+          "date": "2026-09-27",
+          "text": "Reanudación del servicio con restricciones de visibilidad de imágenes antiguas."
+        },
+        {
+          "date": "2026-09-29",
+          "text": "Gyazo Teams habilita visualización dentro del equipo, salvo imágenes «Only me»; conserva la exigencia de contraseña."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Ampliación material incorporada: alcance, reanudación y recomendaciones de visibilidad. Se conserva la fecha original del ataque."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Helpfeel · Notice and Apology Regarding a Data Breach Resulting from Unauthorized Access to Gyazo",
+          "url": "https://corp.helpfeel.com/en/news/news-20260916",
+          "kind": "Fuente oficial"
+        },
+        {
+          "label": "Helpfeel · ampliación del 25 de septiembre",
+          "url": "https://corp.helpfeel.com/en/news/news-20260925",
+          "kind": "Fuente oficial"
+        },
+        {
+          "label": "Helpfeel · reanudación y permisos",
+          "url": "https://corp.helpfeel.com/en/news/news-20260927-02",
+          "kind": "Fuente oficial"
+        }
+      ],
+      "notes": "El desglose está redondeado. Los metadatos de imágenes borradas no equivalen a exposición de los archivos borrados. La reanudación no significa que la investigación haya finalizado."
+    },
+    {
+      "id": "2026-09-cisco-secure-email-cve-76461",
+      "date": "2026-09-14",
+      "discoveredDate": "2026-09-14",
+      "publishedDate": "2026-09-17",
+      "lastIncidentUpdate": "2026-09-17",
+      "title": "Cisco corrige una vulnerabilidad crítica de Secure Email Gateway explotada activamente",
+      "organization": "Cisco Secure Email Gateway",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "status": "confirmado",
+      "incidentState": "activo",
+      "geo": "global",
+      "scope": "Organizaciones que utilicen Cisco Secure Email Gateway físico o virtual con versiones vulnerables de AsyncOS",
+      "dataTypes": [
+        "Correo procesado por la pasarela",
+        "Información accesible desde el sistema comprometido"
+      ],
+      "exploitation": "Explotación activa confirmada por Cisco; CVE-2026-76461 incluida por CISA en Known Exploited Vulnerabilities",
+      "lead": "CVE-2026-76461 permite que un atacante remoto sin autenticación envíe un correo especialmente manipulado y llegue a ejecutar comandos con privilegios root en Cisco Secure Email Gateway. Cisco ha confirmado explotación activa.",
+      "reportedScale": "Cisco no ha publicado el número total de dispositivos comprometidos. La compañía ha contactado directamente con clientes de Secure Email Cloud en cuyos dispositivos detectó actividad maliciosa.",
+      "reportedScaleStatus": "Explotación confirmada · alcance no cuantificado públicamente",
+      "summary": "La vulnerabilidad está en el procesamiento de correo de AsyncOS para Cisco Secure Email Gateway. Un mensaje manipulado puede introducir sentencias SQL y derivar en ejecución de comandos en el sistema operativo con privilegios root, sin autenticación ni interacción del usuario. Cisco publicó correcciones y no existe una solución alternativa que sustituya a la actualización.",
+      "whyItMatters": "Una pasarela de correo se encuentra en una posición sensible de la infraestructura. El acceso root puede permitir comprometer el dispositivo y ocultar evidencias; además, el ataque puede iniciarse mediante un correo procesado por el equipo sin que el destinatario tenga que abrirlo.",
+      "affected": "Principalmente organizaciones y administradores que operen Cisco Secure Email Gateway. Para usuarios finales, el riesgo es indirecto: una pasarela comprometida puede afectar a la seguridad del correo de la organización. Cisco Secure Email and Web Manager y Secure Web Appliance no están afectados por esta vulnerabilidad concreta, según la información publicada.",
+      "actions": [
+        "Si administras Cisco Secure Email Gateway, comprueba inmediatamente la versión de AsyncOS y aplica una versión corregida indicada por Cisco.",
+        "Revisa los registros de correo y la telemetría externa de red para detectar indicios de compromiso, especialmente en equipos que estuvieron expuestos antes de actualizar.",
+        "Si tu organización usa el servicio en la nube de Cisco, revisa las comunicaciones recibidas de Cisco sobre actividad maliciosa detectada."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-14",
+          "text": "Cisco publica el aviso de CVE-2026-76461 y confirma que su PSIRT conoce explotación activa durante septiembre."
+        },
+        {
+          "date": "2026-09-14",
+          "text": "CISA incorpora CVE-2026-76461 a su catálogo de vulnerabilidades explotadas conocidas (KEV)."
+        },
+        {
+          "date": "2026-09-17",
+          "text": "El caso se incorpora al observatorio como vulnerabilidad crítica con explotación activa y alcance público todavía no cuantificado."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Cisco · aviso de seguridad CVE-2026-76461",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-esa-sql-inject-XJUsjO2",
+          "kind": "Fabricante"
+        },
+        {
+          "label": "CISA · Known Exploited Vulnerabilities Catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+          "kind": "Organismo/CERT"
+        }
+      ],
+      "notes": "La explotación activa está confirmada por Cisco y la vulnerabilidad figura en el catálogo KEV de CISA. No se publica una cifra de víctimas o dispositivos comprometidos porque Cisco no ha cuantificado públicamente el alcance total."
+    },
+    {
+      "id": "2026-09-pixel-cve-58704",
+      "date": "2026-09-15",
+      "discoveredDate": "2026-09-15",
+      "publishedDate": "2026-09-17",
+      "lastIncidentUpdate": "2026-09-17",
+      "title": "Google corrige una vulnerabilidad de Pixel utilizada en ataques dirigidos",
+      "organization": "Google Pixel",
+      "type": "vulnerabilidad",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "activo",
+      "geo": "global",
+      "scope": "Dispositivos Google Pixel compatibles que no hayan instalado el parche de seguridad de septiembre de 2026",
+      "dataTypes": [
+        "No se ha confirmado una exposición concreta de datos"
+      ],
+      "exploitation": "Explotación limitada y dirigida indicada por Google",
+      "lead": "Google ha corregido CVE-2026-58704 en la actualización de seguridad de septiembre para Pixel y señala indicios de explotación limitada y dirigida. La corrección está incluida en el nivel de parche 2026-09-05.",
+      "reportedScale": "Google habla de explotación limitada y dirigida, pero no publica un número de dispositivos afectados.",
+      "reportedScaleStatus": "Explotación confirmada/indicada · alcance no cuantificado",
+      "summary": "CVE-2026-58704 afecta al módem celular de dispositivos Pixel y puede permitir una elevación de privilegios remota en condiciones de proximidad o conectividad celular sin interacción del usuario. Google incluyó la corrección en el boletín Pixel publicado el 15 de septiembre.",
+      "whyItMatters": "La vulnerabilidad no requiere que la persona pulse un enlace o instale una aplicación para que exista riesgo de explotación. Google ha indicado que ya hay señales de uso limitado y dirigido.",
+      "affected": "Usuarios de dispositivos Pixel compatibles que todavía no tengan instalado el nivel de parche de seguridad 2026-09-05 o posterior.",
+      "actions": [
+        "Abre Ajustes y comprueba si hay una actualización de seguridad disponible para tu Pixel.",
+        "Instala el nivel de parche 2026-09-05 o posterior cuando esté disponible para tu dispositivo.",
+        "Reinicia el teléfono si la actualización lo solicita y comprueba después el nivel de parche instalado."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-15",
+          "text": "Google publica el boletín de seguridad Pixel de septiembre e indica explotación limitada y dirigida de CVE-2026-58704."
+        },
+        {
+          "date": "2026-09-17",
+          "text": "El caso se incorpora al observatorio por afectar directamente a dispositivos de consumo y existir indicios de explotación."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Google · Pixel Update Bulletin September 2026",
+          "url": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01",
+          "kind": "Fabricante"
+        }
+      ],
+      "notes": "Google confirma indicios de explotación limitada y dirigida, pero no ha publicado una cifra de dispositivos atacados. No se atribuye aquí el ataque a ningún actor concreto."
+    },
+    {
+      "id": "2026-09-revolut-impersonation",
+      "date": "2026-09-12",
+      "discoveredDate": "2026-09-12",
+      "publishedDate": "2026-09-17",
+      "lastIncidentUpdate": "2026-09-16",
+      "title": "Una suplantación de un organismo público provoca la entrega de datos de clientes de Revolut",
+      "organization": "Revolut",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "europa",
+      "scope": "Número limitado de clientes de Revolut en varios países europeos, según la información disponible",
+      "dataTypes": [
+        "Información personal sensible",
+        "Datos de clientes solicitados mediante peticiones fraudulentas"
+      ],
+      "exploitation": "Ingeniería social / suplantación mediante un dominio legítimo de un organismo público",
+      "lead": "Revolut confirmó que entregó información sensible de clientes a un tercero no autorizado después de recibir solicitudes fraudulentas enviadas desde el dominio de correo legítimo de un organismo público. La empresa afirma que sus sistemas y los fondos de los clientes no fueron afectados.",
+      "reportedScale": "Revolut solo ha confirmado públicamente un número 'muy limitado' de clientes. Reuters informó posteriormente, citando una fuente conocedora del asunto, de 680 clientes afectados en varios países europeos.",
+      "reportedScaleStatus": "680 clientes reportados por una fuente · cifra no confirmada públicamente por Revolut",
+      "summary": "El atacante se hizo pasar por un organismo público y utilizó solicitudes enviadas desde un dominio legítimo de esa entidad. Revolut reconoció la divulgación de información sensible a un tercero no autorizado, bloqueó la dirección implicada y comunicó el incidente a autoridades y reguladores.",
+      "whyItMatters": "El caso combina datos financieros y personales con una técnica de suplantación especialmente convincente: las solicitudes procedían de un dominio gubernamental legítimo. Los datos expuestos pueden aumentar el riesgo de fraude dirigido y suplantación.",
+      "affected": "Revolut afirma haber contactado directamente con las personas afectadas. Quienes no hayan recibido una comunicación de la entidad no deben asumir que sus datos forman parte del incidente.",
+      "actions": [
+        "Si Revolut te ha notificado que estás afectado, revisa exactamente qué información indica que fue divulgada.",
+        "Desconfía de mensajes o llamadas que utilicen datos personales o financieros correctos para ganarse tu confianza.",
+        "Comprueba movimientos y solicitudes que no reconozcas desde la aplicación y utiliza únicamente canales oficiales para contactar con Revolut.",
+        "No interpretes mensajes de terceros sobre supuestas compensaciones o verificaciones como comunicaciones legítimas sin comprobarlos en la aplicación oficial."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-12",
+          "text": "Revolut confirma públicamente que un tercero no autorizado obtuvo información mediante solicitudes fraudulentas desde un dominio gubernamental legítimo."
+        },
+        {
+          "date": "2026-09-16",
+          "text": "Revolut declara que no ha recibido directamente una demanda de rescate de los supuestos responsables; continúa la información pública sobre el alcance del caso."
+        },
+        {
+          "date": "2026-09-17",
+          "text": "El incidente se incorpora al observatorio manteniendo separada la cifra confirmada por la empresa de la cifra reportada por fuentes."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reuters · confirmación inicial de Revolut",
+          "url": "https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/",
+          "kind": "Medio / contexto"
+        },
+        {
+          "label": "Reuters · evolución del caso y supuesta extorsión",
+          "url": "https://www.reuters.com/legal/government/revolut-hackers-demand-3-million-ransom-ft-reports-2026-09-16/",
+          "kind": "Medio / contexto"
+        }
+      ],
+      "notes": "La existencia de la divulgación no autorizada está confirmada por Revolut. La cifra de 680 clientes procede de información periodística atribuida a una fuente conocedora del caso y no se presenta como cifra oficial de la empresa."
+    },
+    {
+      "id": "2026-09-idscan",
+      "date": "2026-09-04",
+      "discoveredDate": "2026-09-02",
+      "publishedDate": "2026-09-16",
+      "lastIncidentUpdate": "2026-09-16",
+      "title": "Filtración vinculada a IDScan.net expone millones de documentos de identidad",
+      "organization": "IDScan.net",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "norteamerica",
+      "scope": "Principalmente Estados Unidos y Canadá",
+      "dataTypes": [
+        "Permisos de conducir",
+        "Documentos de identidad",
+        "Datos de verificación de identidad"
+      ],
+      "exploitation": "No aplica / sin determinar",
+      "lead": "Un servicio criminal afirmó disponer de más de 153 millones de registros de permisos de conducir, además de otros documentos de identidad. IDScan.net confirmó que un tercero no autorizado pudo acceder o copiar información almacenada en cuentas de clientes de su nube.",
+      "reportedScale": "Más de 153 millones de registros de permisos de conducir anunciados por el servicio criminal; la cifra no equivale a un recuento oficialmente confirmado de personas afectadas.",
+      "reportedScaleStatus": "Cifra reportada · alcance exacto no confirmado",
+      "summary": "IDScan.net informó de que un tercero no autorizado pudo haber accedido o copiado determinada información de clientes almacenada en su nube. Investigaciones periodísticas relacionaron el incidente con una colección de documentos de identidad ofrecida por un servicio criminal. El FBI está investigando el caso.",
+      "whyItMatters": "Las imágenes y datos de documentos oficiales pueden facilitar suplantaciones de identidad, fraude y campañas de phishing muy convincentes. A diferencia de una contraseña, un documento de identidad no puede sustituirse con la misma facilidad.",
+      "affected": "Personas cuyos documentos hayan sido procesados a través de organizaciones que utilizan servicios de IDScan.net, principalmente en Estados Unidos y Canadá. El número exacto de personas afectadas no está confirmado públicamente.",
+      "actions": [
+        "Revisa cualquier notificación oficial que recibas de una empresa donde hayas verificado tu identidad.",
+        "Desconfía de mensajes que usen datos personales correctos para aparentar legitimidad.",
+        "Contacta con la organización por sus canales oficiales si recibes una comunicación sospechosa.",
+        "Vigila movimientos o altas de servicios que no reconozcas si sabes que tus datos han estado expuestos."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-02",
+          "text": "Se informa públicamente de la investigación del FBI sobre la exposición."
+        },
+        {
+          "date": "2026-09-04",
+          "text": "IDScan.net publica información sobre el incidente de seguridad."
+        },
+        {
+          "date": "2026-09-16",
+          "text": "El caso se incorpora al observatorio y permanece en seguimiento."
+        }
+      ],
+      "sources": [
+        {
+          "label": "IDScan.net · notificación oficial",
+          "url": "https://idscan.net/press-release/notification-of-data-security-incident/",
+          "kind": "Fuente oficial"
+        },
+        {
+          "label": "Reuters · investigación del FBI",
+          "url": "https://www.reuters.com/world/us/fbi-says-it-is-investigating-report-that-millions-us-drivers-licenses-exposed-2026-09-02/",
+          "kind": "Medio / contexto"
+        }
+      ],
+      "notes": "La existencia del incidente y la posible copia no autorizada de información han sido reconocidas por IDScan.net. La cifra de más de 153 millones procede del conjunto anunciado por el servicio criminal y de investigaciones posteriores; no debe interpretarse como 153 millones de víctimas únicas confirmadas."
+    }
+  ]
+}
