@@ -1,0 +1,265 @@
+{
+  "lastReview": "2026-11-05T18:14:35+01:00",
+  "timezone": "Europe/Madrid",
+  "status": {
+    "INCIBE Ciudadanía": {
+      "ok": true,
+      "count": 10
+    },
+    "INCIBE-CERT": {
+      "ok": true,
+      "count": 10
+    },
+    "CERT-EU": {
+      "ok": true,
+      "count": 10
+    },
+    "CISA": {
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  },
+  "disclaimer": "Avisos recopilados automáticamente de fuentes externas, sin validación editorial individual. No equivalen a incidentes confirmados por Alertas CiberSec.",
+  "items": [
+    {
+      "id": "d88e90fd82c805ab4f49",
+      "source": "INCIBE Ciudadanía",
+      "title": "Un falso concurso de baile permite a los ciberdelincuentes utilizar tu cuenta de WhatsApp",
+      "url": "https://www.incibe.es/ciudadania/avisos/un-falso-concurso-de-baile-permite-los-ciberdelincuentes-utilizar-tu-cuenta-de",
+      "published": "Wed, 21 Oct 2026 15:02:18 +0000",
+      "summary": "Un falso concurso de baile permite a los ciberdelincuentes utilizar tu cuenta de WhatsApp Mié, 21/10/2026 - 17:02 Aviso Recursos Afectados Personas que hayan recibido un mensaje de WhatsApp solicitando su voto en un supuesto concurso de baile y hayan seguido las instrucciones para vincular un dispositivo a su cuenta. Descripción Desde INCIBE hemos recibido consultas sobre un nuevo fraude. Mensajes de WhatsApp que solicitan votar por un familiar o"
+    },
+    {
+      "id": "c06f589c9cb09cf5cbc2",
+      "source": "INCIBE Ciudadanía",
+      "title": "Los ciberdelincuentes están utilizando cuentas de WhatsApp en iPhone sin actualizar para pedir dinero a sus contactos",
+      "url": "https://www.incibe.es/ciudadania/avisos/los-ciberdelincuentes-estan-utilizando-cuentas-de-whatsapp-en-iphone-sin",
+      "published": "Wed, 14 Oct 2026 11:07:54 +0000",
+      "summary": "Los ciberdelincuentes están utilizando cuentas de WhatsApp en iPhone sin actualizar para pedir dinero a sus contactos Mié, 14/10/2026 - 13:07 Aviso Recursos Afectados Personas que utilizan WhatsApp en un iPhone y cuyos contactos reciben mensajes enviados desde su cuenta que ellas no han escrito. En las consultas atendidas por INCIBE sobre este incidente predominan los dispositivos con versiones anteriores a iOS 18. También se han recibido algunas"
+    },
+    {
+      "id": "96d6bcb912363d39dabf",
+      "source": "INCIBE Ciudadanía",
+      "title": "Correos y SMS suplantan a la DGT para robar tus datos con falsas multas",
+      "url": "https://www.incibe.es/ciudadania/avisos/correos-y-sms-suplantan-la-dgt-para-robar-tus-datos-con-falsas-multas",
+      "published": "Mon, 28 Sep 2026 10:09:11 +0000",
+      "summary": "Correos y SMS suplantan a la DGT para robar tus datos con falsas multas Lun, 28/09/2026 - 12:09 Aviso Recursos Afectados Personas que hayan recibido estas comunicaciones, especialmente quienes hayan accedido al enlace y facilitado información personal o bancaria. Descripción Se han identificado correos electrónicos y mensajes de texto que se hacen pasar por la Dirección General de Tráfico (DGT). Utilizan una supuesta multa pendiente o la revisión"
+    },
+    {
+      "id": "1ac1ff0455804abbb263",
+      "source": "INCIBE Ciudadanía",
+      "title": "Campaña de smishing suplantando a la Seguridad Social",
+      "url": "https://www.incibe.es/ciudadania/avisos/campana-de-smishing-suplantando-la-seguridad-social",
+      "published": "Wed, 19 Aug 2026 07:58:49 +0000",
+      "summary": "Campaña de smishing suplantando a la Seguridad Social Mié, 19/08/2026 - 09:58 Aviso Recursos Afectados Aquellas personas que hayan recibido un mensaje de texto una actualización pendiente de la Tesorería General de la Seguridad Social (TGSS) y que hayan accedido al enlace que contiene dicho mensaje. Descripción Se ha identificado una campaña de mensajes fraudulentos enviados utilizando la técnica de smishing , que se basa en el envío de mensajes "
+    },
+    {
+      "id": "f049a9b57a2ee0cc755b",
+      "source": "INCIBE Ciudadanía",
+      "title": "Suplantan a hoteles a través de WhatsApp y otros medios para solicitar la confirmación de reservas mediante enlaces fraudulentos",
+      "url": "https://www.incibe.es/ciudadania/avisos/suplantan-hoteles-traves-de-whatsapp-y-otros-medios-para-solicitar-la",
+      "published": "Fri, 31 Jul 2026 11:32:23 +0000",
+      "summary": "Suplantan a hoteles a través de WhatsApp y otros medios para solicitar la confirmación de reservas mediante enlaces fraudulentos Vie, 31/07/2026 - 13:32 Aviso Recursos Afectados Aquellos usuarios que hayan recibido el mensaje de WhatsApp u otras vías de comunicación de las características descritas en este aviso y hayan continuado con las instrucciones facilitadas. Descripción Se ha identificado una campaña de mensajes fraudulentos enviados a tra"
+    },
+    {
+      "id": "f1c93bd2b307ef398cd1",
+      "source": "INCIBE Ciudadanía",
+      "title": "Suplantan a la Policía Nacional, a la Guardia Civil y a INCIBE a través de notificaciones falsas por consumir contenido pornográfico",
+      "url": "https://www.incibe.es/ciudadania/avisos/suplantan-la-policia-nacional-la-guardia-civil-y-incibe-traves-de-notificaciones",
+      "published": "Fri, 10 Jul 2026 09:11:41 +0000",
+      "summary": "Suplantan a la Policía Nacional, a la Guardia Civil y a INCIBE a través de notificaciones falsas por consumir contenido pornográfico Vie, 10/07/2026 - 11:11 Aviso Recursos Afectados Aquellos usuarios que hayan recibido el correo descrito en este aviso y hayan respondido. Descripción Se han identificado varias campañas de correos electrónicos fraudulentos ( phishing ) suplantando a la Policía Nacional, la Guardia Civil e INCIBE, cuyo objetivo es e"
+    },
+    {
+      "id": "c1cddf4c27f7d3672638",
+      "source": "INCIBE Ciudadanía",
+      "title": "La Agencia Tributaria NO ha emitido ninguna comunicación dirigida a usted",
+      "url": "https://www.incibe.es/ciudadania/avisos/la-agencia-tributaria-no-ha-emitido-ninguna-comunicacion-dirigida-usted",
+      "published": "Tue, 26 May 2026 10:51:53 +0000",
+      "summary": "La Agencia Tributaria NO ha emitido ninguna comunicación dirigida a usted Mar, 26/05/2026 - 12:51 Aviso Recursos Afectados Aquellos usuarios que hayan accedido a la página web fraudulenta descrita en este aviso y facilitado sus datos. Descripción Desde INCIBE se ha detectado una campaña de suplantación a la Agencia Estatal de Administración Tributaria (AEAT) a través mensajes de texto (SMS), con el objetivo de engañar a las víctimas para que faci"
+    },
+    {
+      "id": "b6f3f070a083216d9a26",
+      "source": "INCIBE Ciudadanía",
+      "title": "Suplantan al LIDL a través de tiendas online fraudulentas",
+      "url": "https://www.incibe.es/ciudadania/avisos/suplantan-al-lidl-traves-de-tiendas-online-fraudulentas",
+      "published": "Wed, 06 May 2026 11:32:10 +0000",
+      "summary": "Suplantan al LIDL a través de tiendas online fraudulentas Mié, 06/05/2026 - 13:32 Aviso Recursos Afectados Cualquier usuario que realice una búsqueda o reciba un mensaje con un enlace que redirija a las páginas fraudulentas y realice una compra. Descripción Se ha detectado una campaña de anuncios fraudulentos, que suplantan al supermercado, LIDL. Los anuncios se muestras en la zona de productos promocionados de los buscadores o se difunden a trav"
+    },
+    {
+      "id": "2704737837d85e4747ce",
+      "source": "INCIBE Ciudadanía",
+      "title": "Desconfía de supuestas notificaciones de la Guardia Civil y Europol sobre la \"Operación Endgame\"",
+      "url": "https://www.incibe.es/ciudadania/avisos/desconfia-de-supuestas-notificaciones-de-la-guardia-civil-y-europol-sobre-la",
+      "published": "Wed, 18 Mar 2026 08:24:19 +0000",
+      "summary": "Desconfía de supuestas notificaciones de la Guardia Civil y Europol sobre la \"Operación Endgame\" Mié, 18/03/2026 - 09:24 Aviso Recursos Afectados Cualquier usuario que reciba el correo electrónico con el asunto \"CONVOCATORIA\", o similar, con el archivo adjunto denominado \"NOTIFICACION_EXP_217-124 (1).pdf\" y se haya puesto en contacto con el buzón indicado en el PDF. Descripción Se ha detectado una campaña de correos electrónicos fraudulentos, phi"
+    },
+    {
+      "id": "370642b1f396deeda14b",
+      "source": "INCIBE Ciudadanía",
+      "title": "Chantajes de sextorsión a través de correos electrónicos",
+      "url": "https://www.incibe.es/ciudadania/avisos/chantajes-de-sextorsion-traves-de-correos-electronicos",
+      "published": "Tue, 10 Mar 2026 08:35:59 +0000",
+      "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
+    },
+    {
+      "id": "99264a4b090b850b5c95",
+      "source": "INCIBE-CERT",
+      "title": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/recuperacion-insegura-de-contrasenas-en-building-cloud-services-de-wago",
+      "published": "Thu, 05 Nov 2026 08:24:15 +0000",
+      "summary": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados Building Cloud Services, versiones desde 7.19 y anteriores a 7.36.156. Descripción James Paremain ha informado sobre una vulnerabilidad de severidad crítica en Keycloak que afecta a Building Cloud Services de WAGO. WAGO, en coordinación con CERT@VDE, ha publicado su afectación. Un atacante sin autenticar podría restablecer "
+    },
+    {
+      "id": "9f0433999071692ce7c1",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-contact-9",
+      "published": "Thu, 05 Nov 2026 08:24:14 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados FL WLAN 1x2x/23xx. FL SWITCH 2xxx. FL NAT 2xxx. FL SWITCH TSN 23xx. FL SWITCH 59xx. TC ROUTER 4xxx. FL TIMESERVER NTP. FL WLAN 11xx/21xx. TC EXTENDER x00x. SCX xPOE. Descripción Phoenix Contact ha publicado información sobre el impacto de 2 vulnerabilidades de severidad crítica de PHP, conocidas como PHP2Shell, en varias familias de pro"
+    },
+    {
+      "id": "78d794f6615c2d41830e",
+      "source": "INCIBE-CERT",
+      "title": "Escritura fuera de límites en Advanced Batch Management de ABB",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-advanced-batch-management-de-abb",
+      "published": "Thu, 05 Nov 2026 08:24:12 +0000",
+      "summary": "Escritura fuera de límites en Advanced Batch Management de ABB Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados Advanced Batch Management (ABM), versiones 1.0, 1.1, 1.1b, 1.2 y 1.2.1, cuando incorporen una versión vulnerable de Node.js. La versión instalada puede variar entre proyectos. Descripción ABB ha publicado una vulnerabilidad de severidad crítica en el decodificador Brotli de Node.js utilizado por Advanced Batch Management. Su explota"
+    },
+    {
+      "id": "f5046c7d46f4b1035099",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
+      "published": "Wed, 04 Nov 2026 08:25:28 +0000",
+      "summary": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions Mié, 04/11/2026 - 09:25 Aviso SCI Recursos Afectados PowerSYSTEM Center 2020, versiones 5.29.x y anteriores (CVE-2026-63017). PowerSYSTEM Center 2024, versiones 6.0.x a 6.2.x: ambas vulnerabilidades. PowerSYSTEM Center 2026, versiones 7.0.x a 7.1.x: ambas vulnerabilidades. Descripción Chinmay Patel, de Digital Boundary Group, ha informado sobre 2 vulnerabilidades de severidad cr"
+    },
+    {
+      "id": "aba031f214543fb29f4c",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Welotec",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-welotec",
+      "published": "Wed, 04 Nov 2026 08:25:27 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Welotec Mié, 04/11/2026 - 09:25 Aviso SCI Recursos Afectados TK100, modelos TK102L y TK102W, con firmware anterior a 3.5.116. TK500-v2, modelos TK525L-v2, TK525L-W-v2, TK525W-v2 y TK535L1-v2, con firmware anterior a 1.0.124. TK500-v3, modelos TK525L-v3, TK525L-W-G-v3, TK525L-IO-v3, TK525L-W-v3, TK525W-v3 y TK555L-v3, con firmware anterior a 1.0.123. Descripción Welotec en coordinación con CERT@VDE ha pub"
+    },
+    {
+      "id": "bc30fdd7a20dc4a8fe31",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
+      "published": "Tue, 03 Nov 2026 10:48:26 +0000",
+      "summary": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Dräger REGARD 7000 OPC UA Server. Los dispositivos y el software médicos, así como los productos Dräger Service evaluados, no están afectados al no utilizar PHP. Descripción Dräger ha publicado una evaluación sobre 2 vulnerabilidades de severidad crítica de PHP. REGARD 7000 OPC UA Server es el único producto de seguridad industri"
+    },
+    {
+      "id": "5d2e9f8f55109485b29a",
+      "source": "INCIBE-CERT",
+      "title": "Escritura fuera de límites en productos de Johnson Controls",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-productos-de-johnson-controls",
+      "published": "Tue, 03 Nov 2026 10:48:25 +0000",
+      "summary": "Escritura fuera de límites en productos de Johnson Controls Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Restaurant System Estimator. Access Control system. Johnson Controls identifica estos productos de la marca Fire como afectados; no publica intervalos de versiones vulnerables. Descripción Johnson Controls ha publicado un aviso sobre una vulnerabilidad de severidad crítica en la biblioteca Brotli utilizada por productos de la marca Fir"
+    },
+    {
+      "id": "d14041b357d0babbbe88",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de ABB",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-abb-9",
+      "published": "Tue, 03 Nov 2026 10:48:24 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de ABB Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Netcon y NAM: Netcon 100, módulo GW102: 2.00.00–2.12.034. Netcon 200, GWDD-02/GWDD-03/GWDC-06: 2.00.000–3.02.050; GWDD-A03: A103.03.000–A103.03.010. Netcon 500, GW502A: 6.00.000–7.06.001. Netcon Application Manager (NAM): 1.21.00–1.31.000. Familia Arctic: ARG600, ARP600, ARR600 y ARC600: variantes y versiones 3.0.1–3.4.13 o 2.0.10–3.4.13, según el "
+    },
+    {
+      "id": "0b0743bab1ddcb6399b3",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Siemens",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
+      "published": "Tue, 03 Nov 2026 10:48:23 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Siemens Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Brotli — CVE-2026-111497 Industrial Edge: todas las versiones de Cloud Connector Configurator, Common Configurator (CC on IEM), Common Configurator on Device (CC on Edge), Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator y Flow Creator Configurator. RUGGEDCOM APE1808 con una versión vulnerable de PAN-OS. PHP — CVE-202"
+    },
+    {
+      "id": "9f1df726712e5845f773",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Festo",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-festo-0",
+      "published": "Tue, 03 Nov 2026 10:48:22 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Festo Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados FactoryViews: desde 1.0.0 hasta 1.12.1, incluidas. MES4: todas las versiones desplegadas con xampp. Descripción Festo ha publicado un aviso sobre 2 vulnerabilidades de severidad crítica de PHP, integrado en FactoryViews y en instalaciones de MES4 con xampp, que podrían permitir ejecutar código remoto en el sistema anfitrión. Identificador INCIBE-"
+    },
+    {
+      "id": "8fde712f184127a7e0e1",
+      "source": "CERT-EU",
+      "title": "2026-018: Critical Vulnerabilities in PHP",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+      "published": "Fri, 23 Oct 2026 16:36:26 CEST",
+      "summary": "On 20 October 2026, the PHP project announced an upcoming security release addressing two critical vulnerabilities in PHP. Public reports indicated that these vulnerabilities could lead to remote code execution (RCE). The PHP team released the fixes today, 21 October 2026 at 13:30 UTC, in PHP versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35. Both vulnerabilities can allow unauthenticated remote code execution. Technical details are now being discussed "
+    },
+    {
+      "id": "63f327cd92a64f81958c",
+      "source": "CERT-EU",
+      "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+      "published": "Thu, 22 Oct 2026 11:14:22 CEST",
+      "summary": "On 21 October 2026, GitLab published a security advisory addressing several vulnerabilities among which a critical flaw that could allow an unauthenticated user to execute arbitrary code on a GitLab server. CERT-EU recommends organisations to update affected assets as soon as possible, prioritising internet facing assets, and to run an assessment to identify compromised assets."
+    },
+    {
+      "id": "6d31b5085e4a344f41d2",
+      "source": "CERT-EU",
+      "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+      "published": "Thu, 15 Oct 2026 11:38:20 CEST",
+      "summary": "On 14 October 2026, Cisco published a security advisory addressing a critical vulnerability affecting the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway. This vulnerability could allow an unauthenticated, remote attacker to write arbitrary files and execute commands with root privileges on the underlying operating system. The Cisco PSIRT is aware of active exploitation of this vulnerability. CERT-EU strongly recommends up"
+    },
+    {
+      "id": "fca4f6661cc4bd40e0b3",
+      "source": "CERT-EU",
+      "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+      "published": "Mon, 12 Oct 2026 14:57:02 CEST",
+      "summary": "On 12 October 2026, GitLab released versions 19.4.2, 19.3.4 and 19.2.8 of GitLab Community Edition (CE) and Enterprise Edition (EE), fixing 24 security issues among which a critical vulnerability that could allow an unauthenticated attacker to execute arbitrary code on the server. CERT-EU strongly recommends upgrading self-managed GitLab CE/EE instances to a fixed version as soon as possible, starting with internet-facing instances."
+    },
+    {
+      "id": "bbaa93b2176af82cdcf6",
+      "source": "CERT-EU",
+      "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+      "published": "Wed, 07 Oct 2026 09:52:48 CEST",
+      "summary": "On 5 October 2026, Atlassian published a security advisory addressing a critical arbitrary file access vulnerability. It affects Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye. CERT-EU strongly recommends upgrading all affected installations to a fixed version as soon as possible, starting with instances accessible from the "
+    },
+    {
+      "id": "4f7cf02e8c7473e632a3",
+      "source": "CERT-EU",
+      "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+      "published": "Sun, 27 Sep 2026 19:40:52 CEST",
+      "summary": "On 27 September 2026, Citrix published a security bulletin addressing 8 vulnerabilities affecting customer-managed Citrix NetScaler ADC and Citrix NetScaler Gateway, among which 2 critical unauthenticated Remote Code Execution (RCE) vulnerabilities. Citrix has confirmed active exploitation of these 2 critical vulnerabilities in the wild. CERT-EU recommends updating affected software and running a compromise assessment on those exposed on the inte"
+    },
+    {
+      "id": "499e743ace4c59195a04",
+      "source": "CERT-EU",
+      "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+      "published": "Tue, 22 Sep 2026 18:52:36 CEST",
+      "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions as soon as possible."
+    },
+    {
+      "id": "75307c0003846ae69ae4",
+      "source": "CERT-EU",
+      "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+      "published": "Thu, 10 Sep 2026 10:20:06 CEST",
+      "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or Site-to-Site VPN. Both vulnerabilities carry a CVSS score of 9.8 and could allow an unauthenticated, remote attacker to execute arbitrary code on affected appliances. CERT-EU strongly recommends applying"
+    },
+    {
+      "id": "51e05f44e8c37f44cc1a",
+      "source": "CERT-EU",
+      "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+      "published": "Wed, 09 Sep 2026 15:07:59 CEST",
+      "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Passport (EPP) processing, nicknamed \"OVERPASS\" by the Onapsis Research Labs (ORL), which discovered and responsibly disclosed it[3]. The second, CVE-2026-58240 (CVSS 9.8), n"
+    },
+    {
+      "id": "39b99b914663d1a71840",
+      "source": "CERT-EU",
+      "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-010/",
+      "published": "Wed, 19 Aug 2026 18:13:47 CEST",
+      "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). CERT-EU recommends updating affected devices as soon as possible."
+    }
+  ]
+}
