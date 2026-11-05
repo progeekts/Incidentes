@@ -13,7 +13,7 @@ concurrency:
 jobs:
   feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 7
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,12 +21,14 @@ jobs:
           python-version: '3.12'
       - name: Recopilar feeds oficiales
         run: python scripts/update_source_feeds.py
+      - name: Revisar fuentes de incidentes pendientes (máximo 10)
+        run: python scripts/review_existing_incidents.py
       - name: Publicar datos si hay cambios
         run: |
-          if ! git diff --quiet -- source-alerts.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json)" ]; then
+          if ! git diff --quiet -- source-alerts.json incident-review-state.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add source-alerts.json
-            git commit -m "chore: actualizar feeds de organismos oficiales"
+            git add source-alerts.json incident-review-state.json
+            git commit -m "chore: actualizar feeds y seguimiento de incidentes"
             git push
           fi
