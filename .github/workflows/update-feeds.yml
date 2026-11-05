@@ -1,0 +1,32 @@
+name: Actualizar feeds oficiales
+on:
+  workflow_dispatch:
+  schedule:
+    # GMT y horario de verano: dos horas candidatas por franja;
+    # el script valida 08:00 y 20:00 Europe/Madrid.
+    - cron: '0 6,7,18,19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: feeds-cibersec
+  cancel-in-progress: false
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recopilar feeds oficiales
+        run: python scripts/update_source_feeds.py
+      - name: Publicar datos si hay cambios
+        run: |
+          if ! git diff --quiet -- source-alerts.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add source-alerts.json
+            git commit -m "chore: actualizar feeds de organismos oficiales"
+            git push
+          fi
