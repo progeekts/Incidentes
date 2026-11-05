@@ -68,13 +68,14 @@ def safe_url(url):
         return "." in host
 
 
-class NoRedirect(urllib.request.HTTPRedirectHandler):
+class SafeRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        # No seguir redirecciones hacia direcciones no examinadas.
-        return None
+        if not safe_url(newurl):
+            return None
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
-OPENER = urllib.request.build_opener(NoRedirect)
+OPENER = urllib.request.build_opener(SafeRedirect)
 
 
 def inspect_source(url, previous):
@@ -125,8 +126,10 @@ def main():
             continue
         record = records.get(iid, {})
         days = cadence(incident)
-        last = parse_date(record.get("lastChecked", ""))
-        next_due = last + dt.timedelta(days=days) if last else NOW_UTC
+        next_due = parse_date(record.get("nextCheck", ""))
+        if not next_due:
+            last = parse_date(record.get("lastChecked", ""))
+            next_due = last + dt.timedelta(days=days) if last else NOW_UTC
         if next_due <= NOW_UTC:
             priority = (0 if incident.get("incidentState") == "activo" else
                         1 if incident.get("severity") == "critica" else
@@ -153,7 +156,6 @@ def main():
         # No se considera revisado con éxito un incidente cuyos enlaces han fallado.
         success = bool(sources and successes == len(sources))
         changes = [s["url"] for s in sources if s.get("changed")]
-        baseline = not record.get("lastChecked")
         old_flags = set(record.get("pendingEvidence", []))
         old_flags.update(changes)
         if success:
