@@ -16,14 +16,30 @@ jobs:
     timeout-minutes: 7
     steps:
       - uses: actions/checkout@v4
+      - name: Comprobar horario Europe/Madrid
+        id: window
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          HORA=$(TZ=Europe/Madrid date +%H)
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$HORA" = "08" ] || [ "$HORA" = "20" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Ejecución candidata fuera de horario: $HORA"
+          fi
       - uses: actions/setup-python@v5
+        if: steps.window.outputs.should_run == 'true'
         with:
           python-version: '3.12'
       - name: Recopilar feeds oficiales
+        if: steps.window.outputs.should_run == 'true'
         run: python scripts/update_source_feeds.py
       - name: Revisar fuentes de incidentes pendientes (máximo 10)
+        if: steps.window.outputs.should_run == 'true'
         run: python scripts/review_existing_incidents.py
       - name: Publicar datos si hay cambios
+        if: steps.window.outputs.should_run == 'true'
         run: |
           if ! git diff --quiet -- source-alerts.json incident-review-state.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json)" ]; then
             git config user.name "github-actions[bot]"
