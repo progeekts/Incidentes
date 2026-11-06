@@ -1,7 +1,252 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-11-06",
   "license": "Datos informativos; consulta las fuentes enlazadas en cada ficha.",
   "incidents": [
+    {
+      "id": "2026-10-gitlab-cve-97229",
+      "date": "2026-10-12",
+      "discoveredDate": "2026-10-12",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-12",
+      "title": "GitLab corrige una vulnerabilidad crítica de ejecución remota en CI/CD",
+      "organization": "GitLab CE / EE",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "status": "confirmado",
+      "incidentState": "seguimiento",
+      "geo": "global",
+      "scope": "Servidores GitLab Community y Enterprise autogestionados sin parchear",
+      "dataTypes": [],
+      "exploitation": "El aviso oficial describe la posibilidad de ejecución remota; no confirma explotación activa",
+      "lead": "GitLab publicó correcciones para CVE-2026-97229, con puntuación CVSS 10, que puede permitir ejecutar código en servidores autogestionados.",
+      "reportedScale": "No se facilita un número de sistemas afectados.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "El fallo afecta al compilador de expresiones regulares utilizado en CI/CD y forma parte de una actualización que resolvió 24 problemas de seguridad.",
+      "whyItMatters": "Un servidor vulnerable puede comprometer repositorios, procesos de integración y secretos de despliegue.",
+      "affected": "Administradores de GitLab CE/EE autogestionado en versiones anteriores a 19.4.2, 19.3.4 o 19.2.8.",
+      "actions": [
+        "Actualiza a una versión corregida según la rama instalada.",
+        "Prioriza las instancias accesibles desde Internet y comprueba registros ante sospechas."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-12",
+          "text": "Divulgación o comunicación del hecho según la fuente oficial."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Incorporación retrospectiva al observatorio a partir de fuentes oficiales."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CERT-EU · aviso 2026-016",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+          "kind": "Organismo/CERT"
+        }
+      ],
+      "notes": "Las versiones se corresponden al aviso de CERT-EU del 12 de octubre de 2026."
+    },
+    {
+      "id": "2026-10-cisco-seg-cve-76519",
+      "date": "2026-10-14",
+      "discoveredDate": "2026-10-14",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-14",
+      "title": "Cisco confirma explotación activa de un fallo crítico en Secure Email Gateway",
+      "organization": "Cisco Secure Email Gateway",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "status": "confirmado",
+      "incidentState": "activo",
+      "geo": "global",
+      "scope": "Pasarelas Cisco Secure Email Gateway con las versiones y funciones vulnerables",
+      "dataTypes": [],
+      "exploitation": "Explotación activa reconocida por Cisco PSIRT",
+      "lead": "Cisco advirtió de explotación activa de CVE-2026-76519, que puede permitir ejecutar comandos con privilegios de root.",
+      "reportedScale": "No se facilita un número de sistemas afectados.",
+      "reportedScaleStatus": "Explotación confirmada, número de dispositivos comprometidos no comunicado",
+      "summary": "El fallo de recorrido de rutas afecta al procesamiento de adjuntos cuando está habilitado File Reputation con un paquete de análisis vulnerable.",
+      "whyItMatters": "Puede permitir comprometer la pasarela de correo, alterar archivos y dificultar el análisis posterior de la intrusión.",
+      "affected": "Organizaciones con Cisco Secure Email Gateway afectado y Content Scanner Tools anterior a 25.3.0.5525.",
+      "actions": [
+        "Actualiza Content Scanner Tools o Cisco AsyncOS según las instrucciones del fabricante.",
+        "Revisa los indicadores y registros de compromiso y contrástalos con telemetría externa."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-14",
+          "text": "Divulgación o comunicación del hecho según la fuente oficial."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Incorporación retrospectiva al observatorio a partir de fuentes oficiales."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CERT-EU · aviso 2026-017",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+          "kind": "Organismo/CERT"
+        },
+        {
+          "label": "Cisco · aviso oficial",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp",
+          "kind": "Fabricante"
+        }
+      ],
+      "notes": "Se distingue la fecha del acontecimiento de su incorporación retrospectiva al observatorio."
+    },
+    {
+      "id": "2026-10-genesys-business-systems",
+      "date": "2026-10-16",
+      "discoveredDate": "2026-10-16",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-16",
+      "title": "Genesys confirma acceso no autorizado a sistemas internos de negocio",
+      "organization": "Genesys",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "contenido",
+      "geo": "global",
+      "scope": "Datos empresariales de ciertos sistemas internos LMS y CRM",
+      "dataTypes": [
+        "Nombres",
+        "Correos profesionales",
+        "Teléfonos profesionales",
+        "Cargos y datos de cuenta"
+      ],
+      "exploitation": "Acceso no autorizado confirmado a sistemas internos de Genesys",
+      "lead": "Genesys confirmó acceso no autorizado a sus sistemas internos LMS y CRM, con contención comunicada el 23 de octubre.",
+      "reportedScale": "No se facilita un número de sistemas afectados.",
+      "reportedScaleStatus": "Acceso confirmado; alcance exacto bajo investigación",
+      "summary": "El fabricante comunicó acceso o descarga sin autorización de cierta información de sus sistemas internos; señaló que sus plataformas Genesys Cloud y Engage y los datos de clientes procesados allí no resultaron comprometidos.",
+      "whyItMatters": "Datos corporativos de contacto pueden emplearse para comunicaciones fraudulentas dirigidas.",
+      "affected": "Personas y empresas cuyos datos profesionales de relación comercial estuvieran en los sistemas internos afectados.",
+      "actions": [
+        "Desconfía de solicitudes inesperadas que utilicen referencias a Genesys.",
+        "Verifica las comunicaciones mediante canales oficiales y sigue futuras actualizaciones del proveedor."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-16",
+          "text": "Divulgación o comunicación del hecho según la fuente oficial."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Incorporación retrospectiva al observatorio a partir de fuentes oficiales."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Genesys · actualización oficial de seguridad",
+          "url": "https://www.genesys.com/blog/post/security-update-incident-affecting-certain-genesys-internal-business-systems",
+          "kind": "Fuente oficial"
+        }
+      ],
+      "notes": "Genesys comunicó el 23/10 la contención. No atribuir el incidente a sus plataformas de contacto con clientes."
+    },
+    {
+      "id": "2026-10-php-cve-109618-109619",
+      "date": "2026-10-20",
+      "discoveredDate": "2026-10-20",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-20",
+      "title": "PHP publica correcciones urgentes para fallos críticos de ejecución remota",
+      "organization": "PHP",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "status": "confirmado",
+      "incidentState": "seguimiento",
+      "geo": "global",
+      "scope": "Servidores y aplicaciones que utilizan versiones vulnerables de PHP",
+      "dataTypes": [],
+      "exploitation": "Existen pruebas de concepto públicas; el aviso no confirma ataques generalizados",
+      "lead": "CERT-EU advirtió de fallos graves que permiten ejecución remota y recomendó actualizar PHP con prioridad.",
+      "reportedScale": "No se facilita un número de sistemas afectados.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "Las vulnerabilidades CVE-2026-109618 y CVE-2026-109619 afectan al manejo de memoria y del estado de solicitudes; CERT-EU añadió información sobre un tercer vector comunicado el 23 de octubre.",
+      "whyItMatters": "Los servidores que procesan solicitudes web con ramas vulnerables pueden quedar expuestos a ejecución no autorizada de código.",
+      "affected": "PHP 8.5 anterior a 8.5.12; 8.4 anterior a 8.4.27; 8.3 anterior a 8.3.36; 8.2 anterior a 8.2.35, y ramas sin soporte.",
+      "actions": [
+        "Actualiza PHP a una versión corregida o instala el parche de seguridad mantenido por tu distribución.",
+        "Prioriza servidores expuestos y consulta las mitigaciones oficiales si no puedes actualizar de inmediato."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-20",
+          "text": "Divulgación o comunicación del hecho según la fuente oficial."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Incorporación retrospectiva al observatorio a partir de fuentes oficiales."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CERT-EU · aviso 2026-018",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+          "kind": "Organismo/CERT"
+        },
+        {
+          "label": "PHP · noticias oficiales",
+          "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
+          "kind": "Fabricante"
+        }
+      ],
+      "notes": "La ficha incorpora la actualización de CERT-EU del 23 de octubre sobre CVE-2026-115560."
+    },
+    {
+      "id": "2026-10-gitlab-cve-110264",
+      "date": "2026-10-21",
+      "discoveredDate": "2026-10-21",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-21",
+      "title": "GitLab corrige otro fallo crítico de ejecución remota sin autenticación",
+      "organization": "GitLab CE / EE",
+      "type": "vulnerabilidad",
+      "severity": "critica",
+      "status": "confirmado",
+      "incidentState": "seguimiento",
+      "geo": "global",
+      "scope": "Servidores GitLab autogestionados con versiones afectadas",
+      "dataTypes": [],
+      "exploitation": "CERT-EU recomienda buscar intentos de explotación, sin cuantificar compromisos",
+      "lead": "GitLab corrigió CVE-2026-110264, una vulnerabilidad CVSS 10 que podría permitir ejecución remota sin autenticación.",
+      "reportedScale": "No se facilita un número de sistemas afectados.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "El fallo de desbordamiento de enteros se encuentra en el compilador de expresiones regulares. CERT-EU aconseja actualizar y examinar las instancias expuestas a Internet.",
+      "whyItMatters": "La explotación podría comprometer servidores de desarrollo y sus procesos de integración.",
+      "affected": "GitLab CE/EE en versiones anteriores a las ramas corregidas detalladas en el aviso del 22 de octubre.",
+      "actions": [
+        "Instala las versiones 18.11.13, 19.0.10, 19.1.9, 19.2.9, 19.3.6, 19.4.3 o 19.5.1 según corresponda a tu rama.",
+        "Consulta las reglas de detección de GitLab y revisa indicios de compromiso."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-21",
+          "text": "Divulgación o comunicación del hecho según la fuente oficial."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Incorporación retrospectiva al observatorio a partir de fuentes oficiales."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CERT-EU · aviso 2026-019",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+          "kind": "Organismo/CERT"
+        },
+        {
+          "label": "GitLab · versión corregida",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+          "kind": "Fabricante"
+        }
+      ],
+      "notes": "Se distingue la fecha del acontecimiento de su incorporación retrospectiva al observatorio."
+    },
     {
       "publishedDate": "2026-10-07",
       "lastIncidentUpdate": "2026-10-07",
