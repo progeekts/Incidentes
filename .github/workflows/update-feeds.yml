@@ -35,16 +35,21 @@ jobs:
       - name: Recopilar feeds oficiales
         if: steps.window.outputs.should_run == 'true'
         run: python scripts/update_source_feeds.py
+      - name: Actualizar catálogo de security advisories
+        if: steps.window.outputs.should_run == 'true'
+        env:
+          GH_ADVISORY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_advisories.py
       - name: Revisar fuentes de incidentes pendientes (máximo 10)
         if: steps.window.outputs.should_run == 'true'
         run: python scripts/review_existing_incidents.py
       - name: Publicar datos si hay cambios
         if: steps.window.outputs.should_run == 'true'
         run: |
-          if ! git diff --quiet -- source-alerts.json incident-review-state.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json)" ]; then
+          if ! git diff --quiet -- source-alerts.json incident-review-state.json advisories.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json advisories.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add source-alerts.json incident-review-state.json
+            git add source-alerts.json incident-review-state.json advisories.json
             git commit -m "chore: actualizar feeds y seguimiento de incidentes"
             git push
           fi
