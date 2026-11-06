@@ -1,0 +1,251 @@
+{
+  "incidents": {
+    "2026-09-cisco-ise-cve-76460": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5"
+        }
+      ]
+    },
+    "2026-09-cisco-secure-email-cve-76461": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "d04d9a9cf27a7cd112c776afbf92bc407ff146b9615deb565455b2711a432fe1",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-esa-sql-inject-XJUsjO2"
+        },
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    "2026-09-gyazo-data-breach": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-09T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "2910b22e20899d174a2b9666e5e77029fa6cbd0458c5692b112cb856c8dbbd2f",
+          "url": "https://corp.helpfeel.com/en/news/news-20260916"
+        },
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "9f00398cf6faad206d0002f7501f4be80bb58c6f8af21431d8a87a60373584de",
+          "url": "https://corp.helpfeel.com/en/news/news-20260925"
+        }
+      ]
+    },
+    "2026-09-netscaler-88771-88772": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "469d9201b60d47638d4d45b4feee9dc86fe2f849a8e57e404db2c7806069e1ad",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-014/"
+        }
+      ]
+    },
+    "2026-09-pixel-cve-58704": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01"
+        }
+      ]
+    },
+    "2026-10-cisco-seg-cve-76519": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "05978dac6efa1c7712627e376d2c87ccd549afe4b9f4d0d303b7161525efbdc5",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-017/"
+        },
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp"
+        }
+      ]
+    },
+    "2026-10-gitlab-cve-110264": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "01f6c3ea1df5e6403495c6dd4d3a4b0d4a7c71ca9c3016173b26c8aab047b13e",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-019/"
+        },
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "\"7a00f3aab1dd844ca75b2d29d637e18e\"",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "db39578864c315ed6d05b269e900bc96f12ee0bb89c3c0658b0f28be0626e85f",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/"
+        }
+      ]
+    },
+    "2026-10-gitlab-cve-97229": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "7c84536d1aea92d8e59f5d2ad248d93b1f29cf8703db731da4acf81672de877b",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-016/"
+        }
+      ]
+    },
+    "2026-10-php-cve-109618-109619": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "2e06ca57be6bf2e4a20a389f7ad8a6573d05447cab061fdf71c1f96d62971223",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-018/"
+        },
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "Thu, 05 Nov 2026 21:12:54 GMT",
+          "ok": true,
+          "sha256": "ef12374dc4284f1ed67487cee949df4a1e6e3bc3029779f1da2f442e51405867",
+          "url": "https://www.php.net/archive/2026.php#2026-10-20-1"
+        }
+      ]
+    },
+    "2026-11-nikke-launcher-supply-chain": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-06T08:04:55+01:00",
+      "nextCheck": "2026-11-07T08:04:55+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://nikke.gg/official-announcement-pc-launcher-security-incident/"
+        },
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "W/\"3605b3ade7cc19b7f82038ca4098a8e3-gzip\"",
+          "httpStatus": 200,
+          "lastModified": "Thu, 05 Nov 2026 05:35:30 GMT",
+          "ok": true,
+          "sha256": "b52d7ee400b057a9a964c23ac3a771a64e2c6f905ad14586bf9125b4237b8a34",
+          "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
+        }
+      ]
+    }
+  },
+  "lastRun": "2026-11-06T08:04:55+01:00",
+  "lastRunCount": 10,
+  "pendingCount": 0,
+  "policy": {
+    "editorialChangesAutomatic": false,
+    "maxElapsedSeconds": 225,
+    "maxIncidentsPerRun": 10,
+    "maxSourcesPerIncident": 2,
+    "note": "Las señales por cambios remotos requieren verificación; no actualizan los incidentes."
+  },
+  "remainingDue": 10,
+  "version": 1
+}
