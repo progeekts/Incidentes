@@ -42,7 +42,8 @@ window.INCIDENTS=[
         "kind": "Organismo/CERT"
       }
     ],
-    "notes": "Las versiones se corresponden al aviso de CERT-EU del 12 de octubre de 2026."
+    "notes": "Las versiones se corresponden al aviso de CERT-EU del 12 de octubre de 2026.",
+    "retrospective": true
   },
   {
     "id": "2026-10-cisco-seg-cve-76519",
@@ -92,7 +93,8 @@ window.INCIDENTS=[
         "kind": "Fabricante"
       }
     ],
-    "notes": "Se distingue la fecha del acontecimiento de su incorporación retrospectiva al observatorio."
+    "notes": "Se distingue la fecha del acontecimiento de su incorporación retrospectiva al observatorio.",
+    "retrospective": true
   },
   {
     "id": "2026-10-genesys-business-systems",
@@ -142,7 +144,8 @@ window.INCIDENTS=[
         "kind": "Fuente oficial"
       }
     ],
-    "notes": "Genesys comunicó el 23/10 la contención. No atribuir el incidente a sus plataformas de contacto con clientes."
+    "notes": "Genesys comunicó el 23/10 la contención. No atribuir el incidente a sus plataformas de contacto con clientes.",
+    "retrospective": true
   },
   {
     "id": "2026-10-php-cve-109618-109619",
@@ -192,7 +195,8 @@ window.INCIDENTS=[
         "kind": "Fabricante"
       }
     ],
-    "notes": "La ficha incorpora la actualización de CERT-EU del 23 de octubre sobre CVE-2026-115560."
+    "notes": "La ficha incorpora la actualización de CERT-EU del 23 de octubre sobre CVE-2026-115560.",
+    "retrospective": true
   },
   {
     "id": "2026-10-gitlab-cve-110264",
@@ -242,7 +246,8 @@ window.INCIDENTS=[
         "kind": "Fabricante"
       }
     ],
-    "notes": "Se distingue la fecha del acontecimiento de su incorporación retrospectiva al observatorio."
+    "notes": "Se distingue la fecha del acontecimiento de su incorporación retrospectiva al observatorio.",
+    "retrospective": true
   },
   {
     "publishedDate": "2026-10-07",
