@@ -3,6 +3,330 @@
   "license": "Datos informativos; consulta las fuentes enlazadas en cada ficha.",
   "incidents": [
     {
+      "id": "2026-10-dreamhost-filemanager",
+      "date": "2026-10-23",
+      "discoveredDate": "2026-10-23",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-23",
+      "title": "DreamHost confirma robo de credenciales FTP/SFTP y acceso limitado a webmail",
+      "organization": "DreamHost",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Usuarios que accedieron a File Manager entre agosto y el 23 de octubre de 2026",
+      "dataTypes": [
+        "Credenciales FTP/SFTP",
+        "Credenciales de webmail",
+        "Posible contenido de buzones"
+      ],
+      "exploitation": "Explotación confirmada de una vulnerabilidad de File Manager",
+      "lead": "DreamHost identificó un acceso no autorizado a su gestor web de archivos y restableció credenciales potencialmente expuestas.",
+      "reportedScale": "Según DreamHost, menos del 10 % de cuentas FTP/SFTP y de correo alojadas podrían estar afectadas; no equivale a víctimas confirmadas.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "El proveedor confirmó que una vulnerabilidad de File Manager permitió obtener nombres de usuario y contraseñas FTP/SFTP y credenciales de algunas cuentas de webmail; en un número reducido de casos podrían haberse consultado correos.",
+      "whyItMatters": "Las credenciales robadas pueden permitir modificar sitios alojados o acceder al correo de usuarios afectados.",
+      "affected": "Clientes de DreamHost cuyas cuentas FTP/SFTP o de correo se vieron potencialmente expuestas.",
+      "actions": [
+        "Cambia las contraseñas FTP/SFTP o de correo afectadas, incluyendo servicios donde las hayas reutilizado.",
+        "Revisa ficheros del sitio web, accesos recientes y reglas o sesiones de correo sospechosas.",
+        "Consulta los avisos oficiales de DreamHost y las comunicaciones específicas enviadas a tu cuenta."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-23",
+          "text": "Información del incidente comunicada públicamente según las fuentes enlazadas."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Ficha incorporada retrospectivamente al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "DreamHost · comunicación oficial 29/10",
+          "url": "https://www.dreamhost.com/news/announcements/october-security-incident/",
+          "kind": "Fuente oficial"
+        }
+      ],
+      "notes": "Se conserva la fecha de divulgación o detección y se diferencia del alta retrospectiva en Alertas CiberSec.",
+      "retrospective": true
+    },
+    {
+      "id": "2026-10-workos-internal",
+      "date": "2026-10-30",
+      "discoveredDate": "2026-10-30",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-10-30",
+      "title": "WorkOS investiga acceso no autorizado a su aplicación interna de ventas",
+      "organization": "WorkOS",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Datos comerciales de contacto y comunicaciones con clientes de WorkOS",
+      "dataTypes": [
+        "Datos de contacto profesional",
+        "Resúmenes de comunicaciones con clientes"
+      ],
+      "exploitation": "Acceso no autorizado confirmado; WorkOS identifica herramientas ofensivas asistidas por IA",
+      "lead": "WorkOS confirmó el acceso no autorizado a una herramienta interna de ventas, detectado el 30 de octubre.",
+      "reportedScale": "Alcance sin cifra pública confirmada.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "La investigación describe acceso a información de CRM y atención al cliente e indica uso de herramientas ofensivas asistidas por inteligencia artificial. WorkOS no ha encontrado evidencia de acceso a datos de aplicaciones ni a servicios de producción.",
+      "whyItMatters": "Los datos de relaciones comerciales pueden facilitar suplantaciones o phishing dirigido.",
+      "affected": "Contactos empresariales y organizaciones cuyas comunicaciones estuvieran registradas en el sistema interno afectado.",
+      "actions": [
+        "Comprueba las comunicaciones que hagan referencia a WorkOS mediante canales oficiales.",
+        "Evita compartir credenciales o datos financieros a raíz de peticiones inesperadas.",
+        "Consulta el boletín del fabricante para conocer nuevas conclusiones."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-30",
+          "text": "Información del incidente comunicada públicamente según las fuentes enlazadas."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Ficha incorporada retrospectivamente al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "WorkOS · boletín de seguridad oficial",
+          "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident",
+          "kind": "Fuente oficial"
+        }
+      ],
+      "notes": "No atribuir afectación a servicios de producción de WorkOS: el proveedor no encontró evidencia de ello.",
+      "retrospective": true
+    },
+    {
+      "id": "2026-11-singapore-airlines-amadeus",
+      "date": "2026-11-03",
+      "discoveredDate": "2026-11-03",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-11-03",
+      "title": "Singapore Airlines informa de exposición de unos 46.000 registros de reserva en Amadeus",
+      "organization": "Singapore Airlines / Amadeus",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Pasajeros de Singapore Airlines con reservas procesadas mediante Amadeus",
+      "dataTypes": [
+        "Nombres",
+        "Referencias de reserva",
+        "Itinerarios",
+        "Posibles datos de contacto y documentos de viaje"
+      ],
+      "exploitation": "Acceso no autorizado en plataforma de proveedor externo",
+      "lead": "Singapore Airlines informó de acceso no autorizado a unos 46.000 registros de reserva almacenados por su proveedor Amadeus.",
+      "reportedScale": "Aproximadamente 46.000 registros de reserva; unos 620 podrían contener datos adicionales.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "Se comunicó exposición de nombres, referencias de reserva y datos del itinerario. En unos 620 registros también podrían figurar teléfonos, correos, documentos de viaje y números KrisFlyer. La aerolínea señaló que sus sistemas internos no fueron comprometidos.",
+      "whyItMatters": "Una referencia de reserva y un itinerario expuestos pueden facilitar suplantaciones y fraudes de viaje.",
+      "affected": "Clientes cuyas reservas estaban incluidas en los registros consultados indebidamente.",
+      "actions": [
+        "Revisa las notificaciones oficiales de Singapore Airlines y confirma cualquier cambio de reserva por sus canales habituales.",
+        "Desconfía de mensajes que mencionen tu itinerario y pidan pagos o credenciales.",
+        "Si has recibido una notificación individual, sigue las instrucciones de la aerolínea para cambiar la referencia de reserva."
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-03",
+          "text": "Información del incidente comunicada públicamente según las fuentes enlazadas."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Ficha incorporada retrospectivamente al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Channel NewsAsia · declaración de Singapore Airlines",
+          "url": "https://www.channelnewsasia.com/singapore/sia-singapore-airlines-amadeus-data-breach-booking-records-6517151",
+          "kind": "Medio / comunicado reproducido"
+        },
+        {
+          "label": "Reuters · información del incidente",
+          "url": "https://www.reuters.com/world/asia-pacific/singapore-airlines-says-46000-booking-records-affected-by-amadeus-breach-2026-11-04/",
+          "kind": "Medio / contexto"
+        }
+      ],
+      "notes": "El número corresponde a registros de reserva, no necesariamente a pasajeros únicos. La información procede de la declaración pública de la aerolínea.",
+      "retrospective": false
+    },
+    {
+      "id": "2026-11-msecure-security-notice",
+      "date": "2026-11-03",
+      "discoveredDate": "2026-11-03",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-11-03",
+      "title": "mSecure recomienda renovar contraseñas y factores de autenticación tras actividad sospechosa",
+      "organization": "mSecure / mSeven Software",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Clientes actuales y antiguos del gestor de contraseñas mSecure",
+      "dataTypes": [
+        "Información confidencial almacenada: exposición sin confirmar"
+      ],
+      "exploitation": "Actividad sospechosa reconocida; método y datos accedidos no aclarados",
+      "lead": "mSeven notificó actividad sospechosa relacionada con mSecure y recomendó proteger las credenciales almacenadas.",
+      "reportedScale": "Alcance sin cifra pública confirmada.",
+      "reportedScaleStatus": "Investigación abierta; exposición de bóvedas no confirmada",
+      "summary": "El fabricante comunicó una investigación abierta y la colaboración de especialistas externos, pero no detalló qué sistemas o datos fueron realmente accedidos. Por precaución sugirió renovar contraseñas, factores 2FA y passkeys.",
+      "whyItMatters": "Un gestor de contraseñas puede concentrar accesos críticos; el alcance real de esta incidencia todavía no está aclarado.",
+      "affected": "Usuarios actuales y antiguos de mSecure que recibieron el aviso.",
+      "actions": [
+        "Accede directamente a los servicios que utilizas y prioriza el cambio de las contraseñas más sensibles.",
+        "Revisa y renueva los factores 2FA y passkeys que correspondan conforme a la comunicación del proveedor.",
+        "Consulta los comunicados de mSecure para conocer el alcance confirmado y no asumas una filtración total sin evidencia."
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-03",
+          "text": "Información del incidente comunicada públicamente según las fuentes enlazadas."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Ficha incorporada retrospectivamente al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "mSecure Support · aviso reproducido en foro oficial",
+          "url": "https://support.msecure.com/en/support/discussions/topics/36000038998/page/1?url_locale=en",
+          "kind": "Foro oficial / notificación"
+        },
+        {
+          "label": "BleepingComputer · aviso de mSeven",
+          "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+          "kind": "Medio / contexto"
+        }
+      ],
+      "notes": "No se da por confirmado el robo de contraseñas, bóvedas, llaves o passkeys: mSeven no ha publicado esos detalles.",
+      "retrospective": false
+    },
+    {
+      "id": "2026-11-nikke-launcher-supply-chain",
+      "date": "2026-11-04",
+      "discoveredDate": "2026-11-04",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-11-04",
+      "title": "NIKKE confirma manipulación de su lanzador para Windows y distribución de malware",
+      "organization": "GODDESS OF VICTORY: NIKKE / Level Infinite",
+      "type": "malware",
+      "severity": "critica",
+      "status": "confirmado",
+      "incidentState": "contenido",
+      "geo": "global",
+      "scope": "Jugadores que ejecutaron el lanzador de PC para Windows en el periodo indicado por el editor",
+      "dataTypes": [
+        "Posibles credenciales y datos del equipo, alcance bajo investigación"
+      ],
+      "exploitation": "Manipulación confirmada de los scripts del lanzador y distribución de programas maliciosos",
+      "lead": "Level Infinite confirmó que terceros alteraron archivos del lanzador de NIKKE y pudieron distribuir programas maliciosos.",
+      "reportedScale": "Alcance sin cifra pública confirmada.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "El editor sitúa la manipulación inicial en septiembre y la distribución maliciosa desde el 30 de octubre; el 4 de noviembre aplicó correcciones y el día 5 incorporó una herramienta de comprobación. La versión móvil no se vio afectada según el aviso.",
+      "whyItMatters": "El malware distribuido mediante software legítimo puede exponer información del equipo y credenciales.",
+      "affected": "Usuarios del lanzador Windows de NIKKE que lo ejecutaron desde el 27 de septiembre de 2026.",
+      "actions": [
+        "Utiliza la función de comprobación y limpieza publicada en el cliente oficial actualizado.",
+        "Cambia contraseñas utilizadas en el equipo afectado y revoca tokens o claves de API potencialmente expuestos.",
+        "Si detectas indicios de infección, analiza el equipo con herramientas de seguridad fiables y contacta con soporte del juego."
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-04",
+          "text": "Información del incidente comunicada públicamente según las fuentes enlazadas."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Ficha incorporada retrospectivamente al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Comunicado de Level Infinite reproducido por NIKKE.GG",
+          "url": "https://nikke.gg/official-announcement-pc-launcher-security-incident/",
+          "kind": "Comunicado reproducido"
+        },
+        {
+          "label": "BleepingComputer · ataque al lanzador",
+          "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+          "kind": "Medio / contexto"
+        }
+      ],
+      "notes": "Fecha original de manipulación: 27/09. Distribución maliciosa desde 30/10; detección y comunicación 04/11. Se muestra la fecha de comunicación en la ficha.",
+      "retrospective": false
+    },
+    {
+      "id": "2026-11-digicert-archived-customer-data",
+      "date": "2026-11-05",
+      "discoveredDate": "2026-11-05",
+      "publishedDate": "2026-11-06",
+      "lastIncidentUpdate": "2026-11-05",
+      "title": "DigiCert informa de acceso a datos de clientes archivados y documentos de identidad",
+      "organization": "DigiCert",
+      "type": "brecha",
+      "severity": "alta",
+      "status": "confirmado",
+      "incidentState": "investigacion",
+      "geo": "global",
+      "scope": "Contactos profesionales registrados en sistemas internos archivados de DigiCert",
+      "dataTypes": [
+        "Nombre",
+        "Correo profesional",
+        "Teléfono",
+        "Dirección comercial",
+        "Posibles pasaportes o documentos de identidad"
+      ],
+      "exploitation": "Acceso no autorizado de solo lectura a datos archivados",
+      "lead": "DigiCert comunicó acceso de solo lectura a información histórica de clientes; algunos registros incluían documentos de identidad.",
+      "reportedScale": "DigiCert habla de una pequeña parte de registros archivados, sin cifra pública de personas afectadas.",
+      "reportedScaleStatus": "Alcance no cuantificado",
+      "summary": "El acceso no autorizado se produjo entre junio y julio y se confirmó en octubre. La información publicada en noviembre indica que podrían haberse expuesto nombres, correos profesionales, teléfonos, direcciones y determinados documentos identificativos. DigiCert señaló que sus servicios de certificados no estaban afectados.",
+      "whyItMatters": "La divulgación de documentos y datos profesionales aumenta el riesgo de suplantación.",
+      "affected": "Clientes y contactos empresariales incluidos en el archivo afectado; DigiCert está notificando a las personas identificadas.",
+      "actions": [
+        "Comprueba las comunicaciones oficiales de DigiCert si mantienes una relación comercial con el proveedor.",
+        "Extrema la atención ante solicitudes de identificación o validación que utilicen tus datos.",
+        "Consulta las indicaciones específicas del proveedor si has recibido una notificación de exposición."
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-05",
+          "text": "Información del incidente comunicada públicamente según las fuentes enlazadas."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Ficha incorporada retrospectivamente al observatorio."
+        }
+      ],
+      "sources": [
+        {
+          "label": "BleepingComputer · notificación de DigiCert",
+          "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+          "kind": "Medio / notificación del proveedor"
+        },
+        {
+          "label": "Cyber Daily · declaración de DigiCert",
+          "url": "https://www.cyberdaily.au/security/14410-digicert-discloses-security-event-says-customer-data-exposed",
+          "kind": "Medio / declaración"
+        }
+      ],
+      "notes": "La divulgación pública tratada aquí es de noviembre; la consulta no autorizada tuvo lugar entre el 27/06 y el 02/07. No existen indicios comunicados de emisión fraudulenta de certificados.",
+      "retrospective": false
+    },
+    {
       "id": "2026-10-gitlab-cve-97229",
       "date": "2026-10-12",
       "discoveredDate": "2026-10-12",
