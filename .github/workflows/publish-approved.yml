@@ -1,0 +1,46 @@
+name: Publicar ficha editorial aprobada
+on:
+  workflow_dispatch:
+    inputs:
+      reviewed_file:
+        description: 'Ruta de la ficha aprobada: reviewed/identificador.json'
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: editorial-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comprobar y publicar ficha aprobada
+        env:
+          REVIEWED_FILE: ${{ inputs.reviewed_file }}
+        run: python scripts/publish_approved.py "$REVIEWED_FILE"
+      - name: Regenerar RSS de brechas y advisories
+        run: python scripts/build_public_feeds.py
+      - name: Validar integridad
+        run: python scripts/validate_data.py
+      - name: Publicar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add incidents.json incidents.js feed.xml brechas-feed.xml advisories-feed.xml
+          git diff --cached --quiet && exit 0
+          git commit -m "content: publicar incidente con aprobación editorial"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main || exit 1
+          done
+          exit 1
