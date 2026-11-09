@@ -43,22 +43,22 @@ function trend(items){
  for(let n=29;n>=0;n--){const t=new Date(today);t.setUTCDate(today.getUTCDate()-n);const k=t.toISOString().slice(0,10);days.push({date:k,y:counts[k]||0});}
  plotLine(days);
 }
-function sevDonut(){
- const counts=["critica","alta","media"].map(k=>({k,v:incidents.filter(i=>i.severity===k).length}));
- const other=total-counts.reduce((s,x)=>s+x.v,0);
+function sevDonut(items=incidents){
+ const counts=["critica","alta","media"].map(k=>({k,v:items.filter(i=>i.severity===k).length}));
+ const other=items.length-counts.reduce((s,x)=>s+x.v,0);
  if(other)counts.push({k:"otro",v:other});
  let offset=0;const circumference=2*Math.PI*44;
  $("opsDonutSegments").innerHTML=counts.map(x=>{
-  const portion=total?x.v/total:0;
+  const portion=items.length?x.v/items.length:0;
   const dash=portion*circumference;
   const html='<circle cx="60" cy="60" r="44" fill="none" stroke="'+sevColors[x.k]+'" stroke-width="13" stroke-dasharray="'+dash.toFixed(2)+' '+(circumference-dash).toFixed(2)+'" stroke-dashoffset="'+(-offset).toFixed(2)+'" />';
   offset+=dash;return html;
  }).join("");
- $("opsDonutLabel").textContent=String(total);
+ $("opsDonutLabel").textContent=String(items.length);
  $("opsSeverityLegend").innerHTML=counts.map(x=>'<div class="ops-legend-row"><i style="background:'+sevColors[x.k]+'"></i><span>'+esc(({critica:"Crítica",alta:"Alta",media:"Media",otro:"Otros"})[x.k])+'</span><b>'+x.v+'</b></div>').join("");
 }
-function types(){
- const counts=Object.entries(typeNames).map(([key,label])=>({key,label,count:incidents.filter(i=>i.type===key).length}));
+function types(items=incidents){
+ const counts=Object.entries(typeNames).map(([key,label])=>({key,label,count:items.filter(i=>i.type===key).length}));
  const max=Math.max(1,...counts.map(x=>x.count));
  $("opsTypeBars").innerHTML=counts.map((x,i)=>'<div class="ops-bar-row"><span>'+esc(x.label)+'</span><div class="ops-bar-track"><i style="width:'+(x.count/max*100).toFixed(1)+'%;background:'+["#24d7e7","#697dff","#fc507e","#ff9a51","#8495aa"][i]+'"></i></div><b>'+x.count+'</b></div>').join("");
 }
@@ -102,7 +102,28 @@ Promise.allSettled(["advisories.json","source-alerts.json","incident-candidates.
  metric("opsKnownExploited",items.filter(x=>x.exploited).length);
  metric("opsCandidates",candidates.length);
  metric("opsCriticalAdvisories",items.filter(x=>x.severity==="critical").length);
- setStatus(a,s,c);trend(items);actions(items);liveRows(candidates);
+ setStatus(a,s,c);
+ window.ThreatData={incidents,advisories:items,candidates,feeds:Array.isArray(s?.items)?s.items:[]};
+ window.renderThreatFiltered=function(filters={}){
+  const period=filters.period||"all",days=period==="all"?null:Number(period);
+  const min=days?Date.now()-days*86400000:0;
+  const severity=filters.severity||"all",geo=filters.geo||"all";
+  const inc=incidents.filter(i=>(geo==="all"||i.geo===geo)&&(severity==="all"||i.severity===severity)&&(!min||parseDate(i.date)>=min));
+  const severityMap={critica:"critical",alta:"high",media:"moderate"};
+  const adv=items.filter(i=>(severity==="all"||i.severity===severityMap[severity]||(severity==="media"&&i.severity==="medium"))&&(!min||parseDate(i.published)>=min));
+  const cand=candidates.filter(i=>!min||parseDate(i.published)>=min);
+  metric("opsIncidentCount",inc.length);
+  metric("opsBreaches",inc.filter(i=>i.type==="brecha").length);
+  metric("opsUnderReview",inc.filter(i=>i.incidentState==="investigacion"||i.incidentState==="activo").length);
+  metric("opsAdvisories",adv.length);
+  metric("opsKnownExploited",adv.filter(i=>i.exploited).length);
+  metric("opsCandidates",cand.length);
+  metric("opsCriticalAdvisories",adv.filter(i=>i.severity==="critical").length);
+  sevDonut(inc);types(inc);trend(adv);actions(adv);liveRows(cand);
+  document.dispatchEvent(new CustomEvent("threat:filters-rendered",{detail:{filters,incidents:inc,advisories:adv,candidates:cand}}));
+ };
+ window.renderThreatFiltered(window.ThreatFilters||{});
+ document.dispatchEvent(new CustomEvent("threat:data-ready",{detail:window.ThreatData}));
  $("opsDataNote").textContent="Los gráficos de severidad y tipo reflejan únicamente el inventario editorial. Las señales pendientes y los advisories proceden de catálogos externos.";
 }).catch(()=>{
  $("opsDataNote").textContent="No se han podido cargar todos los datos; comprueba la última sincronización.";
