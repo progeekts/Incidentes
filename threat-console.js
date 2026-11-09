@@ -41,7 +41,7 @@ function trend(items,period="30"){
  const today=new Date();today.setUTCHours(12,0,0,0);
  const counts={};
  for(const a of items){const day=/^\d{4}-\d{2}-\d{2}$/.test(a.published||"")?a.published:"";if(day)counts[day]=(counts[day]||0)+1;}
- for(let n=windowDays-1;n>=0;n--{const t=new Date(today);t.setUTCDate(today.getUTCDate()-n);const k=t.toISOString().slice(0,10);days.push({date:k,y:counts[k]||0});}
+ for(let n=windowDays-1;n>=0;n--){const t=new Date(today);t.setUTCDate(today.getUTCDate()-n);const k=t.toISOString().slice(0,10);days.push({date:k,y:counts[k]||0});}
  plotLine(days);
 }
 function sevDonut(items=incidents){
