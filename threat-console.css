@@ -162,3 +162,34 @@ body.dashboard-page:before{content:"";position:fixed;inset:0;pointer-events:none
  .dashboard-page .dashboard-heading{display:block}
  .dashboard-page .review-status{max-width:none;margin-top:12px}
 }
+
+/* Consistent SOC visual language in advisory and breach workspaces */
+.dashboard-page .intelligence-page .intel-heading{background:linear-gradient(125deg,#152847,#0e1931);border:1px solid #304969;border-radius:6px;margin:0 0 13px;padding:23px 25px}
+.dashboard-page .intelligence-page .intel-heading h1{font-size:clamp(24px,2.8vw,34px);letter-spacing:-.7px;margin:5px 0 8px}
+.dashboard-page .intelligence-page .intel-heading .eyebrow{color:#32d9ed;font-size:9px;letter-spacing:1.5px}
+.dashboard-page .intelligence-page .intel-heading>p:last-child{font-size:12px;line-height:1.6;color:#a1b6d0}
+.dashboard-page .intel-metrics{gap:9px;margin:0 0 20px}
+.dashboard-page .intel-metrics article{background:linear-gradient(150deg,#14213d,#0f1a30);border-color:#2b3c5e;border-radius:6px;padding:15px 17px}
+.dashboard-page .intel-metrics small{font-size:10px;color:#8fa4c0}
+.dashboard-page .intel-metrics strong{font-size:29px}
+.dashboard-page .intel-intro{margin:18px 0 26px}
+.dashboard-page .intel-intro h2{font-size:19px}
+.dashboard-page .intel-list-head a{color:#36dbee}
+.dashboard-page .intel-controls input,.dashboard-page .intel-controls select{background:#0e1930;border-color:#344866;border-radius:5px;color:#dbe9fb}
+.dashboard-page .intel-card{background:#131f38;border:1px solid #2d4061;border-radius:6px;padding:17px 18px}
+.dashboard-page .intel-card:hover{border-color:#4c8ba3}
+.dashboard-page .intel-card h3{font-size:15px}
+.dashboard-page .intel-card .desc{font-size:12px;color:#a6b9d0}
+.dashboard-page .intel-card .foot a{color:#3fd8ed}
+.dashboard-page .intel-chip{font-size:9px;border-radius:3px}
+.dashboard-page .intel-chip.kev{background:#55223a;color:#ff8b9f;border-color:#a94f68}
+.dashboard-page .intel-more button{background:#17324a;border:1px solid #3f708a;color:#d0f5fa}
+.dashboard-page .intel-explain{border:1px solid #314563;background:#14213a;border-radius:6px}
+.dashboard-page .intel-explain strong{color:#edf6ff}
+.dashboard-page .intel-explain p{color:#9aacc6}
+@media(max-width:720px){
+ .dashboard-page .intelligence-page .intel-heading{padding:17px}
+ .dashboard-page .intel-metrics article{padding:12px}
+ .dashboard-page .intel-metrics strong{font-size:25px}
+ .dashboard-page .intel-card{padding:15px}
+}
