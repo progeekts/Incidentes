@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-09T10:33:33+01:00",
+  "lastReview": "2026-11-09T11:53:38+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -168,10 +168,10 @@
     {
       "id": "0b0743bab1ddcb6399b3",
       "source": "INCIBE-CERT",
-      "title": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens",
+      "title": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
       "published": "Tue, 03 Nov 2026 10:48:23 +0000",
-      "summary": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Brotli — CVE-2026-111497 Industrial Edge: todas las versiones de Cloud Connector Configurator, Common Configurator (CC on IEM), Common Configurator on Device (CC on Edge), Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator y Flow Creator Configurator. RUGGEDCOM APE1808 con una versión vulnerab"
+      "summary": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Brotli — CVE-2026-111497 RUGGEDCOM APE1808 con una versión vulnerable de PAN-OS. [Actualización 09/11/2026] Common Configurator (CC on IEM) y Common Configurator on Device (CC on Edge), todas las versiones. Cloud Connector Configurator, versiones anteriores a V1.24.3. Data Flow Monitoring, versiones anteriores a V3.0."
     },
     {
       "id": "9f1df726712e5845f773",
