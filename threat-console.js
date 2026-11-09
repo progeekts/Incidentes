@@ -120,6 +120,8 @@ Promise.allSettled(["advisories.json","source-alerts.json","incident-candidates.
   metric("opsKnownExploited",adv.filter(i=>i.exploited).length);
   metric("opsCandidates",cand.length);
   metric("opsCriticalAdvisories",adv.filter(i=>i.severity==="critical").length);
+  const trendHeader=document.querySelector('.ops-trend .ops-panel-meta');
+  if(trendHeader)trendHeader.textContent=period==='all'?'ÚLTIMOS 30 DÍAS':`ÚLTIMOS ${period} DÍAS`;
   sevDonut(inc);types(inc);trend(adv,period);actions(adv);liveRows(cand);
   document.dispatchEvent(new CustomEvent("threat:filters-rendered",{detail:{filters,incidents:inc,advisories:adv,candidates:cand}}));
  };
