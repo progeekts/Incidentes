@@ -54,3 +54,15 @@ Ejecutar `update-feeds.yml` desde GitHub Actions y verificar en el repositorio q
 La portada incorpora un **Radar de prioridades** que busca en `advisories.json` por producto, CVE o tecnología y permite filtrar por explotación conocida documentada en CISA KEV y fecha de publicación. El recuadro indica la fecha de sincronización y distingue los datos automáticos de las fichas editoriales.
 
 El workflow genera `advisories-feed.xml` y `brechas-feed.xml` para lectores RSS, además del RSS histórico `feed.xml`. El primero contiene avisos externos de seguridad, el segundo solo fichas editoriales clasificadas como brechas. Ningún RSS incorpora información personal filtrada ni transforma automáticamente candidatos en incidentes confirmados. Antes de publicar se ejecuta `scripts/validate_data.py` para detectar duplicados e incoherencias.
+
+## Centro de operaciones · ampliaciones de noviembre 2026
+
+La portada tiene cinco capacidades:
+
+- **Qué requiere atención:** prioriza CVE incluidos en CISA KEV y fichas editoriales activas/en investigación, mostrando enlaces a fuentes.
+- **Filtros comunes:** ámbito (solo incidentes con geografía clasificada), gravedad y periodo; recalculan KPI, gráficos, cronología y listado de fichas. Los advisories no se filtran geográficamente porque el catálogo no contiene ese dato.
+- **Cronología:** ordena por fecha de evento original los incidentes editoriales y por fecha de publicación las vulnerabilidades del catálogo. No es un registro de ataques en directo.
+- **Mis tecnologías:** selección personalizada de productos, guardada únicamente en el almacenamiento local del navegador; no hay cuenta ni envío de preferencias a servidores. Se trata de una vista filtrada, no de notificaciones push.
+- **Incorporación controlada:** `scripts/build_review_queue.py` genera `incident-review-queue.json` con candidatos para contrastar. No confirma un incidente. Para publicar una ficha, una persona revisora debe preparar `reviewed/<id>.json` y ejecutar manualmente el workflow `publish-approved.yml`. Consulta `reviewed/README.md`.
+
+**Limitaciones:** los números de advisories describen el catálogo parcial recopilado y no todas las CVE mundiales. La puntuación de preevaluación sirve para ordenar trabajo, no mide gravedad ni constituye una segunda fuente corroboradora. El inventario editorial no cambia sin una aprobación expresa.
