@@ -1,0 +1,65 @@
+/* Alertas CiberSec — portada simplificada / jerarquía operativa */
+.dashboard-page .dashboard-main{max-width:1660px}
+.dashboard-page .dashboard-heading{margin-bottom:18px}
+.dashboard-page .dashboard-heading h1{font-size:clamp(27px,2.7vw,37px)}
+.dashboard-page .ops-toolbar{margin-bottom:12px;border-bottom:1px solid #253b58;padding-bottom:10px}
+.dashboard-page .ops-toolbar h2{font-size:17px}
+.dashboard-page .ops-filterbar{margin:0 0 14px;border-radius:8px;background:#0e1a30}
+.dashboard-page .ops-kpi-grid{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:20px;gap:10px}
+.dashboard-page .ops-kpi{min-height:112px;border-radius:8px}
+.dashboard-page .ops-kpi:nth-child(5),.dashboard-page .ops-kpi:nth-child(6){display:none}
+.dashboard-page .ops-view-more{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}
+.dashboard-page .ops-view-more a{font-size:11px;text-decoration:none;font-weight:650;border:1px solid #35536b;background:#12253a;color:#b4eaf4;border-radius:7px;padding:9px 12px}
+.dashboard-page .ops-view-more a:hover{background:#1c3850;border-color:#55b4c7}
+.dashboard-page .ops-attention{border:1px solid #3a5472;margin-bottom:12px}
+.dashboard-page .ops-attention>header{background:#152541}
+.dashboard-page .ops-attention-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+.dashboard-page .ops-attention-item{min-height:105px}
+.dashboard-page .ops-attention-content>span{-webkit-line-clamp:2}
+.dashboard-page .ops-visual-grid{grid-template-columns:minmax(0,1.5fr) minmax(245px,.8fr);grid-template-rows:auto;margin-bottom:12px}
+.dashboard-page .ops-trend{grid-column:1;grid-row:1}
+.dashboard-page .ops-severity{grid-column:2;grid-row:1}
+.dashboard-page .ops-table-panel{margin-bottom:12px}
+.dashboard-page .ops-panel>header h3{font-size:14px}
+.dashboard-page .ops-disclosure{border:1px solid #304762;background:#101d33;border-radius:8px;margin:12px 0;overflow:hidden}
+.dashboard-page .ops-disclosure>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;cursor:pointer;padding:15px 18px}
+.dashboard-page .ops-disclosure>summary::-webkit-details-marker{display:none}
+.dashboard-page .ops-disclosure>summary:hover{background:#1a304a}
+.dashboard-page .ops-disclosure>summary strong{display:block;color:#e7f1ff;font-size:13px;font-weight:730}
+.dashboard-page .ops-disclosure>summary small{display:block;margin-top:5px;color:#91a8c2;font-size:11px}
+.dashboard-page .ops-disclosure-icon{flex-shrink:0;font-size:11px;color:#44dce9;font-weight:700}
+.dashboard-page .ops-disclosure[open]>.ops-disclosure-body{padding:3px 15px 17px;border-top:1px solid #293d5b}
+.dashboard-page .ops-disclosure[open]>.ops-disclosure-body>.ops-lower-grid{margin-top:12px}
+.dashboard-page .ops-disclosure[open]>.ops-disclosure-body>.ops-review-queue{margin-top:12px}
+.dashboard-page .ops-extra-graphs{display:grid;grid-template-columns:1fr}
+.dashboard-page .ops-extra-graphs .ops-panel{width:100%}
+.dashboard-page .ops-source-disclosure{margin-top:18px}
+.dashboard-page .ops-source-disclosure .methodology{padding-top:14px;margin-top:12px}
+.dashboard-page .ops-editorial-details[hidden],.dashboard-page #summary[hidden]{display:none!important}
+.dashboard-page .ops-secondary-heading{margin:30px 0 14px;padding:0 0 12px}
+.dashboard-page .ops-secondary-heading h2{font-size:23px}
+.dashboard-page .main-layout{display:block}
+.dashboard-page .main-column{min-width:0;width:100%;max-width:none}
+.dashboard-page .controls{grid-template-columns:1.5fr repeat(3,minmax(130px,1fr));gap:9px}
+.dashboard-page #geoFilter{display:none}
+.dashboard-page #severityFilter{display:none}
+.dashboard-page .incident-list{display:grid;gap:10px}
+.dashboard-page .incident{margin:0}
+.dashboard-page .methodology#metodologia{margin-top:32px}
+@media(max-width:1150px){
+.dashboard-page .ops-attention-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dashboard-page .ops-kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dashboard-page .ops-visual-grid{grid-template-columns:minmax(0,1fr)}
+.dashboard-page .ops-trend,.dashboard-page .ops-severity{grid-column:1;grid-row:auto}
+.dashboard-page .controls{grid-template-columns:1fr 1fr}
+}
+@media(max-width:700px){
+.dashboard-page .ops-attention-list{grid-template-columns:1fr}
+.dashboard-page .ops-kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dashboard-page .ops-view-more a{flex:1;text-align:center}
+.dashboard-page .ops-disclosure>summary{align-items:flex-start}
+.dashboard-page .ops-disclosure-icon{font-size:10px}
+.dashboard-page .controls{grid-template-columns:1fr 1fr}
+.dashboard-page .controls #search{grid-column:1/-1}
+.dashboard-page .ops-table-scroll{overflow-x:auto}
+}
