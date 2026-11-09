@@ -33,14 +33,15 @@ function plotLine(data){
  '<path d="'+area+'" fill="url(#opsAreaGradient)"/><path d="'+line+'" fill="none" stroke="#27e0ed" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>'+
  pts.filter((p,i)=>i%7===0||i===pts.length-1).map(p=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="3" fill="#27e0ed" stroke="#101b30" stroke-width="2"/>').join("");
  labels.innerHTML='<span>'+fmtDate(data[0]?.date)+'</span><span>'+fmtDate(data[Math.floor((data.length-1)/2)]?.date)+'</span><span>'+fmtDate(data[data.length-1]?.date)+'</span>';
- if(caption)caption.textContent="Advisories publicados por día · "+data.reduce((a,b)=>a+b.y,0)+" en los últimos 30 días";
+ if(caption)caption.textContent="Advisories publicados por día · "+data.reduce((a,b)=>a+b.y,0)+" en el periodo mostrado";
 }
-function trend(items){
+function trend(items,period="30"){
+ const windowDays=period==="7"?7:period==="90"?90:30;
  const days=[];
  const today=new Date();today.setUTCHours(12,0,0,0);
  const counts={};
  for(const a of items){const day=/^\d{4}-\d{2}-\d{2}$/.test(a.published||"")?a.published:"";if(day)counts[day]=(counts[day]||0)+1;}
- for(let n=29;n>=0;n--){const t=new Date(today);t.setUTCDate(today.getUTCDate()-n);const k=t.toISOString().slice(0,10);days.push({date:k,y:counts[k]||0});}
+ for(let n=windowDays-1;n>=0;n--{const t=new Date(today);t.setUTCDate(today.getUTCDate()-n);const k=t.toISOString().slice(0,10);days.push({date:k,y:counts[k]||0});}
  plotLine(days);
 }
 function sevDonut(items=incidents){
@@ -119,7 +120,7 @@ Promise.allSettled(["advisories.json","source-alerts.json","incident-candidates.
   metric("opsKnownExploited",adv.filter(i=>i.exploited).length);
   metric("opsCandidates",cand.length);
   metric("opsCriticalAdvisories",adv.filter(i=>i.severity==="critical").length);
-  sevDonut(inc);types(inc);trend(adv);actions(adv);liveRows(cand);
+  sevDonut(inc);types(inc);trend(adv,period);actions(adv);liveRows(cand);
   document.dispatchEvent(new CustomEvent("threat:filters-rendered",{detail:{filters,incidents:inc,advisories:adv,candidates:cand}}));
  };
  window.renderThreatFiltered(window.ThreatFilters||{});
