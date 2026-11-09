@@ -30,14 +30,16 @@ jobs:
         env:
           GH_ADVISORY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_advisories.py
+      - name: Generar candidatos de incidentes para revisión
+        run: python scripts/build_incident_candidates.py
       - name: Revisar fuentes de incidentes pendientes (máximo 10)
         run: python scripts/review_existing_incidents.py
       - name: Publicar datos si hay cambios
         run: |
-          if ! git diff --quiet -- source-alerts.json incident-review-state.json advisories.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json advisories.json)" ]; then
+          if ! git diff --quiet -- source-alerts.json incident-review-state.json advisories.json incident-candidates.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json advisories.json incident-candidates.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add source-alerts.json incident-review-state.json advisories.json
+            git add source-alerts.json incident-review-state.json advisories.json incident-candidates.json
             git commit -m "chore: actualizar feeds y seguimiento de incidentes"
             git push
           fi
