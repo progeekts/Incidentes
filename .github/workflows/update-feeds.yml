@@ -1,10 +1,15 @@
 name: Actualizar feeds oficiales
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-feeds.yml'
   schedule:
-    # GMT y horario de verano: dos horas candidatas por franja;
-    # el script valida 08:00 y 20:00 Europe/Madrid.
-    - cron: '0 6,7,18,19 * * *'
+    # Franja para horario de verano e invierno; se valida en Europe/Madrid.
+    # Minutos no redondos para evitar la concentración de cron de GitHub.
+    - cron: '17 6,7,18,19 * * *'
 permissions:
   contents: write
 concurrency:
@@ -22,7 +27,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
         run: |
           HORA=$(TZ=Europe/Madrid date +%H)
-          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$HORA" = "08" ] || [ "$HORA" = "20" ]; then
+          if [ "$EVENT_NAME" != "schedule" ] || [ "$HORA" = "08" ] || [ "$HORA" = "20" ]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_run=false" >> "$GITHUB_OUTPUT"
