@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-06T08:04:47+01:00",
+  "lastReview": "2026-11-09T10:15:49+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -168,18 +168,18 @@
     {
       "id": "0b0743bab1ddcb6399b3",
       "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de Siemens",
+      "title": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens",
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
       "published": "Tue, 03 Nov 2026 10:48:23 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de Siemens Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Brotli — CVE-2026-111497 Industrial Edge: todas las versiones de Cloud Connector Configurator, Common Configurator (CC on IEM), Common Configurator on Device (CC on Edge), Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator y Flow Creator Configurator. RUGGEDCOM APE1808 con una versión vulnerable de PAN-OS. PHP — CVE-202"
+      "summary": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Brotli — CVE-2026-111497 Industrial Edge: todas las versiones de Cloud Connector Configurator, Common Configurator (CC on IEM), Common Configurator on Device (CC on Edge), Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator y Flow Creator Configurator. RUGGEDCOM APE1808 con una versión vulnerab"
     },
     {
       "id": "9f1df726712e5845f773",
       "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de Festo",
+      "title": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo",
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-festo-0",
       "published": "Tue, 03 Nov 2026 10:48:22 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de Festo Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados FactoryViews: desde 1.0.0 hasta 1.12.1, incluidas. MES4: todas las versiones desplegadas con xampp. Descripción Festo ha publicado un aviso sobre 2 vulnerabilidades de severidad crítica de PHP, integrado en FactoryViews y en instalaciones de MES4 con xampp, que podrían permitir ejecutar código remoto en el sistema anfitrión. Identificador INCIBE-"
+      "summary": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados [Actualización 06/11/2026] FactoryViews 1.12.0 y 1.12.1 . Instalar el parche 1.12.2 desde la sección Versions del panel de control de FactoryViews. FactoryViews anterior a 1.12 . Actualizar primero a la versión 1.12 y aplicar después el parche 1.12.2 desde el panel de control. MES4: todas las versiones desplegadas con x"
     },
     {
       "id": "8fde712f184127a7e0e1",
@@ -260,6 +260,14 @@
       "url": "https://cert.europa.eu/publications/security-advisories/2026-010/",
       "published": "Wed, 19 Aug 2026 18:13:47 CEST",
       "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). CERT-EU recommends updating affected devices as soon as possible."
+    },
+    {
+      "id": "2e68c4969154600586c3",
+      "source": "CISA",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Fri, 06 Nov 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on R"
     },
     {
       "id": "c5bfeedc9f8814604d6b",
@@ -454,20 +462,20 @@
       "summary": "Update October 9, 2026 :&nbsp; CISA has updated this Alert to: (1) include CVE-2026-107406; (2) include CVE-2026-88779 following its addition to the KEV Catalog on Oct. 4, 2026; (3) clarify the potential relationship between CVE-2026-88779 and CVE-2026-88771; and (4) emphasize the importance of promptly applying patches for CVE-2026-88771 through CVE-2026-88779 and CVE-2026-107406, as well as reviewing Citrix guidance for suspected or confirmed c"
     },
     {
-      "id": "2432248e2b7235470920",
-      "source": "CISA",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "Fri, 25 Sep 26 12:00:00 +0000",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability CVE-2026-67279 Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp; Binding Ope"
-    },
-    {
       "id": "a5a9e1cc2eb446d1437a",
       "source": "CISA",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "published": "Fri, 25 Sep 26 12:00:00 +0000",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-87902 WordPress Core Remote File Inclusion Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerab"
+    },
+    {
+      "id": "2432248e2b7235470920",
+      "source": "CISA",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "Fri, 25 Sep 26 12:00:00 +0000",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability CVE-2026-67279 Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp; Binding Ope"
     },
     {
       "id": "031361bd43801c0157b1",
@@ -492,14 +500,6 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
       "published": "Mon, 21 Sep 26 12:00:00 +0000",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk e"
-    },
-    {
-      "id": "16075ef8dec8361f9bb3",
-      "source": "CISA",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "Fri, 18 Sep 26 12:00:00 +0000",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-39964 Linux Kernel Race Condition Vulnerability CVE-2026-53266 Linux Kernel Out-of-Bounds Write Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prior"
     }
   ]
 }
