@@ -89,7 +89,7 @@ async function loadQueue(){
 }
 function renderQueue(){
  const rows=data.queue.filter(x=>insidePeriod(x.published)).sort((a,b)=>b.score-a.score||parseDate(b.published)-parseDate(a.published)).slice(0,6);
- $("reviewQueueItems").innerHTML=rows.length?rows.map(q=>'<div class="ops-review-row"><span class="ops-review-score">'+esc(q.score)+'/100</span><div><strong>'+esc(q.title)+'</strong><small>'+esc(q.source)+' · '+esc(date(q.published))+'</small><p>'+esc(q.reason||"Candidato pendiente de contrastar")+'</p></div><span class="ops-review-state">'+esc(q.status||"Revisión necesaria")+'</span><a href="'+esc(safe(q.sourceUrl))+'" target="_blank" rel="noopener noreferrer">Fuente ↗</a></div>').join(""):'<p class="ops-muted">La cola de preevaluación está pendiente de generación o no hay candidatos en este periodo.</p>';
+ $("reviewQueueItems").innerHTML=rows.length?rows.map(q=>'<div class="ops-review-row"><span class="ops-review-score">'+esc(q.score)+'/100</span><div><strong>'+esc(q.title)+'</strong><small>'+esc(q.source)+' · '+esc(date(q.published))+'</small><p>'+esc(q.reason||"Candidato pendiente de contrastar")+'</p></div><span class="ops-review-state">'+esc(q.status||"Revisión necesaria")+'</span><a href="'+esc(safe(q.sourceUrl))+'" target="_blank" rel="noopener noreferrer">Fuente ↗</a><a href="https://github.com/progeekts/Incidentes/issues/new" target="_blank" rel="noopener noreferrer">Revisar ↗</a></div>').join(""):'<p class="ops-muted">La cola de preevaluación está pendiente de generación o no hay candidatos en este periodo.</p>';
 }
 function draw(){renderAttention();renderTimeline();renderWatch();renderQueue()}
 document.addEventListener("threat:data-ready",e=>{
