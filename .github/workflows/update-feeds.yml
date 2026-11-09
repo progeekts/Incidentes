@@ -34,14 +34,16 @@ jobs:
         run: python scripts/build_incident_candidates.py
       - name: Revisar fuentes de incidentes pendientes (máximo 10)
         run: python scripts/review_existing_incidents.py
+      - name: Generar RSS de advisories y brechas documentadas
+        run: python scripts/build_public_feeds.py
       - name: Validar coherencia de los archivos generados
         run: python scripts/validate_data.py
       - name: Publicar datos si hay cambios
         run: |
-          if ! git diff --quiet -- source-alerts.json incident-review-state.json advisories.json incident-candidates.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json advisories.json incident-candidates.json)" ]; then
+          if ! git diff --quiet -- source-alerts.json incident-review-state.json advisories.json incident-candidates.json advisories-feed.xml brechas-feed.xml || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json advisories.json incident-candidates.json advisories-feed.xml brechas-feed.xml)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add source-alerts.json incident-review-state.json advisories.json incident-candidates.json
+            git add source-alerts.json incident-review-state.json advisories.json incident-candidates.json advisories-feed.xml brechas-feed.xml
             git commit -m "chore: actualizar feeds y seguimiento de incidentes"
             # Evitar fallos cuando main avanza mientras se consultan las fuentes.
             # Solo este commit contiene los JSON generados; no reescribimos historial.
