@@ -1,0 +1,33 @@
+/* Navegación y estructura unificadas · Alertas CiberSec */
+.dashboard-page .dashboard-nav{background:linear-gradient(180deg,#0d1630,#0b1225 80%);border-right:1px solid #2c3d60}
+.dashboard-page .dashboard-nav .brand-mark{background:linear-gradient(145deg,#23d8e5,#5786ff);color:#071326}
+.dashboard-page .dashboard-nav nav a.active{background:#1b2d50;color:#53e5f0;border-color:#32567c;box-shadow:inset 3px 0 #22d9ea}
+.dashboard-page .dashboard-nav nav a.active span{color:#22d9ea}
+.dashboard-page .dashboard-topbar{background:#0c142b;border-bottom:1px solid #263756}
+.dashboard-page .dashboard-workspace{min-width:0}
+.dashboard-page .dashboard-main.static-page,.dashboard-page .dashboard-main.detail-page{width:min(1350px,calc(100% - 68px));max-width:1350px;margin:0 auto;padding:34px 0 65px}
+.dashboard-page .dashboard-main.static-page h1{color:#edf5ff;font-weight:760;letter-spacing:-.9px}
+.dashboard-page .dashboard-main.static-page>.eyebrow{color:#37d9e9}
+.dashboard-page .dashboard-main.static-page>p{color:#a7bad0;max-width:940px}
+.dashboard-page .dashboard-main.static-page .controls{background:#121e35;border:1px solid #2a4265;border-radius:7px;margin:16px 0 24px}
+.dashboard-page .dashboard-main.static-page .controls input{border-color:#314a68;background:#0d172a}
+.dashboard-page .archive-group{max-width:none}
+.dashboard-page .archive-group h2{color:#c5d9f1;font-size:15px;margin:28px 0 14px}
+.dashboard-page .archive-row{background:#132039;border-color:#2b4062;padding:13px 17px}
+.dashboard-page .archive-row:hover{background:#1b2d4a}
+.dashboard-page .detail-page .back-link{color:#35d4e9}
+.dashboard-page .detail-page .detail-block{border-color:#2a4162}
+.dashboard-page .static-page .report-button{background:#193851;border:1px solid #3a7790;color:#d6f8ff}
+.dashboard-page .static-page a:not(.report-button):hover{color:#3be1ee}
+.dashboard-page .footer-inner{margin:0 30px}
+.dashboard-page .dashboard-main.static-page li{color:#b4c4d8}
+.dashboard-page .dashboard-main.static-page h2{color:#e9f2ff}
+@media(max-width:1200px){.dashboard-page .dashboard-main.static-page,.dashboard-page .dashboard-main.detail-page{width:calc(100% - 48px)}}
+@media(max-width:720px){
+ .dashboard-page .dashboard-nav{position:sticky;top:0;width:100%;height:auto;padding:12px 15px 0;border-right:0;border-bottom:1px solid #294353;background:#0e1926f7}
+ .dashboard-page .dashboard-nav nav a.active{box-shadow:none}
+ .dashboard-page .dashboard-workspace{margin-left:0}
+ .dashboard-page .dashboard-main.static-page,.dashboard-page .dashboard-main.detail-page{width:calc(100% - 30px);padding:22px 0 55px}
+ .dashboard-page .footer-inner{margin:0 15px}
+ .dashboard-page .archive-row{padding:12px}
+}
