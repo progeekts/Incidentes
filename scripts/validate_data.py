@@ -88,6 +88,16 @@ def main():
     if any(item.get("status")!="pendiente" for item in queue if isinstance(item,dict)):
         ERRORS.append("incident-candidates.json: estados no permitidos")
 
+    review=load("incident-review-queue.json")
+    queue=review.get("items",[])
+    unique("incident-review-queue.json",queue,"id")
+    timestamp("incident-review-queue.json.lastGenerated",review.get("lastGenerated"))
+    urls("incident-review-queue.json",queue,["sourceUrl"])
+    if review.get("count") != len(queue):
+        ERRORS.append("incident-review-queue.json: count no coincide")
+    if any(item.get("status")!="pendiente de verificación humana" for item in queue if isinstance(item,dict)):
+        ERRORS.append("incident-review-queue.json: estado editorial inválido")
+
     if ERRORS:
         for error in ERRORS[:30]:print("ERROR:",error)
         raise SystemExit(1)
