@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-09T11:53:38+01:00",
+  "lastReview": "2026-11-09T11:54:21+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -7,8 +7,8 @@
       "count": 10
     },
     "INCIBE-CERT": {
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
     },
     "CERT-EU": {
       "ok": true,
