@@ -91,18 +91,46 @@ function renderQueue(){
  const rows=data.queue.filter(x=>insidePeriod(x.published)).sort((a,b)=>b.score-a.score||parseDate(b.published)-parseDate(a.published)).slice(0,6);
  $("reviewQueueItems").innerHTML=rows.length?rows.map(q=>'<div class="ops-review-row"><span class="ops-review-score">'+esc(q.score)+'/100</span><div><strong>'+esc(q.title)+'</strong><small>'+esc(q.source)+' · '+esc(date(q.published))+'</small><p>'+esc(q.reason||"Candidato pendiente de contrastar")+'</p></div><span class="ops-review-state">'+esc(q.status||"Revisión necesaria")+'</span><a href="'+esc(safe(q.sourceUrl))+'" target="_blank" rel="noopener noreferrer">Fuente ↗</a><a href="https://github.com/progeekts/Incidentes/issues/new" target="_blank" rel="noopener noreferrer">Revisar ↗</a></div>').join(""):'<p class="ops-muted">La cola de preevaluación está pendiente de generación o no hay candidatos en este periodo.</p>';
 }
-function draw(){renderAttention();renderTimeline();renderWatch();renderQueue()}
-document.addEventListener("threat:data-ready",e=>{
- const d=e.detail||{};
+function draw(){
+ const panels=[
+   ["attentionItems",renderAttention],
+   ["opsTimeline",renderTimeline],
+   ["watchResults",renderWatch],
+   ["reviewQueueItems",renderQueue]
+ ];
+ panels.forEach(([id,fn])=>{
+   try{fn()}catch(error){
+     console.error("Error al mostrar "+id,error);
+     const el=$(id);
+     if(el)el.innerHTML='<p class="ops-muted">Este módulo no se ha podido mostrar. Recarga la página para reintentarlo.</p>';
+   }
+ });
+}
+let started=false;
+function hydrate(payload){
+ const d=payload||{};
  data.incidents=Array.isArray(d.incidents)?d.incidents:[];
  data.advisories=Array.isArray(d.advisories)?d.advisories:[];
  data.candidates=Array.isArray(d.candidates)?d.candidates:[];
- draw();loadQueue();
-});
+ draw();
+ if(!started){started=true;loadQueue();}
+}
+document.addEventListener("threat:data-ready",e=>hydrate(e.detail));
 if(window.ThreatData){
- data.incidents=window.ThreatData.incidents||[];
- data.advisories=window.ThreatData.advisories||[];
- data.candidates=window.ThreatData.candidates||[];
- draw();loadQueue();
+ hydrate(window.ThreatData);
+}else{
+ // Funciona también si el evento del dashboard se ha emitido antes de instalar
+ // este listener o si el navegador ha cargado los scripts desde cachés distintas.
+ Promise.allSettled([
+   fetch("advisories.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("advisories");return r.json()}),
+   fetch("incident-candidates.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("candidates");return r.json()})
+ ]).then(([a,c])=>hydrate({
+   incidents:Array.isArray(window.INCIDENTS)?window.INCIDENTS:[],
+   advisories:a.status==="fulfilled"?a.value.items:[],
+   candidates:c.status==="fulfilled"?c.value.items:[]
+ })).catch(error=>{
+   console.error("No se han podido recuperar los módulos de seguimiento",error);
+   hydrate({incidents:window.INCIDENTS||[],advisories:[],candidates:[]});
+ });
 }
 })();
