@@ -27,7 +27,7 @@ El proyecto está preparado para funcionar como sitio estático mediante GitHub 
 
 ## Actualizaciones programadas y seguimiento
 
-El workflow `.github/workflows/update-feeds.yml` se ejecuta a las **08:00 y 20:00 (Europe/Madrid)**; admite inicio manual mediante `workflow_dispatch`.
+El workflow `.github/workflows/update-feeds.yml` se ejecuta a las **cuatro veces al día, a las 00:23, 06:23, 12:23 y 18:23 UTC (hora local mostrada en Europe/Madrid)**; admite inicio manual mediante `workflow_dispatch`.
 
 1. `scripts/update_source_feeds.py` recopila avisos externos en `source-alerts.json`. El conjunto de avisos no equivale a incidentes editorialmente verificados.
 2. `scripts/review_existing_incidents.py` consulta las fuentes enlazadas en un máximo de **10 incidentes por ejecución** y **2 enlaces por incidente**, con timeout de **9 segundos por enlace** y presupuesto temporal de **225 segundos**. Los resultados se guardan en `incident-review-state.json`.
