@@ -34,6 +34,8 @@ jobs:
         run: python scripts/build_incident_candidates.py
       - name: Revisar fuentes de incidentes pendientes (máximo 10)
         run: python scripts/review_existing_incidents.py
+      - name: Validar coherencia de los archivos generados
+        run: python scripts/validate_data.py
       - name: Publicar datos si hay cambios
         run: |
           if ! git diff --quiet -- source-alerts.json incident-review-state.json advisories.json incident-candidates.json || [ -n "$(git ls-files --others --exclude-standard source-alerts.json incident-review-state.json advisories.json incident-candidates.json)" ]; then
