@@ -1,14 +1,14 @@
 {
-  "lastReview": "2026-11-09T11:57:14+01:00",
+  "lastReview": "2026-11-09T11:58:36+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
-      "ok": false,
-      "error": "Remote end closed connection without response"
+      "ok": true,
+      "count": 10
     },
     "INCIBE-CERT": {
-      "ok": false,
-      "error": "Remote end closed connection without response"
+      "ok": true,
+      "count": 10
     },
     "CERT-EU": {
       "ok": true,
