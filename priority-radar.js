@@ -64,7 +64,7 @@ Promise.allSettled([get("advisories.json"),get("source-alerts.json"),get("incide
  const newest=Math.max(Date.parse(lastAdvisories)||0,Date.parse(lastSources)||0);
  const stale=!newest||Date.now()-newest>36*3600000;
  root.classList.toggle("radar-stale",stale);
- const date=newest?prettyDate(new Date(newest).toISOString()):"Sin fecha";
+ const date=newest?new Intl.DateTimeFormat("es-ES",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/Madrid"}).format(new Date(newest)):"Sin fecha";
  status.textContent=(stale?"Datos atrasados · ":"Última sincronización: ")+date+" · "+(errors.length?"Sin acceso a "+errors.join(", "):"Catálogo y feeds consultados");
  results();
 });
