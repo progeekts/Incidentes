@@ -40,6 +40,21 @@
         }
       ]
     },
+    "2026-09-dgt-falsas-multas": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "<urlopen error timed out>",
+          "url": "https://www.incibe.es/ciudadania/avisos/correos-y-sms-suplantan-la-dgt-para-robar-tus-datos-con-falsas-multas"
+        }
+      ]
+    },
     "2026-09-gyazo-data-breach": {
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
@@ -70,6 +85,26 @@
           "ok": true,
           "sha256": "59e0fc0e107d8e01409e896e94a46b614bd024678499c7869db4db5c3b28b8e5",
           "url": "https://corp.helpfeel.com/en/news/news-20260925"
+        }
+      ]
+    },
+    "2026-09-idscan": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://idscan.net/press-release/notification-of-data-security-incident/"
+        },
+        {
+          "ok": false,
+          "reason": "HTTP 401",
+          "url": "https://www.reuters.com/world/us/fbi-says-it-is-investigating-report-that-millions-us-drivers-licenses-exposed-2026-09-02/"
         }
       ]
     },
@@ -110,6 +145,46 @@
         }
       ]
     },
+    "2026-09-revolut-impersonation": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "HTTP 401",
+          "url": "https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/"
+        },
+        {
+          "ok": false,
+          "reason": "HTTP 401",
+          "url": "https://www.reuters.com/legal/government/revolut-hackers-demand-3-million-ransom-ft-reports-2026-09-16/"
+        }
+      ]
+    },
+    "2026-10-asos-notificaciones": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-12T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "Mon, 09 Nov 2026 09:24:25 GMT",
+          "ok": true,
+          "sha256": "7455c65c683806ab59bb2925b629f99353f90543d44008ed93ec1e7734b128ce",
+          "url": "https://tools.euroland.com/tools/PressReleases/GetPressRelease/?ID=8153669&companycode=services&lang=en-GB"
+        }
+      ]
+    },
     "2026-10-cisco-seg-cve-76519": {
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
@@ -134,6 +209,36 @@
           "ok": false,
           "reason": "Contenido demasiado grande para comparación",
           "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp"
+        }
+      ]
+    },
+    "2026-10-dreamhost-filemanager": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://www.dreamhost.com/news/announcements/october-security-incident/"
+        }
+      ]
+    },
+    "2026-10-genesys-business-systems": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://www.genesys.com/blog/post/security-update-incident-affecting-certain-genesys-internal-business-systems"
         }
       ]
     },
@@ -223,6 +328,86 @@
         }
       ]
     },
+    "2026-10-workos-internal": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-12T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "Fri, 06 Nov 2026 15:15:32 GMT",
+          "ok": true,
+          "sha256": "ed98f92eb7da17bc2110b9b063ab04b4f84de8bedeac5af8044230f050f38464",
+          "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
+        }
+      ]
+    },
+    "2026-11-digicert-archived-customer-data": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-12T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "W/\"ddaae4c3bde2214ee1cf901e47a485e8-gzip\"",
+          "httpStatus": 200,
+          "lastModified": "Thu, 05 Nov 2026 16:12:46 GMT",
+          "ok": true,
+          "sha256": "d7ffc7b9d314bd8dd8f48a6274b14d312e7895bbf158e735f92eaafa56073de5",
+          "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/"
+        },
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "00089fbea83ce7857174c2215ad4162f5b4a1db196a4781a483cb8bedfaa0299",
+          "url": "https://www.cyberdaily.au/security/14410-digicert-discloses-security-event-says-customer-data-exposed"
+        }
+      ]
+    },
+    "2026-11-msecure-security-notice": {
+      "checkResult": "checked",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-12T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "",
+          "httpStatus": 200,
+          "lastModified": "",
+          "ok": true,
+          "sha256": "f4544d120a44fd9281075c132658d2b0092d77ba5d9a0ea8aa67c579a8394873",
+          "url": "https://support.msecure.com/en/support/discussions/topics/36000038998/page/1?url_locale=en"
+        },
+        {
+          "baseline": true,
+          "changed": false,
+          "etag": "W/\"831cbe8a01706643869e04a055ea11ac-gzip\"",
+          "httpStatus": 200,
+          "lastModified": "Wed, 04 Nov 2026 16:00:19 GMT",
+          "ok": true,
+          "sha256": "505eb435d16157bb951445c1c2c3d7ed3a05ec2fc0f446074aa680da76fda964",
+          "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/"
+        }
+      ]
+    },
     "2026-11-nikke-launcher-supply-chain": {
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
@@ -249,9 +434,29 @@
           "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
         }
       ]
+    },
+    "2026-11-singapore-airlines-amadeus": {
+      "checkResult": "partial_or_failed",
+      "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
+      "editorialReview": "not_requested",
+      "lastChecked": "2026-11-09T10:24:24+01:00",
+      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "pendingEvidence": [],
+      "sources": [
+        {
+          "ok": false,
+          "reason": "Contenido demasiado grande para comparación",
+          "url": "https://www.channelnewsasia.com/singapore/sia-singapore-airlines-amadeus-data-breach-booking-records-6517151"
+        },
+        {
+          "ok": false,
+          "reason": "HTTP 401",
+          "url": "https://www.reuters.com/world/asia-pacific/singapore-airlines-says-46000-booking-records-affected-by-amadeus-breach-2026-11-04/"
+        }
+      ]
     }
   },
-  "lastRun": "2026-11-09T10:16:01+01:00",
+  "lastRun": "2026-11-09T10:24:24+01:00",
   "lastRunCount": 10,
   "pendingCount": 7,
   "policy": {
@@ -261,6 +466,6 @@
     "maxSourcesPerIncident": 2,
     "note": "Las señales por cambios remotos requieren verificación; no actualizan los incidentes."
   },
-  "remainingDue": 10,
+  "remainingDue": 0,
   "version": 1
 }
