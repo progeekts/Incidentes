@@ -1,6 +1,6 @@
 {
-  "lastGenerated": "2026-11-09T11:54:44+01:00",
-  "sourceReview": "2026-11-09T11:54:21+01:00",
+  "lastGenerated": "2026-11-09T11:57:39+01:00",
+  "sourceReview": "2026-11-09T11:57:14+01:00",
   "count": 44,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
@@ -657,7 +657,7 @@
     },
     {
       "id": "0b0743bab1ddcb6399b3",
-      "title": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens",
+      "title": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
       "source": "INCIBE-CERT",
       "sourceType": "official",
       "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
