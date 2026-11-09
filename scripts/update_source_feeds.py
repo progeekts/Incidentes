@@ -51,10 +51,6 @@ def parse(xml, source):
 
 def main():
     madrid = dt.datetime.now(ZoneInfo("Europe/Madrid"))
-    # La programación UTC dispara dos candidatos por turno, pero solo uno ejecuta.
-    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and madrid.hour not in (8,20):
-        print("Fuera de las 08:00/20:00 de Madrid, se omite.")
-        return
     old = {}
     if OUTPUT.exists():
         try:
