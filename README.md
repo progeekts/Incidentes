@@ -48,3 +48,9 @@ El workflow `.github/workflows/update-feeds.yml` se ejecuta a las **cuatro veces
 ### Cómo comprobar la sincronización
 
 Ejecutar `update-feeds.yml` desde GitHub Actions y verificar en el repositorio que `advisories.json` actualiza `lastReview` y `sourceStatus`. Si GitHub o CISA no responden, se conservan los datos anteriores y se muestra el error en `sourceStatus`. La tarea programada mantiene el límite total del job de 7 minutos.
+
+## Accesos prácticos y fuentes
+
+La portada incorpora un **Radar de prioridades** que busca en `advisories.json` por producto, CVE o tecnología y permite filtrar por explotación conocida documentada en CISA KEV y fecha de publicación. El recuadro indica la fecha de sincronización y distingue los datos automáticos de las fichas editoriales.
+
+El workflow genera `advisories-feed.xml` y `brechas-feed.xml` para lectores RSS, además del RSS histórico `feed.xml`. El primero contiene avisos externos de seguridad, el segundo solo fichas editoriales clasificadas como brechas. Ningún RSS incorpora información personal filtrada ni transforma automáticamente candidatos en incidentes confirmados. Antes de publicar se ejecuta `scripts/validate_data.py` para detectar duplicados e incoherencias.
