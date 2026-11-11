@@ -1,6 +1,6 @@
 {
-  "lastGenerated": "2026-11-11T07:36:01+01:00",
-  "sourceReview": "2026-11-11T07:35:48+01:00",
+  "lastGenerated": "2026-11-11T20:40:21+01:00",
+  "sourceReview": "2026-11-11T20:40:13+01:00",
   "count": 44,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
@@ -614,27 +614,6 @@
       ]
     },
     {
-      "id": "0b0743bab1ddcb6399b3",
-      "title": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
-      "published": "2026-11-03",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
       "id": "53ca9309f14b041c6790",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "source": "CISA",
@@ -665,27 +644,6 @@
       "categoryHint": "otro",
       "score": 43,
       "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "9f1df726712e5845f773",
-      "title": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-festo-0",
-      "published": "2026-11-03",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
       "status": "pendiente de verificación humana",
       "evidenceCount": 1,
       "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
@@ -914,6 +872,48 @@
       "sourceType": "official",
       "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
       "published": "2026-11-10",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "4ab0ce20f7deddb9af05",
+      "title": "Boletín de seguridad de Siemens de noviembre de 2026",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/boletin-de-seguridad-de-siemens-de-noviembre-de-2026",
+      "published": "2026-11-11",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "9f6ff43cd82a70803a04",
+      "title": "Múltiples vulnerabilidades en productos de B&R",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
+      "published": "2026-11-11",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
