@@ -44,8 +44,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-09T10:24:24+01:00",
-      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "lastChecked": "2026-11-11T07:36:01+01:00",
+      "nextCheck": "2026-11-12T07:36:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -149,8 +149,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-09T10:24:24+01:00",
-      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "lastChecked": "2026-11-11T07:36:01+01:00",
+      "nextCheck": "2026-11-12T07:36:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -216,8 +216,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-09T10:24:24+01:00",
-      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "lastChecked": "2026-11-11T07:36:01+01:00",
+      "nextCheck": "2026-11-12T07:36:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -231,8 +231,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-09T10:24:24+01:00",
-      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "lastChecked": "2026-11-11T07:36:01+01:00",
+      "nextCheck": "2026-11-12T07:36:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -439,8 +439,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-09T10:24:24+01:00",
-      "nextCheck": "2026-11-10T10:24:24+01:00",
+      "lastChecked": "2026-11-11T07:36:01+01:00",
+      "nextCheck": "2026-11-12T07:36:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -456,8 +456,8 @@
       ]
     }
   },
-  "lastRun": "2026-11-10T20:48:47+01:00",
-  "lastRunCount": 10,
+  "lastRun": "2026-11-11T07:36:01+01:00",
+  "lastRunCount": 5,
   "pendingCount": 7,
   "policy": {
     "editorialChangesAutomatic": false,
@@ -466,6 +466,6 @@
     "maxSourcesPerIncident": 2,
     "note": "Las señales por cambios remotos requieren verificación; no actualizan los incidentes."
   },
-  "remainingDue": 5,
+  "remainingDue": 0,
   "version": 1
 }

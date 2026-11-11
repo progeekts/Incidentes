@@ -1,30 +1,9 @@
 {
-  "lastGenerated": "2026-11-10T20:48:47+01:00",
-  "sourceReview": "2026-11-10T20:48:40+01:00",
+  "lastGenerated": "2026-11-11T07:36:01+01:00",
+  "sourceReview": "2026-11-11T07:35:48+01:00",
   "count": 44,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
-    {
-      "id": "eba42a3506b305ee827d",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA",
-      "sourceType": "official",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "published": "2026-09-22",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
     {
       "id": "fe04982a63261503a78a",
       "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
@@ -914,6 +893,27 @@
       "sourceType": "official",
       "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "published": "2026-11-09",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "f4b34728a6f8e3261976",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA",
+      "sourceType": "official",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-10",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
