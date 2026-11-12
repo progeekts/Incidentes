@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-12T08:19:57+01:00",
+  "lastReview": "2026-11-12T21:00:18+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -102,6 +102,30 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "36635f69c730f29c889c",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Helmholz",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
+      "published": "Thu, 12 Nov 2026 08:46:53 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Helmholz Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados myREX24V2, con firmware anterior a 2.21.6. myREX24V2.virtual, con firmware anterior a 2.21.6. Descripción Helmholz, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP integrada en myREX24V2 y myREX24V2.virtual. Ambas forman parte de PHP2Shell y podrían permitir a un atacante rem"
+    },
+    {
+      "id": "f47fbed1a7ce3e37bbfd",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de MB connect line",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
+      "published": "Thu, 12 Nov 2026 08:46:52 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de MB connect line Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados mbCONNECT24, con firmware anterior a 2.21.6. mymbCONNECT24, con firmware anterior a 2.21.6. Descripción MB connect line, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP integrada en mbCONNECT24 y mymbCONNECT24. Ambas forman parte de PHP2Shell y podrían permitir a un at"
+    },
+    {
+      "id": "a76d5810c72fa4ca1cd9",
+      "source": "INCIBE-CERT",
+      "title": "Uso de memoria tras su liberación en OPTIMAX de ABB",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
+      "published": "Thu, 12 Nov 2026 08:46:50 +0000",
+      "summary": "Uso de memoria tras su liberación en OPTIMAX de ABB Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados ABB Ability OPTIMAX, ramas 6.4.x y 6.5.x, sin el parche del sistema operativo correspondiente. Descripción ABB ha publicado 1 vulnerabilidad de severidad crítica en el subsistema IPv4 del núcleo Linux de ABB Ability OPTIMAX. Un atacante con acceso de red al producto podría ejecutar código arbitrario o interrumpir el servicio sin autenticación."
+    },
+    {
       "id": "9f6ff43cd82a70803a04",
       "source": "INCIBE-CERT",
       "title": "Múltiples vulnerabilidades en productos de B&R",
@@ -158,28 +182,12 @@
       "summary": "Múltiples vulnerabilidades en productos de Welotec Mié, 04/11/2026 - 09:25 Aviso SCI Recursos Afectados TK100, modelos TK102L y TK102W, con firmware anterior a 3.5.116. TK500-v2, modelos TK525L-v2, TK525L-W-v2, TK525W-v2 y TK535L1-v2, con firmware anterior a 1.0.124. TK500-v3, modelos TK525L-v3, TK525L-W-G-v3, TK525L-IO-v3, TK525L-W-v3, TK525W-v3 y TK555L-v3, con firmware anterior a 1.0.123. Descripción Welotec en coordinación con CERT@VDE ha pub"
     },
     {
-      "id": "bc30fdd7a20dc4a8fe31",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
-      "published": "Tue, 03 Nov 2026 10:48:26 +0000",
-      "summary": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Dräger REGARD 7000 OPC UA Server. Los dispositivos y el software médicos, así como los productos Dräger Service evaluados, no están afectados al no utilizar PHP. Descripción Dräger ha publicado una evaluación sobre 2 vulnerabilidades de severidad crítica de PHP. REGARD 7000 OPC UA Server es el único producto de seguridad industri"
-    },
-    {
-      "id": "5d2e9f8f55109485b29a",
-      "source": "INCIBE-CERT",
-      "title": "Escritura fuera de límites en productos de Johnson Controls",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-productos-de-johnson-controls",
-      "published": "Tue, 03 Nov 2026 10:48:25 +0000",
-      "summary": "Escritura fuera de límites en productos de Johnson Controls Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Restaurant System Estimator. Access Control system. Johnson Controls identifica estos productos de la marca Fire como afectados; no publica intervalos de versiones vulnerables. Descripción Johnson Controls ha publicado un aviso sobre una vulnerabilidad de severidad crítica en la biblioteca Brotli utilizada por productos de la marca Fir"
-    },
-    {
-      "id": "d14041b357d0babbbe88",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de ABB",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-abb-9",
-      "published": "Tue, 03 Nov 2026 10:48:24 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de ABB Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Netcon y NAM: Netcon 100, módulo GW102: 2.00.00–2.12.034. Netcon 200, GWDD-02/GWDD-03/GWDC-06: 2.00.000–3.02.050; GWDD-A03: A103.03.000–A103.03.010. Netcon 500, GW502A: 6.00.000–7.06.001. Netcon Application Manager (NAM): 1.21.00–1.31.000. Familia Arctic: ARG600, ARP600, ARR600 y ARC600: variantes y versiones 3.0.1–3.4.13 o 2.0.10–3.4.13, según el "
+      "id": "224c81e757fe40ea439e",
+      "source": "CERT-EU",
+      "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+      "published": "Thu, 12 Nov 2026 18:20:53 CET",
+      "summary": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway. One of these vulnerabilities, CVE-2026-120868, affects every deployment, including those using the default configuration. The vendor bulletin describes the impact as unpredictable behaviour and denial of service. Citrix reports no exploitation, and no public proof-of-co"
     },
     {
       "id": "8fde712f184127a7e0e1",
@@ -252,14 +260,6 @@
       "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
       "published": "Wed, 09 Sep 2026 15:07:59 CEST",
       "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Passport (EPP) processing, nicknamed \"OVERPASS\" by the Onapsis Research Labs (ORL), which discovered and responsibly disclosed it[3]. The second, CVE-2026-58240 (CVSS 9.8), n"
-    },
-    {
-      "id": "39b99b914663d1a71840",
-      "source": "CERT-EU",
-      "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
-      "url": "https://cert.europa.eu/publications/security-advisories/2026-010/",
-      "published": "Wed, 19 Aug 2026 18:13:47 CEST",
-      "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). CERT-EU recommends updating affected devices as soon as possible."
     },
     {
       "id": "f4b34728a6f8e3261976",

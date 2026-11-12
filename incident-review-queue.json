@@ -1,7 +1,7 @@
 {
-  "lastGenerated": "2026-11-12T08:20:09+01:00",
-  "sourceReview": "2026-11-12T08:19:57+01:00",
-  "count": 44,
+  "lastGenerated": "2026-11-12T21:00:42+01:00",
+  "sourceReview": "2026-11-12T21:00:18+01:00",
+  "count": 45,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
     {
@@ -635,69 +635,6 @@
       ]
     },
     {
-      "id": "5d2e9f8f55109485b29a",
-      "title": "Escritura fuera de límites en productos de Johnson Controls",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-productos-de-johnson-controls",
-      "published": "2026-11-03",
-      "categoryHint": "otro",
-      "score": 43,
-      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "bc30fdd7a20dc4a8fe31",
-      "title": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
-      "published": "2026-11-03",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "d14041b357d0babbbe88",
-      "title": "Múltiples vulnerabilidades en productos de ABB",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-abb-9",
-      "published": "2026-11-03",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
       "id": "aba031f214543fb29f4c",
       "title": "Múltiples vulnerabilidades en productos de Welotec",
       "source": "INCIBE-CERT",
@@ -914,6 +851,90 @@
       "sourceType": "official",
       "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
       "published": "2026-11-11",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "19fffa6cad9e873bd6ac",
+      "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+      "source": "CERT-EU",
+      "sourceType": "official",
+      "sourceUrl": "https://cert.europa.eu/publications/security-advisories/2026-020",
+      "published": "2026-11-12",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "36635f69c730f29c889c",
+      "title": "Múltiples vulnerabilidades en productos de Helmholz",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
+      "published": "2026-11-12",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "a76d5810c72fa4ca1cd9",
+      "title": "Uso de memoria tras su liberación en OPTIMAX de ABB",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
+      "published": "2026-11-12",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "f47fbed1a7ce3e37bbfd",
+      "title": "Múltiples vulnerabilidades en productos de MB connect line",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
+      "published": "2026-11-12",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",

@@ -1,9 +1,61 @@
 {
-  "lastGenerated": "2026-11-12T08:20:08+01:00",
-  "sourceReview": "2026-11-12T08:19:57+01:00",
-  "count": 44,
+  "lastGenerated": "2026-11-12T21:00:41+01:00",
+  "sourceReview": "2026-11-12T21:00:18+01:00",
+  "count": 45,
   "disclaimer": "Candidatos encontrados en fuentes externas. No son incidentes confirmados ni exfiltraciones demostradas.",
   "items": [
+    {
+      "id": "f47fbed1a7ce3e37bbfd",
+      "title": "Múltiples vulnerabilidades en productos de MB connect line",
+      "source": "INCIBE-CERT",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
+      "published": "2026-11-12",
+      "categoryHint": "vulnerabilidad",
+      "summary": "Múltiples vulnerabilidades en productos de MB connect line Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados mbCONNECT24, con firmware anterior a 2.21.6. mymbCONNECT24, con firmware anterior a 2.21.6. Descripción MB connect line, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP ",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-12T21:00:41+01:00",
+      "lastSeen": "2026-11-12T21:00:41+01:00"
+    },
+    {
+      "id": "a76d5810c72fa4ca1cd9",
+      "title": "Uso de memoria tras su liberación en OPTIMAX de ABB",
+      "source": "INCIBE-CERT",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
+      "published": "2026-11-12",
+      "categoryHint": "otro",
+      "summary": "Uso de memoria tras su liberación en OPTIMAX de ABB Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados ABB Ability OPTIMAX, ramas 6.4.x y 6.5.x, sin el parche del sistema operativo correspondiente. Descripción ABB ha publicado 1 vulnerabilidad de severidad crítica en el subsistema IPv4 del núcleo Linux de ABB Ability OPTIMAX. Un atacante con acce",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-12T21:00:41+01:00",
+      "lastSeen": "2026-11-12T21:00:41+01:00"
+    },
+    {
+      "id": "36635f69c730f29c889c",
+      "title": "Múltiples vulnerabilidades en productos de Helmholz",
+      "source": "INCIBE-CERT",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
+      "published": "2026-11-12",
+      "categoryHint": "vulnerabilidad",
+      "summary": "Múltiples vulnerabilidades en productos de Helmholz Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados myREX24V2, con firmware anterior a 2.21.6. myREX24V2.virtual, con firmware anterior a 2.21.6. Descripción Helmholz, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP integrada en",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-12T21:00:41+01:00",
+      "lastSeen": "2026-11-12T21:00:41+01:00"
+    },
+    {
+      "id": "19fffa6cad9e873bd6ac",
+      "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+      "source": "CERT-EU",
+      "sourceUrl": "https://cert.europa.eu/publications/security-advisories/2026-020",
+      "published": "2026-11-12",
+      "categoryHint": "vulnerabilidad",
+      "summary": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway. One of these vulnerabilities, CVE-2026-120868, affects every deployment, including those using the default configuration. The vendor bulletin describes the impact as unpr",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-12T21:00:41+01:00",
+      "lastSeen": "2026-11-12T21:00:41+01:00"
+    },
     {
       "id": "9f6ff43cd82a70803a04",
       "title": "Múltiples vulnerabilidades en productos de B&R",
@@ -15,7 +67,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T20:40:21+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "4ab0ce20f7deddb9af05",
@@ -28,7 +80,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T20:40:21+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f4b34728a6f8e3261976",
@@ -41,7 +93,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T07:36:01+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "b13d0e78edd1a3e70a4e",
@@ -54,7 +106,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T23:27:25+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "2e68c4969154600586c3",
@@ -67,7 +119,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "9f0433999071692ce7c1",
@@ -80,7 +132,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "99264a4b090b850b5c95",
@@ -93,7 +145,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "78d794f6615c2d41830e",
@@ -106,7 +158,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f5046c7d46f4b1035099",
@@ -119,7 +171,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "c5bfeedc9f8814604d6b",
@@ -132,7 +184,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "aba031f214543fb29f4c",
@@ -145,46 +197,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
-    },
-    {
-      "id": "d14041b357d0babbbe88",
-      "title": "Múltiples vulnerabilidades en productos de ABB",
-      "source": "INCIBE-CERT",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-abb-9",
-      "published": "2026-11-03",
-      "categoryHint": "vulnerabilidad",
-      "summary": "Múltiples vulnerabilidades en productos de ABB Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Netcon y NAM: Netcon 100, módulo GW102: 2.00.00–2.12.034. Netcon 200, GWDD-02/GWDD-03/GWDC-06: 2.00.000–3.02.050; GWDD-A03: A103.03.000–A103.03.010. Netcon 500, GW502A: 6.00.000–7.06.001. Netcon Application Manager (NAM): 1.21.00–1.31.000. Familia Ar",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
-    },
-    {
-      "id": "bc30fdd7a20dc4a8fe31",
-      "title": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
-      "source": "INCIBE-CERT",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
-      "published": "2026-11-03",
-      "categoryHint": "vulnerabilidad",
-      "summary": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Dräger REGARD 7000 OPC UA Server. Los dispositivos y el software médicos, así como los productos Dräger Service evaluados, no están afectados al no utilizar PHP. Descripción Dräger ha publicado una evaluación sobre 2 vulnerabilidad",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
-    },
-    {
-      "id": "5d2e9f8f55109485b29a",
-      "title": "Escritura fuera de límites en productos de Johnson Controls",
-      "source": "INCIBE-CERT",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-productos-de-johnson-controls",
-      "published": "2026-11-03",
-      "categoryHint": "otro",
-      "summary": "Escritura fuera de límites en productos de Johnson Controls Mar, 03/11/2026 - 11:48 Aviso SCI Recursos Afectados Restaurant System Estimator. Access Control system. Johnson Controls identifica estos productos de la marca Fire como afectados; no publica intervalos de versiones vulnerables. Descripción Johnson Controls ha publicado un aviso sobre una",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "53ca9309f14b041c6790",
@@ -197,7 +210,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f635e51b46992649ab09",
@@ -210,7 +223,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "e24342c52a0b2ee1fe64",
@@ -223,7 +236,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "22d2ccd53543886c59b8",
@@ -236,7 +249,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f7763a757c0c37e729db",
@@ -249,7 +262,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f6b4dc44bc2f931c0e19",
@@ -262,7 +275,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "ce87e3f627c6f42f08a7",
@@ -275,7 +288,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "87bf34b6e070a9474032",
@@ -288,7 +301,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f778ef1a30ddc9386885",
@@ -301,7 +314,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "d88e90fd82c805ab4f49",
@@ -314,7 +327,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "a4ea87f3b4cf50baec42",
@@ -327,7 +340,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "ae4608a27522a7cf45cb",
@@ -340,7 +353,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "90ef0f2bf47ec9ed6075",
@@ -353,7 +366,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f0618fbb3f3a2bffb49e",
@@ -366,7 +379,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "c06f589c9cb09cf5cbc2",
@@ -379,7 +392,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "616ea1fba64001b4db81",
@@ -392,7 +405,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "897e03545f1ebc4d3302",
@@ -405,7 +418,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "5439bcbc2ee60006abf8",
@@ -418,7 +431,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "3d7f7c58cbe0781568d5",
@@ -431,7 +444,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:24:24+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "f9b447af38c377a8babe",
@@ -444,7 +457,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "0ed309bdb2fbe9f48880",
@@ -457,7 +470,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "176ef43f137e903d04f8",
@@ -470,7 +483,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "13e00ab44d20734e77ec",
@@ -483,7 +496,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "494ffde2d5ef60f281af",
@@ -496,7 +509,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "ef6b1694e1397f089c07",
@@ -509,7 +522,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "4aac976e74b6f04fdd6b",
@@ -522,7 +535,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "a5a9e1cc2eb446d1437a",
@@ -535,7 +548,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "2432248e2b7235470920",
@@ -548,7 +561,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "031361bd43801c0157b1",
@@ -561,7 +574,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     },
     {
       "id": "fe04982a63261503a78a",
@@ -574,7 +587,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:24:24+01:00",
-      "lastSeen": "2026-11-12T08:20:08+01:00"
+      "lastSeen": "2026-11-12T21:00:41+01:00"
     }
   ]
 }
