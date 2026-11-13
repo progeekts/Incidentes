@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-13T07:52:28+01:00",
+  "lastReview": "2026-11-13T20:48:47+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -7,8 +7,8 @@
       "count": 10
     },
     "INCIBE-CERT": {
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 10
     },
     "CERT-EU": {
       "ok": true,
