@@ -1,6 +1,6 @@
 {
-  "lastGenerated": "2026-11-13T20:48:57+01:00",
-  "sourceReview": "2026-11-13T20:48:47+01:00",
+  "lastGenerated": "2026-11-14T07:34:40+01:00",
+  "sourceReview": "2026-11-14T07:34:27+01:00",
   "count": 45,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
@@ -11,27 +11,6 @@
       "sourceType": "official",
       "sourceUrl": "https://cert.europa.eu/publications/security-advisories/2026-013",
       "published": "2026-09-22",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "031361bd43801c0157b1",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA",
-      "sourceType": "official",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-09-24",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
@@ -935,6 +914,27 @@
       "sourceType": "official",
       "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
       "published": "2026-11-12",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "7b5dacba886b8db54898",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA",
+      "sourceType": "official",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-13",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",

@@ -44,13 +44,13 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-12T21:00:42+01:00",
-      "nextCheck": "2026-11-13T21:00:42+01:00",
+      "lastChecked": "2026-11-14T07:34:40+01:00",
+      "nextCheck": "2026-11-15T07:34:40+01:00",
       "pendingEvidence": [],
       "sources": [
         {
           "ok": false,
-          "reason": "Contenido demasiado grande para comparación",
+          "reason": "<urlopen error timed out>",
           "url": "https://www.incibe.es/ciudadania/avisos/correos-y-sms-suplantan-la-dgt-para-robar-tus-datos-con-falsas-multas"
         }
       ]
@@ -149,8 +149,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-12T21:00:42+01:00",
-      "nextCheck": "2026-11-13T21:00:42+01:00",
+      "lastChecked": "2026-11-14T07:34:40+01:00",
+      "nextCheck": "2026-11-15T07:34:40+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -216,8 +216,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-12T21:00:42+01:00",
-      "nextCheck": "2026-11-13T21:00:42+01:00",
+      "lastChecked": "2026-11-14T07:34:40+01:00",
+      "nextCheck": "2026-11-15T07:34:40+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -231,8 +231,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-12T21:00:42+01:00",
-      "nextCheck": "2026-11-13T21:00:42+01:00",
+      "lastChecked": "2026-11-14T07:34:40+01:00",
+      "nextCheck": "2026-11-15T07:34:40+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -448,8 +448,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-12T21:00:42+01:00",
-      "nextCheck": "2026-11-13T21:00:42+01:00",
+      "lastChecked": "2026-11-14T07:34:40+01:00",
+      "nextCheck": "2026-11-15T07:34:40+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -465,8 +465,8 @@
       ]
     }
   },
-  "lastRun": "2026-11-13T20:48:57+01:00",
-  "lastRunCount": 10,
+  "lastRun": "2026-11-14T07:34:40+01:00",
+  "lastRunCount": 5,
   "pendingCount": 10,
   "policy": {
     "editorialChangesAutomatic": false,
