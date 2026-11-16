@@ -4,8 +4,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -19,8 +19,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -59,8 +59,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-12T21:00:42+01:00",
-      "nextCheck": "2026-11-15T21:00:42+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-19T07:41:07+01:00",
       "pendingEvidence": [
         "https://corp.helpfeel.com/en/news/news-20260916",
         "https://corp.helpfeel.com/en/news/news-20260925"
@@ -73,7 +73,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "17df6c2e95a0f946859b24475c9b63d6bba506337969311144a1d619b402119d",
+          "sha256": "88f9b35838a76225d1701f318dced8fb7c45757f76e0fb045412ed048a5161c3",
           "url": "https://corp.helpfeel.com/en/news/news-20260916"
         },
         {
@@ -83,7 +83,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "ebe05065cfce8762f5cf5f4c959e8044f998c0f9f40bddee4756d06bc5e143c9",
+          "sha256": "e7b0ad1ce9185635d0deb6c121ce53f9d7d3701fcb69f359f6facd99f872a56e",
           "url": "https://corp.helpfeel.com/en/news/news-20260925"
         }
       ]
@@ -112,8 +112,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-014/"
       ],
@@ -125,7 +125,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "a5a1c79a20134f1677d7eeec103d562213c5cc3fd48fdf85f7e41175e1e2c873",
+          "sha256": "ad94f335f353cd4437f265bbcdfbc7c9ead92c4aaf78598a043b8e4bfe5000e2",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-014/"
         }
       ]
@@ -134,8 +134,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -189,8 +189,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-017/"
       ],
@@ -202,7 +202,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "d1c6791b807f8bb61b5299296693329b90e8b9cce275fb4d1f87095b2e11e5a0",
+          "sha256": "74f63cdb9fea7da8d9c1ef02e3481931bd9e36b7f824563b88263210c2053aee",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-017/"
         },
         {
@@ -246,8 +246,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-019/"
       ],
@@ -259,7 +259,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "7f2f1048468e48332fd3811c81fa21e831a953e154a1fe87ae91945599e6eac6",
+          "sha256": "25ef899f1c1e976b8a49fefb189d56e85d482b1e7fef3d6fde6c7efc700e57dd",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-019/"
         },
         {
@@ -278,8 +278,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-016/"
       ],
@@ -291,7 +291,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "5687befe5ffacc2ae0eac35aac793b27b34660ee937c3c460f776b5303600a5c",
+          "sha256": "191f4f0827437b649edcb29f877427aa3f5c54a4b23d40d2c101ae9490b947ec",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-016/"
         }
       ]
@@ -300,8 +300,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-018/",
         "https://www.php.net/archive/2026.php#2026-10-20-1"
@@ -314,7 +314,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "76107cf7560c8c748268bef786af0716b7129b049dbcb6fdc8acbefe5410f22b",
+          "sha256": "80b8fba8c7dc4e48ffd7f2c4a6acaa06f72ac0f9c62a31b5ed331ed1a4ef68fc",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-018/"
         },
         {
@@ -421,8 +421,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-14T23:30:38+01:00",
-      "nextCheck": "2026-11-15T23:30:38+01:00",
+      "lastChecked": "2026-11-16T07:41:07+01:00",
+      "nextCheck": "2026-11-17T07:41:07+01:00",
       "pendingEvidence": [
         "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
       ],
@@ -439,7 +439,7 @@
           "httpStatus": 200,
           "lastModified": "Fri, 06 Nov 2026 14:09:58 GMT",
           "ok": true,
-          "sha256": "e7ca3220937a35e480bdbf885c6cc9c25dd3470a4d3540ff008f20dba9be23a0",
+          "sha256": "bf5a6a40117968d557f49ee5d3e91d86aef2d776678789f8eaa5c024e221fce2",
           "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
         }
       ]
@@ -465,8 +465,8 @@
       ]
     }
   },
-  "lastRun": "2026-11-15T19:55:40+01:00",
-  "lastRunCount": 0,
+  "lastRun": "2026-11-16T07:41:07+01:00",
+  "lastRunCount": 10,
   "pendingCount": 10,
   "policy": {
     "editorialChangesAutomatic": false,
@@ -475,6 +475,6 @@
     "maxSourcesPerIncident": 2,
     "note": "Las señales por cambios remotos requieren verificación; no actualizan los incidentes."
   },
-  "remainingDue": 0,
+  "remainingDue": 5,
   "version": 1
 }
