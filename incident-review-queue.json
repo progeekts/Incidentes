@@ -1,6 +1,6 @@
 {
-  "lastGenerated": "2026-11-17T09:00:44+01:00",
-  "sourceReview": "2026-11-17T09:00:33+01:00",
+  "lastGenerated": "2026-11-17T22:00:47+01:00",
+  "sourceReview": "2026-11-17T22:00:14+01:00",
   "count": 45,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
@@ -31,27 +31,6 @@
       "source": "CISA",
       "sourceType": "official",
       "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-09-25",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "a5a9e1cc2eb446d1437a",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA",
-      "sourceType": "official",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "published": "2026-09-25",
       "categoryHint": "vulnerabilidad",
       "score": 43,
@@ -614,27 +593,6 @@
       ]
     },
     {
-      "id": "aba031f214543fb29f4c",
-      "title": "Múltiples vulnerabilidades en productos de Welotec",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-welotec",
-      "published": "2026-11-04",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
       "id": "c5bfeedc9f8814604d6b",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "source": "CISA",
@@ -644,48 +602,6 @@
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "f5046c7d46f4b1035099",
-      "title": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
-      "published": "2026-11-04",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "78d794f6615c2d41830e",
-      "title": "Escritura fuera de límites en Advanced Batch Management de ABB",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-advanced-batch-management-de-abb",
-      "published": "2026-11-05",
-      "categoryHint": "otro",
-      "score": 43,
-      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
       "status": "pendiente de verificación humana",
       "evidenceCount": 1,
       "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
@@ -935,6 +851,90 @@
       "sourceType": "official",
       "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "published": "2026-11-13",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "14ff74fac7ac419762b1",
+      "title": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
+      "published": "2026-11-17",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "37902359fb183e156991",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "source": "CISA",
+      "sourceType": "official",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "2026-11-17",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "38c79b8e8e4a924d5085",
+      "title": "Uso de memoria liberada en egOS de Welotec",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
+      "published": "2026-11-17",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "ad22f6268a4f6a40a6e6",
+      "title": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-d-esi-100-de-durag",
+      "published": "2026-11-17",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",

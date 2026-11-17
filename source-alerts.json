@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-17T09:00:33+01:00",
+  "lastReview": "2026-11-17T22:00:14+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -11,8 +11,8 @@
       "count": 10
     },
     "CERT-EU": {
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "error": "The read operation timed out"
     },
     "CISA": {
       "ok": true,
@@ -102,6 +102,30 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "14ff74fac7ac419762b1",
+      "source": "INCIBE-CERT",
+      "title": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
+      "published": "Tue, 17 Nov 2026 08:44:11 +0000",
+      "summary": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor Mar, 17/11/2026 - 09:44 Aviso SCI Recursos Afectados CIRCUTOR PowerStudio SCADA WAVE para Windows de 64 bits, en su versión de escritorio, desde la versión 24.8.0 hasta la 24.11.17.0, excluida esta última. Descripción CIRCUTOR ha publicado 1 vulnerabilidad de severidad crítica en PowerStudio SCADA WAVE, software de supervisión y control energético. El fallo podría permitir el"
+    },
+    {
+      "id": "ad22f6268a4f6a40a6e6",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-d-esi-100-de-durag",
+      "published": "Tue, 17 Nov 2026 08:44:10 +0000",
+      "summary": "Múltiples vulnerabilidades en D-ESI 100 de DURAG Mar, 17/11/2026 - 09:44 Aviso SCI Recursos Afectados D-ESI 100 de DURAG, desde la versión 1.0.0 hasta la 01.11R0025, incluidas. Descripción lcfr-hax, sagitzadik-wiz, tomash-areion y amyb-oai, en coordinación con CERT@VDE, han publicado 3 vulnerabilidades de severidad crítica en el entorno PHP integrado en D-ESI 100 de DURAG. En caso de ser explotadas podrían permitir ejecución de código remoto. Ide"
+    },
+    {
+      "id": "38c79b8e8e4a924d5085",
+      "source": "INCIBE-CERT",
+      "title": "Uso de memoria liberada en egOS de Welotec",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
+      "published": "Tue, 17 Nov 2026 08:44:09 +0000",
+      "summary": "Uso de memoria liberada en egOS de Welotec Mar, 17/11/2026 - 09:44 Aviso SCI Recursos Afectados Equipos Welotec con egOS anterior a 1.11.2. EG400 Mk2: EG400Mk2-D11001-000101, EG400Mk2-D11101-000101. EG500: EG503W, EG503L, EG503W_4GB, EG503L_4GB, EG503L-G. EG500 Mk2: EG500Mk2-A11101-000101, EG500Mk2-A11001-000101, EG500Mk2-B11101-000101, EG500Mk2-B11001-000101, EG500Mk2-C11101-000101, EG500Mk2-C11001-000101, EG500Mk2-A12011-000101, EG500Mk2-A11001"
+    },
+    {
       "id": "36635f69c730f29c889c",
       "source": "INCIBE-CERT",
       "title": "Múltiples vulnerabilidades en productos de Helmholz",
@@ -156,30 +180,6 @@
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-contact-9",
       "published": "Thu, 05 Nov 2026 08:24:14 +0000",
       "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados FL WLAN 1x2x/23xx. FL SWITCH 2xxx. FL NAT 2xxx. FL SWITCH TSN 23xx. FL SWITCH 59xx. TC ROUTER 4xxx. FL TIMESERVER NTP. FL WLAN 11xx/21xx. TC EXTENDER x00x. SCX xPOE. Descripción Phoenix Contact ha publicado información sobre el impacto de 2 vulnerabilidades de severidad crítica de PHP, conocidas como PHP2Shell, en varias familias de pro"
-    },
-    {
-      "id": "78d794f6615c2d41830e",
-      "source": "INCIBE-CERT",
-      "title": "Escritura fuera de límites en Advanced Batch Management de ABB",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-advanced-batch-management-de-abb",
-      "published": "Thu, 05 Nov 2026 08:24:12 +0000",
-      "summary": "Escritura fuera de límites en Advanced Batch Management de ABB Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados Advanced Batch Management (ABM), versiones 1.0, 1.1, 1.1b, 1.2 y 1.2.1, cuando incorporen una versión vulnerable de Node.js. La versión instalada puede variar entre proyectos. Descripción ABB ha publicado una vulnerabilidad de severidad crítica en el decodificador Brotli de Node.js utilizado por Advanced Batch Management. Su explota"
-    },
-    {
-      "id": "f5046c7d46f4b1035099",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
-      "published": "Wed, 04 Nov 2026 08:25:28 +0000",
-      "summary": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions Mié, 04/11/2026 - 09:25 Aviso SCI Recursos Afectados PowerSYSTEM Center 2020, versiones 5.29.x y anteriores (CVE-2026-63017). PowerSYSTEM Center 2024, versiones 6.0.x a 6.2.x: ambas vulnerabilidades. PowerSYSTEM Center 2026, versiones 7.0.x a 7.1.x: ambas vulnerabilidades. Descripción Chinmay Patel, de Digital Boundary Group, ha informado sobre 2 vulnerabilidades de severidad cr"
-    },
-    {
-      "id": "aba031f214543fb29f4c",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de Welotec",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-welotec",
-      "published": "Wed, 04 Nov 2026 08:25:27 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de Welotec Mié, 04/11/2026 - 09:25 Aviso SCI Recursos Afectados TK100, modelos TK102L y TK102W, con firmware anterior a 3.5.116. TK500-v2, modelos TK525L-v2, TK525L-W-v2, TK525W-v2 y TK535L1-v2, con firmware anterior a 1.0.124. TK500-v3, modelos TK525L-v3, TK525L-W-G-v3, TK525L-IO-v3, TK525L-W-v3, TK525W-v3 y TK555L-v3, con firmware anterior a 1.0.123. Descripción Welotec en coordinación con CERT@VDE ha pub"
     },
     {
       "id": "224c81e757fe40ea439e",
@@ -260,6 +260,14 @@
       "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
       "published": "Wed, 09 Sep 2026 15:07:59 CEST",
       "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Passport (EPP) processing, nicknamed \"OVERPASS\" by the Onapsis Research Labs (ORL), which discovered and responsibly disclosed it[3]. The second, CVE-2026-58240 (CVSS 9.8), n"
+    },
+    {
+      "id": "37902359fb183e156991",
+      "source": "CISA",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Tue, 17 Nov 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on "
     },
     {
       "id": "7b5dacba886b8db54898",
@@ -382,20 +390,20 @@
       "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96652 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96654 Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability CVE-2026-96655 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96656 Plex Media Server External "
     },
     {
-      "id": "90ef0f2bf47ec9ed6075",
-      "source": "CISA",
-      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-      "published": "Fri, 16 Oct 26 12:00:00 +0000",
-      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively exploiting the vulnerability to gain initial access, then establishing persistence, escalating privileges, and moving laterally. CISA"
-    },
-    {
       "id": "ae4608a27522a7cf45cb",
       "source": "CISA",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "published": "Fri, 16 Oct 26 12:00:00 +0000",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability CVE-2026-102764 BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability&nbsp; These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;"
+    },
+    {
+      "id": "90ef0f2bf47ec9ed6075",
+      "source": "CISA",
+      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+      "published": "Fri, 16 Oct 26 12:00:00 +0000",
+      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively exploiting the vulnerability to gain initial access, then establishing persistence, escalating privileges, and moving laterally. CISA"
     },
     {
       "id": "f0618fbb3f3a2bffb49e",
@@ -492,14 +500,6 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "published": "Fri, 25 Sep 26 12:00:00 +0000",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability CVE-2026-67279 Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp; Binding Ope"
-    },
-    {
-      "id": "a5a9e1cc2eb446d1437a",
-      "source": "CISA",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "Fri, 25 Sep 26 12:00:00 +0000",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-87902 WordPress Core Remote File Inclusion Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerab"
     }
   ]
 }
