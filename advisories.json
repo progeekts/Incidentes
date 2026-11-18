@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-17T22:00:47+01:00",
+  "lastReview": "2026-11-18T08:37:57+01:00",
   "sourceStatus": {
     "GitHub Advisory Database": {
       "ok": true,
@@ -139,6 +139,24 @@
       "highlight": false
     },
     {
+      "id": "GHSA-x2vm-cf3p-m2w8",
+      "cve": "CVE-2026-119793",
+      "title": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+      "product": "@libp2p/gossipsub",
+      "ecosystem": "npm",
+      "severity": "high",
+      "cvss": 7.5,
+      "published": "2026-11-17",
+      "fixed": "17.0.0",
+      "affected": "< 17.0.0",
+      "summary": "### Summary A single gossipsub peer can grow a node's `topics` map without bound by flooding subscription RPCs, because the default configuration has no global, per-peer, or topic-length cap and peer scoring does not penalise subscription volume. The peer is never greylisted, so the growth continues toward OOM.  ### Details `handleReceivedSubscription` (`packages/gossipsub/src/gossipsub.ts:1028`, line 1036) runs `this.topics.set(topic, new Set())` for every distinct topic string:  ```ts private handleReceivedSubscription (from, topic, subscribe",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
       "id": "GHSA-vc7v-qv4w-wrv8",
       "cve": "CVE-2026-119351",
       "title": "Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
@@ -171,6 +189,42 @@
       "exploited": false,
       "exploitationStatus": "No confirmado por este catálogo",
       "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-rvfr-cqwq-rc4j",
+      "cve": "CVE-2026-110789",
+      "title": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+      "product": "@libp2p/crypto",
+      "ecosystem": "npm",
+      "severity": "high",
+      "cvss": 7.5,
+      "published": "2026-11-17",
+      "fixed": "5.1.22",
+      "affected": "<= 5.1.21",
+      "summary": "### Summary A remote peer can stall a js-libp2p node's entire event loop for ~4–5 seconds per connection (and transiently allocate ~2 GB) by sending a ~15-byte crafted `publicKey` inside an Identify message. The malformed key reaches the DER decoder before any peer-id/signature check, so the attack is pre-auth and repeatable indefinitely by reconnecting.  ### Details `packages/crypto/src/keys/rsa/der.ts` `readLength()` parses DER long-form lengths with no comparison to `buf.byteLength`, and `readInteger()` then loops over the attacker-claimed l",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-r7hw-jx6r-756g",
+      "cve": "CVE-2026-110782",
+      "title": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+      "product": "simplesamlphp/saml2",
+      "ecosystem": "composer",
+      "severity": "high",
+      "cvss": 8.7,
+      "published": "2026-11-17",
+      "fixed": "6.2.4, 7.0.0-rc2",
+      "affected": ">= 6.2.2, <= 6.2.3, >= 7.0.0-rc1, < 7.0.0-rc2",
+      "summary": "## Summary CVE-2026-49283 / GHSA-6929-8p9f-26jx (\"HTTP-Artifact TLS validator confusion allows cross-IdP authentication bypass\") was fixed so that `HTTPArtifact::receive()` verifies the embedded SAML `Response` using the IdP metadata signing keys. The current implementation (master `31c72c1d`, released **v6.2.3**) reaches that verification **only when the embedded Response is signed**:  ```php // src/Binding/HTTPArtifact.php  (receive()) if (!$samlResponse->isSigned()) {     return $samlResponse;                         // ← unsigned embedded R",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
       "source": "GitHub Advisory Database",
       "highlight": false
     },
