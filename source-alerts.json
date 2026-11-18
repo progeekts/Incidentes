@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-18T08:37:42+01:00",
+  "lastReview": "2026-11-18T21:38:24+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -102,6 +102,22 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "09c7f2906d932359dbcb",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-industrialpi-4-de-pilz",
+      "published": "Wed, 18 Nov 2026 08:58:36 +0000",
+      "summary": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz Mié, 18/11/2026 - 09:58 Aviso SCI Recursos Afectados IndustrialPI 4 con el paquete libapache2-mod-php8.2 en una versión anterior a 8.2.35-1 y alguna de las siguientes imágenes de IndustrialPI OS: 10.06.2025 23.06.2025 25.12.2025 15.06.2026 Descripción Pilz, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en el intérprete PHP que utiliza la interfa"
+    },
+    {
+      "id": "c50dc7f9e12607eca291",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
+      "published": "Wed, 18 Nov 2026 08:58:35 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Mié, 18/11/2026 - 09:58 Aviso SCI Recursos Afectados Las versiones indicadas corresponden al firmware del equipo. Los siguientes modelos están afectados por PHP2Shell y BlastRADIUS, salvo los 4 identificados al final como afectados únicamente por BlastRADIUS. FL NAT y FL SWITCH con versiones anteriores a 3.60: FL NAT: 2008, 2208 y 2304-2GC-2SFP. FL SWITCH 20xx y 21xx: 2005, 2008, 2008F, 2"
+    },
+    {
       "id": "14ff74fac7ac419762b1",
       "source": "INCIBE-CERT",
       "title": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
@@ -166,20 +182,20 @@
       "summary": "Boletín de seguridad de Siemens de noviembre de 2026 Mié, 11/11/2026 - 09:40 Aviso SCI Recursos Afectados Productos afectados por la vulnerabilidad de Brotli: SIMATIC BRAUMAT y SIMATIC SISTAR, desde V8.2 Update 1 hasta antes de V8.2 Update 5. SIMATIC WinCC OA V3.20, versiones anteriores a V3.20 P17.1, y todas las versiones de la rama V3.21. Todas las versiones de COMOS Walkinside, Project Server Web Administration Tool, SIMATIC Profiling Tool, SI"
     },
     {
-      "id": "99264a4b090b850b5c95",
-      "source": "INCIBE-CERT",
-      "title": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/recuperacion-insegura-de-contrasenas-en-building-cloud-services-de-wago",
-      "published": "Thu, 05 Nov 2026 08:24:15 +0000",
-      "summary": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados Building Cloud Services, versiones desde 7.19 y anteriores a 7.36.156. Descripción James Paremain ha informado sobre una vulnerabilidad de severidad crítica en Keycloak que afecta a Building Cloud Services de WAGO. WAGO, en coordinación con CERT@VDE, ha publicado su afectación. Un atacante sin autenticar podría restablecer "
+      "id": "b82fa404dbc62b4dc34e",
+      "source": "CERT-EU",
+      "title": "2026-022: Critical vulnerabilities in Nginx",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+      "published": "Wed, 18 Nov 2026 18:30:42 CET",
+      "summary": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully demonstrate the use of CVE-2026-123007, no exploitation in the wild has been reported yet. It is recommended to swiftly update NGINX as soon as possible, prioritising internet facing appliances."
     },
     {
-      "id": "9f0433999071692ce7c1",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de Phoenix Contact",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-contact-9",
-      "published": "Thu, 05 Nov 2026 08:24:14 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados FL WLAN 1x2x/23xx. FL SWITCH 2xxx. FL NAT 2xxx. FL SWITCH TSN 23xx. FL SWITCH 59xx. TC ROUTER 4xxx. FL TIMESERVER NTP. FL WLAN 11xx/21xx. TC EXTENDER x00x. SCX xPOE. Descripción Phoenix Contact ha publicado información sobre el impacto de 2 vulnerabilidades de severidad crítica de PHP, conocidas como PHP2Shell, en varias familias de pro"
+      "id": "55ffaf7ef3c49b93cc7d",
+      "source": "CERT-EU",
+      "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+      "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+      "published": "Wed, 18 Nov 2026 10:11:05 CET",
+      "summary": "On 17 November 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a high severity vulnerability in OpenJDK which could lead, under certain circumstances, in unauthenticated Remote Code Execution (RCE). CERT-EU recommends updating vulnerable version of OpenJDK, prioritising internet facing applications."
     },
     {
       "id": "224c81e757fe40ea439e",
@@ -246,20 +262,12 @@
       "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions as soon as possible."
     },
     {
-      "id": "75307c0003846ae69ae4",
-      "source": "CERT-EU",
-      "title": "2026-012: Critical Vulnerabilities in Check Point Products",
-      "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
-      "published": "Thu, 10 Sep 2026 10:20:06 CEST",
-      "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or Site-to-Site VPN. Both vulnerabilities carry a CVSS score of 9.8 and could allow an unauthenticated, remote attacker to execute arbitrary code on affected appliances. CERT-EU strongly recommends applying"
-    },
-    {
-      "id": "51e05f44e8c37f44cc1a",
-      "source": "CERT-EU",
-      "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
-      "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
-      "published": "Wed, 09 Sep 2026 15:07:59 CEST",
-      "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Passport (EPP) processing, nicknamed \"OVERPASS\" by the Onapsis Research Labs (ORL), which discovered and responsibly disclosed it[3]. The second, CVE-2026-58240 (CVSS 9.8), n"
+      "id": "2bf6e3b53184cd104c37",
+      "source": "CISA",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published": "Wed, 18 Nov 26 12:00:00 +0000",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.&nbsp; CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture"
     },
     {
       "id": "37902359fb183e156991",
@@ -398,20 +406,20 @@
       "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96652 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96654 Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability CVE-2026-96655 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability CVE-2026-96656 Plex Media Server External "
     },
     {
-      "id": "90ef0f2bf47ec9ed6075",
-      "source": "CISA",
-      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-      "published": "Fri, 16 Oct 26 12:00:00 +0000",
-      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively exploiting the vulnerability to gain initial access, then establishing persistence, escalating privileges, and moving laterally. CISA"
-    },
-    {
       "id": "ae4608a27522a7cf45cb",
       "source": "CISA",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "published": "Fri, 16 Oct 26 12:00:00 +0000",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability CVE-2026-102764 BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability&nbsp; These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;"
+    },
+    {
+      "id": "90ef0f2bf47ec9ed6075",
+      "source": "CISA",
+      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+      "published": "Fri, 16 Oct 26 12:00:00 +0000",
+      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively exploiting the vulnerability to gain initial access, then establishing persistence, escalating privileges, and moving laterally. CISA"
     },
     {
       "id": "f0618fbb3f3a2bffb49e",
@@ -492,14 +500,6 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
       "published": "Sun, 27 Sep 26 12:00:00 +0000",
       "summary": "Update October 9, 2026 :&nbsp; CISA has updated this Alert to: (1) include CVE-2026-107406; (2) include CVE-2026-88779 following its addition to the KEV Catalog on Oct. 4, 2026; (3) clarify the potential relationship between CVE-2026-88779 and CVE-2026-88771; and (4) emphasize the importance of promptly applying patches for CVE-2026-88771 through CVE-2026-88779 and CVE-2026-107406, as well as reviewing Citrix guidance for suspected or confirmed c"
-    },
-    {
-      "id": "4aac976e74b6f04fdd6b",
-      "source": "CISA",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "Sun, 27 Sep 26 12:00:00 +0000",
-      "summary": "CISA has added two new vulnerabilities to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-88772 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to th"
     }
   ]
 }

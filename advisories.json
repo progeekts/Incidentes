@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-18T08:37:57+01:00",
+  "lastReview": "2026-11-18T21:38:48+01:00",
   "sourceStatus": {
     "GitHub Advisory Database": {
       "ok": true,
@@ -7,7 +7,7 @@
     },
     "CISA KEV": {
       "ok": true,
-      "count": 1782
+      "count": 1786
     }
   },
   "note": "Catálogo parcial y acumulativo: 300 advisories por consulta (máximo histórico local 1200). La ausencia en CISA KEV no implica ausencia de explotación.",
@@ -119,6 +119,60 @@
       "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
       "source": "Node.js Security",
       "highlight": true
+    },
+    {
+      "id": "GHSA-xvcc-vqjv-phqh",
+      "cve": "CVE-2026-63496",
+      "title": "augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+      "product": "@augment-vir/node",
+      "ecosystem": "npm",
+      "severity": "high",
+      "cvss": 7.8,
+      "published": "2026-11-18",
+      "fixed": "31.73.5",
+      "affected": "< 31.73.5",
+      "summary": "## Shell Command Injection in `grep()` via Unsanitized `searchPattern`  ### Summary  The `grep()` function exported by `@augment-vir/node` inserts caller-controlled search patterns directly into a double-quoted shell command string without sanitization (`grep.ts:310`). When the constructed command is passed to `spawn()` with `shell: 'bash'` (`shell.ts:98-99`), bash evaluates `$()` command substitution expressions embedded in the pattern, resulting in arbitrary OS command execution as the Node.js process user. Any downstream application that pas",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-5hrj-7fc3-cmx9",
+      "cve": "CVE-2026-130001",
+      "title": "Mustache for Ruby: RCE using built-in method access",
+      "product": "mustache",
+      "ecosystem": "rubygems",
+      "severity": "critical",
+      "cvss": 9.8,
+      "published": "2026-11-18",
+      "fixed": "1.1.3",
+      "affected": "<= 1.1.2",
+      "summary": "> [!NOTE] > The vulnerability was fully disclosed to the maintainer in private prior to security advisories were enabled for the project. > This advisory presents a limited information for initial release to provide a time window for installing updates. Full information with PoCs would be added later.  ## Summary Mustache template engine for Ruby in versions 1.1.2 and earlier allows remote attackers to achieve arbitrary code execution through accessing specific built-in methods in an attacker-supplied template.  ## Details Mustache is often sug",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-5hrj-7fc3-cmx9",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-265x-v3qf-ff6p",
+      "cve": "CVE-2026-61618",
+      "title": "snark-verifier accepts non-canonical KZG accumulator limb encodings",
+      "product": "snark-verifier",
+      "ecosystem": "rust",
+      "severity": "medium",
+      "cvss": 6.9,
+      "published": "2026-11-18",
+      "fixed": "0.2.5",
+      "affected": "< 0.2.5",
+      "summary": "### Summary KZG accumulator public-instance limbs were decoded without consistently enforcing canonical limb bounds before reconstructing elliptic-curve coordinates.  In the generated EVM verifier, accumulator coordinates were reconstructed from public-instance limbs using shifted additions before point validation. The verifier checked the reconstructed point, but did not independently check that every limb was below the configured limb bound before reconstruction.  ### Details `PlonkProof::read` takes accumulator public-instance scalars select",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-265x-v3qf-ff6p",
+      "source": "GitHub Advisory Database",
+      "highlight": false
     },
     {
       "id": "GHSA-xhv5-8fpq-g7hf",

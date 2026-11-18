@@ -1,9 +1,74 @@
 {
-  "lastGenerated": "2026-11-18T08:37:57+01:00",
-  "sourceReview": "2026-11-18T08:37:42+01:00",
-  "count": 45,
+  "lastGenerated": "2026-11-18T21:38:48+01:00",
+  "sourceReview": "2026-11-18T21:38:24+01:00",
+  "count": 47,
   "disclaimer": "Candidatos encontrados en fuentes externas. No son incidentes confirmados ni exfiltraciones demostradas.",
   "items": [
+    {
+      "id": "c50dc7f9e12607eca291",
+      "title": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+      "source": "INCIBE-CERT",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
+      "published": "2026-11-18",
+      "categoryHint": "vulnerabilidad",
+      "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Mié, 18/11/2026 - 09:58 Aviso SCI Recursos Afectados Las versiones indicadas corresponden al firmware del equipo. Los siguientes modelos están afectados por PHP2Shell y BlastRADIUS, salvo los 4 identificados al final como afectados únicamente por BlastRADIUS. FL NAT y FL SWITCH con versione",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-18T21:38:48+01:00",
+      "lastSeen": "2026-11-18T21:38:48+01:00"
+    },
+    {
+      "id": "3f2768aeffe25faeeca9",
+      "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+      "source": "CERT-EU",
+      "sourceUrl": "https://cert.europa.eu/publications/security-advisories/2026-021",
+      "published": "2026-11-18",
+      "categoryHint": "vulnerabilidad",
+      "summary": "On 17 November 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a high severity vulnerability in OpenJDK which could lead, under certain circumstances, in unauthenticated Remote Code Execution (RCE). CERT-EU recommends updating vulnerable version of OpenJDK, prioritising internet facing applications.",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-18T21:38:48+01:00",
+      "lastSeen": "2026-11-18T21:38:48+01:00"
+    },
+    {
+      "id": "3c0757dea93563cf21aa",
+      "title": "2026-022: Critical vulnerabilities in Nginx",
+      "source": "CERT-EU",
+      "sourceUrl": "https://cert.europa.eu/publications/security-advisories/2026-022",
+      "published": "2026-11-18",
+      "categoryHint": "vulnerabilidad",
+      "summary": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers managed to successfully demonstrate the use of CVE-2026-123007, no exploitation in the wild has been reported yet. It is recommended t",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-18T21:38:48+01:00",
+      "lastSeen": "2026-11-18T21:38:48+01:00"
+    },
+    {
+      "id": "2bf6e3b53184cd104c37",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-18",
+      "categoryHint": "vulnerabilidad",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.&nbsp; CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis U",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-18T21:38:48+01:00",
+      "lastSeen": "2026-11-18T21:38:48+01:00"
+    },
+    {
+      "id": "09c7f2906d932359dbcb",
+      "title": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
+      "source": "INCIBE-CERT",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-industrialpi-4-de-pilz",
+      "published": "2026-11-18",
+      "categoryHint": "vulnerabilidad",
+      "summary": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz Mié, 18/11/2026 - 09:58 Aviso SCI Recursos Afectados IndustrialPI 4 con el paquete libapache2-mod-php8.2 en una versión anterior a 8.2.35-1 y alguna de las siguientes imágenes de IndustrialPI OS: 10.06.2025 23.06.2025 25.12.2025 15.06.2026 Descripción Pilz, en coordinación con CERT@VDE, ha public",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-18T21:38:48+01:00",
+      "lastSeen": "2026-11-18T21:38:48+01:00"
+    },
     {
       "id": "ad22f6268a4f6a40a6e6",
       "title": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
@@ -15,7 +80,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-17T22:00:47+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "38c79b8e8e4a924d5085",
@@ -28,7 +93,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-17T22:00:47+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "37902359fb183e156991",
@@ -41,7 +106,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-17T22:00:47+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "2b90ef71fb0880376bf8",
@@ -54,7 +119,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T08:37:57+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "14ff74fac7ac419762b1",
@@ -67,7 +132,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-17T22:00:47+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "7b5dacba886b8db54898",
@@ -80,7 +145,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-14T07:34:40+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f47fbed1a7ce3e37bbfd",
@@ -93,7 +158,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-12T21:00:41+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "a76d5810c72fa4ca1cd9",
@@ -106,7 +171,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-12T21:00:41+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "36635f69c730f29c889c",
@@ -119,7 +184,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-12T21:00:41+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "19fffa6cad9e873bd6ac",
@@ -132,7 +197,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-12T21:00:41+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "9f6ff43cd82a70803a04",
@@ -145,7 +210,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T20:40:21+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "4ab0ce20f7deddb9af05",
@@ -158,7 +223,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T20:40:21+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f4b34728a6f8e3261976",
@@ -171,7 +236,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T07:36:01+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "b13d0e78edd1a3e70a4e",
@@ -184,7 +249,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T23:27:25+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "2e68c4969154600586c3",
@@ -197,33 +262,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
-    },
-    {
-      "id": "9f0433999071692ce7c1",
-      "title": "Múltiples vulnerabilidades en productos de Phoenix Contact",
-      "source": "INCIBE-CERT",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-contact-9",
-      "published": "2026-11-05",
-      "categoryHint": "vulnerabilidad",
-      "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados FL WLAN 1x2x/23xx. FL SWITCH 2xxx. FL NAT 2xxx. FL SWITCH TSN 23xx. FL SWITCH 59xx. TC ROUTER 4xxx. FL TIMESERVER NTP. FL WLAN 11xx/21xx. TC EXTENDER x00x. SCX xPOE. Descripción Phoenix Contact ha publicado información sobre el impacto de",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
-    },
-    {
-      "id": "99264a4b090b850b5c95",
-      "title": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO",
-      "source": "INCIBE-CERT",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/recuperacion-insegura-de-contrasenas-en-building-cloud-services-de-wago",
-      "published": "2026-11-05",
-      "categoryHint": "otro",
-      "summary": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO Jue, 05/11/2026 - 09:24 Aviso SCI Recursos Afectados Building Cloud Services, versiones desde 7.19 y anteriores a 7.36.156. Descripción James Paremain ha informado sobre una vulnerabilidad de severidad crítica en Keycloak que afecta a Building Cloud Services de WAGO. WAGO, en c",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "c5bfeedc9f8814604d6b",
@@ -236,7 +275,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "53ca9309f14b041c6790",
@@ -249,7 +288,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f635e51b46992649ab09",
@@ -262,7 +301,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "e24342c52a0b2ee1fe64",
@@ -275,7 +314,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "22d2ccd53543886c59b8",
@@ -288,7 +327,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f7763a757c0c37e729db",
@@ -301,7 +340,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f6b4dc44bc2f931c0e19",
@@ -314,7 +353,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "ce87e3f627c6f42f08a7",
@@ -327,7 +366,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "87bf34b6e070a9474032",
@@ -340,7 +379,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f778ef1a30ddc9386885",
@@ -353,7 +392,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "d88e90fd82c805ab4f49",
@@ -366,7 +405,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "a4ea87f3b4cf50baec42",
@@ -379,7 +418,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "ae4608a27522a7cf45cb",
@@ -392,7 +431,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "90ef0f2bf47ec9ed6075",
@@ -405,7 +444,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f0618fbb3f3a2bffb49e",
@@ -418,7 +457,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "c06f589c9cb09cf5cbc2",
@@ -431,7 +470,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "616ea1fba64001b4db81",
@@ -444,7 +483,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "897e03545f1ebc4d3302",
@@ -457,7 +496,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "5439bcbc2ee60006abf8",
@@ -470,7 +509,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "3d7f7c58cbe0781568d5",
@@ -483,7 +522,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:24:24+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "f9b447af38c377a8babe",
@@ -496,7 +535,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "0ed309bdb2fbe9f48880",
@@ -509,7 +548,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "176ef43f137e903d04f8",
@@ -522,7 +561,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "13e00ab44d20734e77ec",
@@ -535,7 +574,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "494ffde2d5ef60f281af",
@@ -548,7 +587,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "ef6b1694e1397f089c07",
@@ -561,20 +600,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
-    },
-    {
-      "id": "4aac976e74b6f04fdd6b",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-09-27",
-      "categoryHint": "vulnerabilidad",
-      "summary": "CISA has added two new vulnerabilities to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability CVE-2026-88772 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability These types of vul",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     },
     {
       "id": "fe04982a63261503a78a",
@@ -587,7 +613,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:24:24+01:00",
-      "lastSeen": "2026-11-18T08:37:57+01:00"
+      "lastSeen": "2026-11-18T21:38:48+01:00"
     }
   ]
 }
