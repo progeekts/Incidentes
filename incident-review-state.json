@@ -59,8 +59,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-16T07:41:07+01:00",
-      "nextCheck": "2026-11-19T07:41:07+01:00",
+      "lastChecked": "2026-11-19T08:33:57+01:00",
+      "nextCheck": "2026-11-22T08:33:57+01:00",
       "pendingEvidence": [
         "https://corp.helpfeel.com/en/news/news-20260916",
         "https://corp.helpfeel.com/en/news/news-20260925"
@@ -73,7 +73,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "88f9b35838a76225d1701f318dced8fb7c45757f76e0fb045412ed048a5161c3",
+          "sha256": "116bc8f27b181b6a085e06a4bd2c358ff1ae9fb50c5307c0a04c95ce13f2661e",
           "url": "https://corp.helpfeel.com/en/news/news-20260916"
         },
         {
@@ -83,7 +83,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "e7b0ad1ce9185635d0deb6c121ce53f9d7d3701fcb69f359f6facd99f872a56e",
+          "sha256": "e144c9f2f3421d1b11719d4d3332ea0e361100763c242dd977bc5b5185da224a",
           "url": "https://corp.helpfeel.com/en/news/news-20260925"
         }
       ]
@@ -467,8 +467,8 @@
       ]
     }
   },
-  "lastRun": "2026-11-18T21:38:49+01:00",
-  "lastRunCount": 9,
+  "lastRun": "2026-11-19T08:33:57+01:00",
+  "lastRunCount": 1,
   "pendingCount": 11,
   "policy": {
     "editorialChangesAutomatic": false,
