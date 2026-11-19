@@ -1,10 +1,10 @@
 {
-  "lastReview": "2026-11-19T08:33:35+01:00",
+  "lastReview": "2026-11-19T21:43:34+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "error": "The read operation timed out"
     },
     "INCIBE-CERT": {
       "ok": true,
@@ -102,6 +102,14 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "148abf3949d1fd522cde",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
+      "published": "Thu, 19 Nov 2026 09:19:47 +0000",
+      "summary": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation Jue, 19/11/2026 - 10:19 Aviso SCI Recursos Afectados Mosquitto 2.1.0 a 2.1.2. El fallo crítico requiere un servidor MQTT con la implementación WebSocket integrada habilitada. Mosquitto 2.0.0 a 2.0.22 y, para la divulgación de memoria, también 1.5 a 1.6.13. El alcance varía según el fallo. Descripción Eclipse Mosquitto ha publicado 7 vulnerabilidades, 1 de severidad crítica, 1 alta, 3 m"
+    },
+    {
       "id": "09c7f2906d932359dbcb",
       "source": "INCIBE-CERT",
       "title": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
@@ -172,14 +180,6 @@
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
       "published": "Wed, 11 Nov 2026 08:41:04 +0000",
       "summary": "Múltiples vulnerabilidades en productos de B&amp;R Mié, 11/11/2026 - 09:41 Aviso SCI Recursos Afectados mapp View, versiones anteriores a 6.6.0. B&amp;R Live Utils, versiones anteriores a 3.0.2. B&amp;R Linux 12, versiones anteriores a 1.1.1. PPC80, PPT80 y PFT51, versiones anteriores a 1.8.2. PPT50, PPC50, PFT50, PPT30 y Terminal OS, versiones anteriores a 1.8.0. PVI, versiones anteriores a 6.9.0. ADI OPC UA Server, versiones anteriores a 3.0.0."
-    },
-    {
-      "id": "4ab0ce20f7deddb9af05",
-      "source": "INCIBE-CERT",
-      "title": "Boletín de seguridad de Siemens de noviembre de 2026",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/boletin-de-seguridad-de-siemens-de-noviembre-de-2026",
-      "published": "Wed, 11 Nov 2026 08:40:57 +0000",
-      "summary": "Boletín de seguridad de Siemens de noviembre de 2026 Mié, 11/11/2026 - 09:40 Aviso SCI Recursos Afectados Productos afectados por la vulnerabilidad de Brotli: SIMATIC BRAUMAT y SIMATIC SISTAR, desde V8.2 Update 1 hasta antes de V8.2 Update 5. SIMATIC WinCC OA V3.20, versiones anteriores a V3.20 P17.1, y todas las versiones de la rama V3.21. Todas las versiones de COMOS Walkinside, Project Server Web Administration Tool, SIMATIC Profiling Tool, SI"
     },
     {
       "id": "b82fa404dbc62b4dc34e",
