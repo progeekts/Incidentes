@@ -1,6 +1,6 @@
 {
-  "lastGenerated": "2026-11-20T08:25:41+01:00",
-  "sourceReview": "2026-11-20T08:25:11+01:00",
+  "lastGenerated": "2026-11-20T21:28:51+01:00",
+  "sourceReview": "2026-11-20T21:28:29+01:00",
   "count": 47,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
@@ -11,27 +11,6 @@
       "sourceType": "official",
       "sourceUrl": "https://cert.europa.eu/publications/security-advisories/2026-013",
       "published": "2026-09-22",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "ef6b1694e1397f089c07",
-      "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
-      "source": "CISA",
-      "sourceType": "official",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
-      "published": "2026-09-27",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
@@ -635,27 +614,6 @@
       ]
     },
     {
-      "id": "9f6ff43cd82a70803a04",
-      "title": "Múltiples vulnerabilidades en productos de B&R",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
-      "published": "2026-11-11",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
       "id": "19fffa6cad9e873bd6ac",
       "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
       "source": "CERT-EU",
@@ -977,6 +935,48 @@
       "sourceType": "official",
       "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
       "published": "2026-11-19",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "9c8f63912d951ec94526",
+      "title": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
+      "published": "2026-11-20",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "b22eec5809ce5c9c44d6",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA",
+      "sourceType": "official",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-20",
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
