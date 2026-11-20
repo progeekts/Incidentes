@@ -44,8 +44,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-18T08:37:57+01:00",
-      "nextCheck": "2026-11-19T08:37:57+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-21T08:25:41+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -149,8 +149,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-18T08:37:57+01:00",
-      "nextCheck": "2026-11-19T08:37:57+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-21T08:25:41+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -169,18 +169,18 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-16T23:13:23+01:00",
-      "nextCheck": "2026-11-19T23:13:23+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-23T08:25:41+01:00",
       "pendingEvidence": [
         "https://tools.euroland.com/tools/PressReleases/GetPressRelease/?ID=8153669&companycode=services&lang=en-GB"
       ],
       "sources": [
         {
           "baseline": false,
-          "changed": true,
+          "changed": false,
           "etag": "",
           "httpStatus": 200,
-          "lastModified": "Mon, 16 Nov 2026 22:13:23 GMT",
+          "lastModified": "Fri, 20 Nov 2026 07:25:43 GMT",
           "ok": true,
           "sha256": "17158a96622c89c53ad43830b8661914810e7bd81db0fa5044e34d94cb884c01",
           "url": "https://tools.euroland.com/tools/PressReleases/GetPressRelease/?ID=8153669&companycode=services&lang=en-GB"
@@ -218,8 +218,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-18T08:37:57+01:00",
-      "nextCheck": "2026-11-19T08:37:57+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-21T08:25:41+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -233,8 +233,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-18T08:37:57+01:00",
-      "nextCheck": "2026-11-19T08:37:57+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-21T08:25:41+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -336,8 +336,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-16T23:13:23+01:00",
-      "nextCheck": "2026-11-19T23:13:23+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-23T08:25:41+01:00",
       "pendingEvidence": [
         "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
       ],
@@ -347,9 +347,9 @@
           "changed": true,
           "etag": "",
           "httpStatus": 200,
-          "lastModified": "Mon, 16 Nov 2026 13:03:01 GMT",
+          "lastModified": "Wed, 18 Nov 2026 17:09:39 GMT",
           "ok": true,
-          "sha256": "481b787aa1910d6773c13af02dea3f308c565faad7ab8d80c17d468b95f12510",
+          "sha256": "ed550119ab8def67f9b27b7b9817a0e25d9d6ca2fc10257450b9bee0431b2fdf",
           "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
         }
       ]
@@ -358,8 +358,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-16T23:13:23+01:00",
-      "nextCheck": "2026-11-19T23:13:23+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-23T08:25:41+01:00",
       "pendingEvidence": [
         "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
         "https://www.cyberdaily.au/security/14410-digicert-discloses-security-event-says-customer-data-exposed"
@@ -372,7 +372,7 @@
           "httpStatus": 200,
           "lastModified": "Thu, 05 Nov 2026 16:12:46 GMT",
           "ok": true,
-          "sha256": "57461c15114a20a69a885782aa9cfc26cf26fb4fd3c4dad0dc4b5208fb15be0c",
+          "sha256": "7633c7e01c444b8d3e2302775b27fcd1277bfc23d629deccce3ae0f200193010",
           "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/"
         },
         {
@@ -382,7 +382,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "46be9a98bf228411967815567f59c3c9ee17a1ba9ff902a46991e19da56ce91b",
+          "sha256": "f13ed533ad71b54df72c91240dab8c52f1697d1a70dc1f1722749d94b389662e",
           "url": "https://www.cyberdaily.au/security/14410-digicert-discloses-security-event-says-customer-data-exposed"
         }
       ]
@@ -391,8 +391,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-16T23:13:23+01:00",
-      "nextCheck": "2026-11-19T23:13:23+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-23T08:25:41+01:00",
       "pendingEvidence": [
         "https://support.msecure.com/en/support/discussions/topics/36000038998/page/1?url_locale=en",
         "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/"
@@ -405,7 +405,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "cf1e45251fc73cbae64e19c1117ff39a8d4ce0cfffdb193ae2b68ad4dbd87ce4",
+          "sha256": "0571fb982c7e283e4339bd73713cbc05d7f138612eca13c628b2431d3d9fdbd1",
           "url": "https://support.msecure.com/en/support/discussions/topics/36000038998/page/1?url_locale=en"
         },
         {
@@ -415,7 +415,7 @@
           "httpStatus": 200,
           "lastModified": "Wed, 04 Nov 2026 16:00:19 GMT",
           "ok": true,
-          "sha256": "2386e13feaa461fa786a435c1303e40d4ebaac5a663a1d005bbf8cc82471ecf1",
+          "sha256": "90c931963edd5abdb72d964683054aa4087f6911453ab2f439956eead37cf44c",
           "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/"
         }
       ]
@@ -451,8 +451,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-18T08:37:57+01:00",
-      "nextCheck": "2026-11-19T08:37:57+01:00",
+      "lastChecked": "2026-11-20T08:25:41+01:00",
+      "nextCheck": "2026-11-21T08:25:41+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -468,8 +468,8 @@
       ]
     }
   },
-  "lastRun": "2026-11-19T21:44:43+01:00",
-  "lastRunCount": 10,
+  "lastRun": "2026-11-20T08:25:41+01:00",
+  "lastRunCount": 9,
   "pendingCount": 11,
   "policy": {
     "editorialChangesAutomatic": false,
@@ -478,6 +478,6 @@
     "maxSourcesPerIncident": 2,
     "note": "Las señales por cambios remotos requieren verificación; no actualizan los incidentes."
   },
-  "remainingDue": 5,
+  "remainingDue": 0,
   "version": 1
 }
