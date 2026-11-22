@@ -4,8 +4,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -19,8 +19,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -92,8 +92,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -112,8 +112,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-014/"
       ],
@@ -125,7 +125,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "4ee39cfe9b07d5b5eb24bd6eac5722fd7cc231b7b4e9038aae843a599b9889f4",
+          "sha256": "d7535e13837489a2d81d9bfc10021f744bfd3de53114ea7bc60eef02f03649ad",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-014/"
         }
       ]
@@ -134,8 +134,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "not_requested",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [],
       "sources": [
         {
@@ -191,8 +191,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-017/"
       ],
@@ -204,7 +204,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "6dfc84abfec758599d1432e089a4812fe1bd4d309e59e4b1417beddfa9d31267",
+          "sha256": "a007eec3b955b42478713497697e895bdea0870e0c0fdeb81ec16b543631301b",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-017/"
         },
         {
@@ -248,8 +248,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-019/",
         "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/"
@@ -262,7 +262,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "d97ee8347bb03b2950d64025768fcee4cd39262dcf63bda80c29798e26a419b2",
+          "sha256": "814583b477224f64fe11c56e0fc104f21565265ea4a51f0538e1c07245e8327d",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-019/"
         },
         {
@@ -281,8 +281,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-016/"
       ],
@@ -294,7 +294,7 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "15d4436bb04b5a1edf32cb973af622fd65ef8fbe2a1f0ac02d80e9a2f777b5d2",
+          "sha256": "5dc770e4103389cfc5b6fd6571b61a63e626d16080f550494ab2ad3b2ca3f176",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-016/"
         }
       ]
@@ -303,8 +303,8 @@
       "checkResult": "checked",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [
         "https://cert.europa.eu/publications/security-advisories/2026-018/",
         "https://www.php.net/archive/2026.php#2026-10-20-1"
@@ -317,17 +317,17 @@
           "httpStatus": 200,
           "lastModified": "",
           "ok": true,
-          "sha256": "5dea2ac043833ee8ba0b7a7267aec8b53778d2f06acbf229da32559168bd81fc",
+          "sha256": "8b71a9c7441dd8bd133ab7c065059b897a2c3e5273a8060eb6adef405621730e",
           "url": "https://cert.europa.eu/publications/security-advisories/2026-018/"
         },
         {
           "baseline": false,
-          "changed": false,
+          "changed": true,
           "etag": "",
-          "httpStatus": 304,
-          "lastModified": "Thu, 19 Nov 2026 14:01:00 GMT",
+          "httpStatus": 200,
+          "lastModified": "Fri, 20 Nov 2026 13:54:40 GMT",
           "ok": true,
-          "sha256": "3cf9e6923516cead2c189fee9a7c312668261fee739ba8e307b2746fe2682a08",
+          "sha256": "ef6874062e55cbc38356b077c6a798fe79166df424c5ee613e946d6b1bbe3555",
           "url": "https://www.php.net/archive/2026.php#2026-10-20-1"
         }
       ]
@@ -424,8 +424,8 @@
       "checkResult": "partial_or_failed",
       "editorialNote": "Cambios en páginas externas sin validar; no implican actualización del incidente.",
       "editorialReview": "pending",
-      "lastChecked": "2026-11-21T08:17:30+01:00",
-      "nextCheck": "2026-11-22T08:17:30+01:00",
+      "lastChecked": "2026-11-22T20:47:01+01:00",
+      "nextCheck": "2026-11-23T20:47:01+01:00",
       "pendingEvidence": [
         "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
       ],
@@ -442,7 +442,7 @@
           "httpStatus": 200,
           "lastModified": "Fri, 06 Nov 2026 14:09:58 GMT",
           "ok": true,
-          "sha256": "abbc8ef2501bbe59d15be381b349f6a462aabab6b2cd6cec7e7f2c115e42f691",
+          "sha256": "9eb348a499d8eb96d9344bb8e15a8bd2a347a3e7cf05a51f2df7f874203ec319",
           "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
         }
       ]
@@ -468,8 +468,8 @@
       ]
     }
   },
-  "lastRun": "2026-11-22T07:59:43+01:00",
-  "lastRunCount": 0,
+  "lastRun": "2026-11-22T20:47:01+01:00",
+  "lastRunCount": 10,
   "pendingCount": 11,
   "policy": {
     "editorialChangesAutomatic": false,
@@ -478,6 +478,6 @@
     "maxSourcesPerIncident": 2,
     "note": "Las señales por cambios remotos requieren verificación; no actualizan los incidentes."
   },
-  "remainingDue": 0,
+  "remainingDue": 6,
   "version": 1
 }
