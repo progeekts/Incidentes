@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-23T08:48:03+01:00",
+  "lastReview": "2026-11-24T00:58:38+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -102,6 +102,14 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "e27e42239d4f33f92a77",
+      "source": "INCIBE-CERT",
+      "title": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+      "published": "Mon, 23 Nov 2026 08:46:38 +0000",
+      "summary": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss Lun, 23/11/2026 - 09:46 Aviso SCI Recursos Afectados Danfoss AK-SC 355, todas las versiones. Danfoss AK-SM 800 Series de la generación anterior, todas las versiones. Descripción Danfoss ha publicado 1 vulnerabilidad de severidad crítica en sus controladores de refrigeración. Un atacante con acceso a la interfaz de gestión podría utilizar una contraseña predeterminada"
+    },
+    {
       "id": "9c8f63912d951ec94526",
       "source": "INCIBE-CERT",
       "title": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
@@ -172,14 +180,6 @@
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
       "published": "Thu, 12 Nov 2026 08:46:52 +0000",
       "summary": "Múltiples vulnerabilidades en productos de MB connect line Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados mbCONNECT24, con firmware anterior a 2.21.6. mymbCONNECT24, con firmware anterior a 2.21.6. Descripción MB connect line, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP integrada en mbCONNECT24 y mymbCONNECT24. Ambas forman parte de PHP2Shell y podrían permitir a un at"
-    },
-    {
-      "id": "a76d5810c72fa4ca1cd9",
-      "source": "INCIBE-CERT",
-      "title": "Uso de memoria tras su liberación en OPTIMAX de ABB",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
-      "published": "Thu, 12 Nov 2026 08:46:50 +0000",
-      "summary": "Uso de memoria tras su liberación en OPTIMAX de ABB Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados ABB Ability OPTIMAX, ramas 6.4.x y 6.5.x, sin el parche del sistema operativo correspondiente. Descripción ABB ha publicado 1 vulnerabilidad de severidad crítica en el subsistema IPv4 del núcleo Linux de ABB Ability OPTIMAX. Un atacante con acceso de red al producto podría ejecutar código arbitrario o interrumpir el servicio sin autenticación."
     },
     {
       "id": "b82fa404dbc62b4dc34e",
@@ -260,6 +260,14 @@
       "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
       "published": "Tue, 22 Sep 2026 18:52:36 CEST",
       "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions as soon as possible."
+    },
+    {
+      "id": "75ea09ea3e752e0248bf",
+      "source": "CISA",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "Mon, 23 Nov 26 12:00:00 +0000",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability &nbsp; CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterpris"
     },
     {
       "id": "b22eec5809ce5c9c44d6",
@@ -492,14 +500,6 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
       "published": "Wed, 30 Sep 26 12:00:00 +0000",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vu"
-    },
-    {
-      "id": "494ffde2d5ef60f281af",
-      "source": "CISA",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "Tue, 29 Sep 26 12:00:00 +0000",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-Bounds Write Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes v"
     }
   ]
 }
