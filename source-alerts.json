@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-24T00:58:38+01:00",
+  "lastReview": "2026-11-24T10:59:55+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -102,6 +102,22 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "6a0950f23b106c8a3706",
+      "source": "INCIBE-CERT",
+      "title": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
+      "published": "Tue, 24 Nov 2026 08:44:24 +0000",
+      "summary": "Múltiples vulnerabilidades en productos de Wiesemann &amp; Theis Mar, 24/11/2026 - 09:44 Aviso SCI Recursos Afectados Los siguientes equipos están expuestos cuando tienen habilitado el servidor web integrado y ejecutan una versión vulnerable de PHP: FTP Data Station 3 (50543): firmware anterior a 1.31. Motherbox (50504): firmware anterior a 1.51. La tabla de afectados lo denomina Motherbox 4 y el fabricante distribuye la actualización de esa refe"
+    },
+    {
+      "id": "d01926c4b5b041ff2456",
+      "source": "INCIBE-CERT",
+      "title": "Falta de autenticación en cámaras industriales de ifm",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/falta-de-autenticacion-en-camaras-industriales-de-ifm",
+      "published": "Tue, 24 Nov 2026 08:44:22 +0000",
+      "summary": "Falta de autenticación en cámaras industriales de ifm Mar, 24/11/2026 - 09:44 Aviso SCI Recursos Afectados O3D300, O3D302, O3D310, O3D312, O3D314 y O3D354: firmware 1.71.10735 y 1.90.119. O3D301, O3D303, O3D305, O3D311, O3D353 y O3D355: firmware 1.71.10735 y 1.90.107. O3D304: firmware 1.90.119. O3D361: firmware 1.20.6381. O3DP01, O3DP03, O3DP21 y O3DP23: firmware 2.10.16. O3X120 y O3X130: firmware 2.0.10412. Descripción Chris Steeves en coodinaci"
+    },
+    {
       "id": "e27e42239d4f33f92a77",
       "source": "INCIBE-CERT",
       "title": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
@@ -164,22 +180,6 @@
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
       "published": "Tue, 17 Nov 2026 08:44:09 +0000",
       "summary": "Uso de memoria liberada en egOS de Welotec Mar, 17/11/2026 - 09:44 Aviso SCI Recursos Afectados Equipos Welotec con egOS anterior a 1.11.2. EG400 Mk2: EG400Mk2-D11001-000101, EG400Mk2-D11101-000101. EG500: EG503W, EG503L, EG503W_4GB, EG503L_4GB, EG503L-G. EG500 Mk2: EG500Mk2-A11101-000101, EG500Mk2-A11001-000101, EG500Mk2-B11101-000101, EG500Mk2-B11001-000101, EG500Mk2-C11101-000101, EG500Mk2-C11001-000101, EG500Mk2-A12011-000101, EG500Mk2-A11001"
-    },
-    {
-      "id": "36635f69c730f29c889c",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de Helmholz",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
-      "published": "Thu, 12 Nov 2026 08:46:53 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de Helmholz Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados myREX24V2, con firmware anterior a 2.21.6. myREX24V2.virtual, con firmware anterior a 2.21.6. Descripción Helmholz, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP integrada en myREX24V2 y myREX24V2.virtual. Ambas forman parte de PHP2Shell y podrían permitir a un atacante rem"
-    },
-    {
-      "id": "f47fbed1a7ce3e37bbfd",
-      "source": "INCIBE-CERT",
-      "title": "Múltiples vulnerabilidades en productos de MB connect line",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
-      "published": "Thu, 12 Nov 2026 08:46:52 +0000",
-      "summary": "Múltiples vulnerabilidades en productos de MB connect line Jue, 12/11/2026 - 09:46 Aviso SCI Recursos Afectados mbCONNECT24, con firmware anterior a 2.21.6. mymbCONNECT24, con firmware anterior a 2.21.6. Descripción MB connect line, en coordinación con CERT@VDE, ha publicado 2 vulnerabilidades, 1 de severidad crítica y 1 alta, en la versión de PHP integrada en mbCONNECT24 y mymbCONNECT24. Ambas forman parte de PHP2Shell y podrían permitir a un at"
     },
     {
       "id": "b82fa404dbc62b4dc34e",
