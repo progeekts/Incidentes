@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-24T10:59:55+01:00",
+  "lastReview": "2026-11-24T23:31:20+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
@@ -262,6 +262,14 @@
       "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions as soon as possible."
     },
     {
+      "id": "165729c3cbfbb2e3eb18",
+      "source": "CISA",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "published": "Tue, 24 Nov 26 12:00:00 +0000",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability&nbsp; CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability&nbsp; CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability&nbsp; These types of vulnerabilities are a frequent att"
+    },
+    {
       "id": "75ea09ea3e752e0248bf",
       "source": "CISA",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -286,20 +294,20 @@
       "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.&nbsp; CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture"
     },
     {
-      "id": "37902359fb183e156991",
-      "source": "CISA",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on "
-    },
-    {
       "id": "2b90ef71fb0880376bf8",
       "source": "CISA",
       "title": "Critical Java Vulnerability Requires Immediate Patching",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
       "published": "Tue, 17 Nov 26 12:00:00 +0000",
       "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution. Actions to take CISA"
+    },
+    {
+      "id": "37902359fb183e156991",
+      "source": "CISA",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Tue, 17 Nov 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its&nbsp; Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on "
     },
     {
       "id": "7b5dacba886b8db54898",
@@ -492,14 +500,6 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "published": "Thu, 01 Oct 26 12:00:00 +0000",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerabil"
-    },
-    {
-      "id": "13e00ab44d20734e77ec",
-      "source": "CISA",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "Wed, 30 Sep 26 12:00:00 +0000",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp; Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vu"
     }
   ]
 }
