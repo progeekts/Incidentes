@@ -1,30 +1,9 @@
 {
-  "lastGenerated": "2026-11-25T09:44:42+01:00",
-  "sourceReview": "2026-11-25T09:44:07+01:00",
+  "lastGenerated": "2026-11-25T22:46:34+01:00",
+  "sourceReview": "2026-11-25T22:46:01+01:00",
   "count": 46,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
-    {
-      "id": "176ef43f137e903d04f8",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA",
-      "sourceType": "official",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-10-01",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
     {
       "id": "0ed309bdb2fbe9f48880",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -656,48 +635,6 @@
       ]
     },
     {
-      "id": "38c79b8e8e4a924d5085",
-      "title": "Uso de memoria liberada en egOS de Welotec",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
-      "published": "2026-11-17",
-      "categoryHint": "otro",
-      "score": 43,
-      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
-      "id": "ad22f6268a4f6a40a6e6",
-      "title": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-d-esi-100-de-durag",
-      "published": "2026-11-17",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
       "id": "09c7f2906d932359dbcb",
       "title": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
       "source": "INCIBE-CERT",
@@ -959,6 +896,69 @@
       "categoryHint": "otro",
       "score": 43,
       "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "0835143488621c535f3e",
+      "title": "Uso de memoria liberada en ctrlX OS de Bosch",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-ctrlx-os-de-bosch",
+      "published": "2026-11-25",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "960b439603310866af7a",
+      "title": "Desbordamiento de memoria en productos de Schneider Electric",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-memoria-en-productos-de-schneider-electric",
+      "published": "2026-11-25",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "c0fdeca5bfd2c130fa49",
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA",
+      "sourceType": "official",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-25",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
       "status": "pendiente de verificación humana",
       "evidenceCount": 1,
       "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",

@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-25T09:44:42+01:00",
+  "lastReview": "2026-11-25T22:46:33+01:00",
   "sourceStatus": {
     "GitHub Advisory Database": {
       "ok": true,
@@ -7,7 +7,7 @@
     },
     "CISA KEV": {
       "ok": true,
-      "count": 1795
+      "count": 1805
     }
   },
   "note": "Catálogo parcial y acumulativo: 300 advisories por consulta (máximo histórico local 1200). La ausencia en CISA KEV no implica ausencia de explotación.",
@@ -119,6 +119,78 @@
       "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
       "source": "Node.js Security",
       "highlight": true
+    },
+    {
+      "id": "GHSA-vw2v-g4x7-xcqg",
+      "cve": "CVE-2026-68539",
+      "title": "fulgur allows Unbounded string-set value accumulation causes memory/CPU exhaustion (denial of service)",
+      "product": "fulgur",
+      "ecosystem": "rust",
+      "severity": "high",
+      "cvss": 7.5,
+      "published": "2026-11-25",
+      "fixed": "0.28.0",
+      "affected": ">= 0.4.4, < 0.28.0",
+      "summary": "`fulgur` converts untrusted HTML/CSS into PDF, commonly on a server that processes input supplied by many tenants. In versions from 0.4.4 up to (but not including) the patched release, the CSS `string-set` named-string values resolved from a document were accumulated per element with no memory budget, letting a small crafted document amplify into large retained memory (and the CPU to copy it) — a denial of service.  A `string-set` value is attacker-controlled: it is resolved from an element's own text (`content(text)`), from one of its attribut",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-vw2v-g4x7-xcqg",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-h746-qpxh-ph7g",
+      "cve": "CVE-2026-65973",
+      "title": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
+      "product": "petebishwhip/laradocs",
+      "ecosystem": "composer",
+      "severity": "medium",
+      "cvss": 6.4,
+      "published": "2026-11-25",
+      "fixed": "1.0.0",
+      "affected": ">= 0.4.0, < 1.0.0",
+      "summary": "### Summary Local command injection (CWE-78) in server-side KaTeX rendering via an unescaped Node.js binary path in a `proc_open()` command string.  ### Affected versions >= 0.4.0, < 1.0.0  ### Patched versions >= 1.0.0 (fixed in commit `100cb1e`)  ### Impact When rendering KaTeX math **server-side**, Laradocs invoked Node via `proc_open()` with a command string in which the Node binary argument was not passed through `escapeshellarg()`.  `MarkdownPipelineFactory` constructs `KatexExtension` with the configured binary, which the render path res",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-h746-qpxh-ph7g",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-crj3-q72p-ggqm",
+      "cve": "CVE-2026-64670",
+      "title": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+      "product": "@waline/client",
+      "ecosystem": "npm",
+      "severity": "critical",
+      "cvss": 9.3,
+      "published": "2026-11-25",
+      "fixed": "Consultar fuente",
+      "affected": "<= 3.16.2",
+      "summary": "### Summary  `@waline/client` renders the comment editor's live preview with `marked` and no sanitizer (`utils/markdown.ts`), and the preview is injected with `v-html`.  When a comment is edited, the editor is seeded with the comment's raw, un-sanitized body (`orig`).  Only administrators and the comment owner can edit. So an administrator who clicks Edit on an attacker's comment renders that attacker's raw HTML in their own session: an unauthenticated commenter achieves privilege-escalation stored XSS against a moderator with a single Edit cli",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-7fgc-3h6c-698r",
+      "cve": "CVE-2026-65971",
+      "title": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
+      "product": "power-components/livewire-powergrid",
+      "ecosystem": "composer",
+      "severity": "high",
+      "cvss": 7.6,
+      "published": "2026-11-25",
+      "fixed": "6.10.4",
+      "affected": ">= 6.0.0, < 6.10.4",
+      "summary": "## [Description]  The public Livewire property `sortDirection` is interpolated **verbatim** into a raw SQL `ORDER BY` clause and is not restricted to `asc`/`desc`, allowing arbitrary SQL injection through `POST /livewire/update`.  **Data flow**  - **Source** — `src/Concerns/Sorting.php`: `public string $sortDirection;` is a   Livewire-bound property with no whitelist/validation (it is only assigned and   flipped by `reverseSort()`), so it is fully attacker-controlled via the standard   Livewire update endpoint. - **Taint** — `src/DataSource/Pro",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-7fgc-3h6c-698r",
+      "source": "GitHub Advisory Database",
+      "highlight": false
     },
     {
       "id": "GHSA-jp3c-6v3g-mpxv",
@@ -420,8 +492,8 @@
       "fixed": "Consultar fuente",
       "affected": "<= 5.7.4",
       "summary": "### Summary  REST cookie parsing turns `authenticationToken=j:%7B%7D` into `{}`. REST authentication passes that object to the XO token provider without requiring a string. The token collection treats `{}` as an unfiltered lookup and returns its first token; the provider authenticates as that token's owner if it is unexpired. The authenticated `/rest/v0/users/me/authentication_tokens` route then returns reusable login token IDs.   ### Details  1. In `packages/xo-server/src/api/session.mjs`, function  `signIn(credentials)` has **no `params` sche",
-      "exploited": false,
-      "exploitationStatus": "No confirmado por este catálogo",
+      "exploited": true,
+      "exploitationStatus": "Incluida en CISA KEV",
       "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
       "source": "GitHub Advisory Database",
       "highlight": false
