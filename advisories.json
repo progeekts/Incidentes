@@ -1,5 +1,5 @@
 {
-  "lastReview": "2026-11-25T22:46:33+01:00",
+  "lastReview": "2026-11-26T09:30:42+01:00",
   "sourceStatus": {
     "GitHub Advisory Database": {
       "ok": true,
@@ -139,6 +139,42 @@
       "highlight": false
     },
     {
+      "id": "GHSA-rj59-9f77-mvg5",
+      "cve": "CVE-2026-69181",
+      "title": "TastyIgniter permits Path Traversal in Media Upload",
+      "product": "tastyigniter/tastyigniter",
+      "ecosystem": "composer",
+      "severity": "high",
+      "cvss": 7.6,
+      "published": "2026-11-25",
+      "fixed": "4.3.1",
+      "affected": "< 4.3.1",
+      "summary": "### Summary Arbitrary file write outside `media/uploads/`  ### Details It is possible to perform Path Traversal in Media Manager file upload function as admin.   ### PoC - login as admin - upload a image but in the request, change the path from `/` to `/../../`.  Request ```http POST /admin/media_manager HTTP/1.1 Host: localhost:8888 Content-Length: 302 sec-ch-ua-platform: \"Linux\" X-CSRF-TOKEN: 2vv3ZKpvfj2SkbbJzqmf8G053mNXqPLktxqd5eMx Cache-Control: no-cache Accept-Language: en-US,en;q=0.9 sec-ch-ua: \"Not-A.Brand\";v=\"24\", \"Chromium\";v=\"146\" sec",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-rj59-9f77-mvg5",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-mqg7-fw3f-mhp7",
+      "cve": "CVE-2026-69177",
+      "title": "TastyIgniter allows stored XSS via file upload",
+      "product": "tastyigniter/tastyigniter",
+      "ecosystem": "composer",
+      "severity": "medium",
+      "cvss": 6.8,
+      "published": "2026-11-25",
+      "fixed": "4.3.1",
+      "affected": "< 4.3.1",
+      "summary": "### Summary Stored XSS via uploading SVG files   ### Details It is possible to upload SVG files that contains XSS.  ### PoC  - login as admin - create the following SVG file  ``` <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"400\" viewBox=\"0 0 124 124\" fill=\"none\"> <rect width=\"124\" height=\"124\" rx=\"24\" fill=\"#000000\"/>    <script type=\"text/javascript\">         alert(1);    </script> </svg> ```    - upload the SVG file in media manager  ``` POST /admin/media_manager HTTP/1.1 Host: localhost:8888 Content-Length: 514 sec-ch-ua-platf",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-mqg7-fw3f-mhp7",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
       "id": "GHSA-h746-qpxh-ph7g",
       "cve": "CVE-2026-65973",
       "title": "laradocs  Command injection via unescaped Node.js binary path in KaTeX SSR",
@@ -175,6 +211,24 @@
       "highlight": false
     },
     {
+      "id": "GHSA-7wwv-x6mc-pxqx",
+      "cve": "CVE-2026-69179",
+      "title": "TastyIgniter allows Remote Code Execution (RCE) via Unrestricted file upload in Media Manager",
+      "product": "tastyigniter/tastyigniter",
+      "ecosystem": "composer",
+      "severity": "critical",
+      "cvss": 9.1,
+      "published": "2026-11-25",
+      "fixed": "4.3.1",
+      "affected": "< 4.3.1",
+      "summary": "### Summary Media manager accepts `.htaccess` file which can be used to perform RCE.  ### Details The file upload functionality from media manager somehow accepts `.htaccess` file. This file could be used to allow any extension to run PHP command. By doing so, it is possible to perform RCE.  ### PoC - Login as Admin - Create a `.htaccess` file with the following code.  ``` <FilesMatch \"\\.jpg$\">     SetHandler application/x-httpd-php </FilesMatch> ``` - Upload the `.htaccess` file via the Media Manager.  Request ``` POST /admin/media_manager HTT",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-7wwv-x6mc-pxqx",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
       "id": "GHSA-7fgc-3h6c-698r",
       "cve": "CVE-2026-65971",
       "title": "livewire-powergrid: SQL injection via sortDirection in naturalSort queries",
@@ -189,6 +243,24 @@
       "exploited": false,
       "exploitationStatus": "No confirmado por este catálogo",
       "url": "https://github.com/advisories/GHSA-7fgc-3h6c-698r",
+      "source": "GitHub Advisory Database",
+      "highlight": false
+    },
+    {
+      "id": "GHSA-743w-g9pf-8p94",
+      "cve": "CVE-2026-69178",
+      "title": "TastyIgniter mail template editor allows remote code execution via server-side template injection",
+      "product": "tastyigniter/tastyigniter",
+      "ecosystem": "composer",
+      "severity": "critical",
+      "cvss": 9.1,
+      "published": "2026-11-25",
+      "fixed": "4.3.1",
+      "affected": "< 4.3.1",
+      "summary": "### Summary **Where:** `POST /admin/mail_templates/edit/{id}` → body field   **Who can trigger:** Any admin user with `Admin.MailTemplates` permission   **Impact:** Arbitrary PHP execution on the server — full RCE  ### Details The Mail templates is vulnerable to SSTI and did not perform an validation and sanitization.  ### PoC  - login as admin - create new mail template with following command  ``` @php echo shell_exec('echo \"RCE Executed\";id'); @endphp ```    - save the request - execute the request using `X-IGNITER-REQUEST-HANDLER: onTestTemp",
+      "exploited": false,
+      "exploitationStatus": "No confirmado por este catálogo",
+      "url": "https://github.com/advisories/GHSA-743w-g9pf-8p94",
       "source": "GitHub Advisory Database",
       "highlight": false
     },
