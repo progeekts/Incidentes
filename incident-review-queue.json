@@ -1,30 +1,9 @@
 {
-  "lastGenerated": "2026-11-27T09:43:44+01:00",
-  "sourceReview": "2026-11-27T09:43:12+01:00",
+  "lastGenerated": "2026-11-27T22:24:30+01:00",
+  "sourceReview": "2026-11-27T22:24:22+01:00",
   "count": 46,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
-    {
-      "id": "0ed309bdb2fbe9f48880",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "source": "CISA",
-      "sourceType": "official",
-      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-02",
-      "categoryHint": "vulnerabilidad",
-      "score": 43,
-      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
     {
       "id": "f9b447af38c377a8babe",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -959,6 +938,27 @@
       "categoryHint": "otro",
       "score": 43,
       "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "a939823268298b2351a6",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA",
+      "sourceType": "official",
+      "sourceUrl": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-27",
+      "categoryHint": "vulnerabilidad",
+      "score": 43,
+      "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
       "status": "pendiente de verificación humana",
       "evidenceCount": 1,
       "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
