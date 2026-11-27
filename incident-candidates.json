@@ -1,9 +1,22 @@
 {
-  "lastGenerated": "2026-11-26T22:40:42+01:00",
-  "sourceReview": "2026-11-26T22:39:18+01:00",
+  "lastGenerated": "2026-11-27T09:43:44+01:00",
+  "sourceReview": "2026-11-27T09:43:12+01:00",
   "count": 46,
   "disclaimer": "Candidatos encontrados en fuentes externas. No son incidentes confirmados ni exfiltraciones demostradas.",
   "items": [
+    {
+      "id": "ac86d89b2032c83573ac",
+      "title": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
+      "source": "INCIBE-CERT",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
+      "published": "2026-11-26",
+      "categoryHint": "otro",
+      "summary": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss Jue, 26/11/2026 - 09:34 Aviso SCI Recursos Afectados Controladores Danfoss de la serie AK-SM 8xxA con firmware 5.4.0 o anterior. Descripción Carlo Meijer, de Midnight Blue, ha informado sobre 1 vulnerabilidad de severidad crítica en los controladores de refrigeración AK-SM 8xxA de Danfo",
+      "status": "pendiente",
+      "verification": "No verificado individualmente",
+      "firstSeen": "2026-11-27T09:43:44+01:00",
+      "lastSeen": "2026-11-27T09:43:44+01:00"
+    },
     {
       "id": "c0fdeca5bfd2c130fa49",
       "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
@@ -15,7 +28,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-25T22:46:34+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "960b439603310866af7a",
@@ -28,7 +41,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-25T22:46:34+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "0835143488621c535f3e",
@@ -41,7 +54,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-25T22:46:34+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "d01926c4b5b041ff2456",
@@ -54,7 +67,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-24T11:00:16+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "6a0950f23b106c8a3706",
@@ -67,7 +80,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-24T11:00:16+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "165729c3cbfbb2e3eb18",
@@ -80,7 +93,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-24T23:31:46+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "e27e42239d4f33f92a77",
@@ -93,7 +106,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-24T00:58:56+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "75ea09ea3e752e0248bf",
@@ -106,7 +119,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-24T00:58:56+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "b22eec5809ce5c9c44d6",
@@ -119,7 +132,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-20T21:28:51+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "9c8f63912d951ec94526",
@@ -132,7 +145,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-20T21:28:51+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "148abf3949d1fd522cde",
@@ -145,7 +158,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-19T21:44:43+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "c50dc7f9e12607eca291",
@@ -158,7 +171,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T21:38:48+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "3f2768aeffe25faeeca9",
@@ -171,7 +184,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T21:38:48+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "3c0757dea93563cf21aa",
@@ -184,7 +197,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T21:38:48+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "2bf6e3b53184cd104c37",
@@ -197,7 +210,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T21:38:48+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "09c7f2906d932359dbcb",
@@ -210,7 +223,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T21:38:48+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "37902359fb183e156991",
@@ -223,7 +236,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-17T22:00:47+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "2b90ef71fb0880376bf8",
@@ -236,20 +249,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-18T08:37:57+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
-    },
-    {
-      "id": "14ff74fac7ac419762b1",
-      "title": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
-      "source": "INCIBE-CERT",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
-      "published": "2026-11-17",
-      "categoryHint": "otro",
-      "summary": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor Mar, 17/11/2026 - 09:44 Aviso SCI Recursos Afectados CIRCUTOR PowerStudio SCADA WAVE para Windows de 64 bits, en su versión de escritorio, desde la versión 24.8.0 hasta la 24.11.17.0, excluida esta última. Descripción CIRCUTOR ha publicado 1 vulnerabilidad de severidad crítica ",
-      "status": "pendiente",
-      "verification": "No verificado individualmente",
-      "firstSeen": "2026-11-17T22:00:47+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "7b5dacba886b8db54898",
@@ -262,7 +262,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-14T07:34:40+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "19fffa6cad9e873bd6ac",
@@ -275,7 +275,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-12T21:00:41+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f4b34728a6f8e3261976",
@@ -288,7 +288,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-11T07:36:01+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "b13d0e78edd1a3e70a4e",
@@ -301,7 +301,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T23:27:25+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "2e68c4969154600586c3",
@@ -314,7 +314,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "c5bfeedc9f8814604d6b",
@@ -327,7 +327,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "53ca9309f14b041c6790",
@@ -340,7 +340,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f635e51b46992649ab09",
@@ -353,7 +353,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "e24342c52a0b2ee1fe64",
@@ -366,7 +366,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "22d2ccd53543886c59b8",
@@ -379,7 +379,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f7763a757c0c37e729db",
@@ -392,7 +392,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f6b4dc44bc2f931c0e19",
@@ -405,7 +405,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "ce87e3f627c6f42f08a7",
@@ -418,7 +418,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "87bf34b6e070a9474032",
@@ -431,7 +431,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f778ef1a30ddc9386885",
@@ -444,7 +444,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "d88e90fd82c805ab4f49",
@@ -457,7 +457,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "a4ea87f3b4cf50baec42",
@@ -470,7 +470,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "ae4608a27522a7cf45cb",
@@ -483,7 +483,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "90ef0f2bf47ec9ed6075",
@@ -496,7 +496,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f0618fbb3f3a2bffb49e",
@@ -509,7 +509,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "c06f589c9cb09cf5cbc2",
@@ -522,7 +522,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "616ea1fba64001b4db81",
@@ -535,7 +535,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "897e03545f1ebc4d3302",
@@ -548,7 +548,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "5439bcbc2ee60006abf8",
@@ -561,7 +561,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "3d7f7c58cbe0781568d5",
@@ -574,7 +574,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:24:24+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "f9b447af38c377a8babe",
@@ -587,7 +587,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     },
     {
       "id": "0ed309bdb2fbe9f48880",
@@ -600,7 +600,7 @@
       "status": "pendiente",
       "verification": "No verificado individualmente",
       "firstSeen": "2026-11-09T10:15:49+01:00",
-      "lastSeen": "2026-11-26T22:40:42+01:00"
+      "lastSeen": "2026-11-27T09:43:44+01:00"
     }
   ]
 }

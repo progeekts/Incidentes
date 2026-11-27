@@ -1,14 +1,14 @@
 {
-  "lastReview": "2026-11-26T22:39:18+01:00",
+  "lastReview": "2026-11-27T09:43:12+01:00",
   "timezone": "Europe/Madrid",
   "status": {
     "INCIBE Ciudadanía": {
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 10
     },
     "INCIBE-CERT": {
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 10
     },
     "CERT-EU": {
       "ok": true,
@@ -102,6 +102,14 @@
       "summary": "Chantajes de sextorsión a través de correos electrónicos Mar, 10/03/2026 - 09:35 Aviso Recursos Afectados Cualquier usuario que haya recibido un correo electrónico y haya seguido las instrucciones que indica el ciberdelincuente en el correo. Descripción Se ha detectado una campaña masiva de correos electrónicos de sextorsión que amenaza con difundir supuestos vídeos íntimos a los contactos del destinatario. Los estafadores exigen pagos en Bitcoin"
     },
     {
+      "id": "ac86d89b2032c83573ac",
+      "source": "INCIBE-CERT",
+      "title": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
+      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
+      "published": "Thu, 26 Nov 2026 08:34:01 +0000",
+      "summary": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss Jue, 26/11/2026 - 09:34 Aviso SCI Recursos Afectados Controladores Danfoss de la serie AK-SM 8xxA con firmware 5.4.0 o anterior. Descripción Carlo Meijer, de Midnight Blue, ha informado sobre 1 vulnerabilidad de severidad crítica en los controladores de refrigeración AK-SM 8xxA de Danfoss. Un atacante remoto sin autenticar podría corromper la memoria del servidor web del controlador y"
+    },
+    {
       "id": "960b439603310866af7a",
       "source": "INCIBE-CERT",
       "title": "Desbordamiento de memoria en productos de Schneider Electric",
@@ -172,14 +180,6 @@
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
       "published": "Wed, 18 Nov 2026 08:58:35 +0000",
       "summary": "Múltiples vulnerabilidades en productos de Phoenix Contact Mié, 18/11/2026 - 09:58 Aviso SCI Recursos Afectados Las versiones indicadas corresponden al firmware del equipo. Los siguientes modelos están afectados por PHP2Shell y BlastRADIUS, salvo los 4 identificados al final como afectados únicamente por BlastRADIUS. FL NAT y FL SWITCH con versiones anteriores a 3.60: FL NAT: 2008, 2208 y 2304-2GC-2SFP. FL SWITCH 20xx y 21xx: 2005, 2008, 2008F, 2"
-    },
-    {
-      "id": "14ff74fac7ac419762b1",
-      "source": "INCIBE-CERT",
-      "title": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
-      "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
-      "published": "Tue, 17 Nov 2026 08:44:11 +0000",
-      "summary": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor Mar, 17/11/2026 - 09:44 Aviso SCI Recursos Afectados CIRCUTOR PowerStudio SCADA WAVE para Windows de 64 bits, en su versión de escritorio, desde la versión 24.8.0 hasta la 24.11.17.0, excluida esta última. Descripción CIRCUTOR ha publicado 1 vulnerabilidad de severidad crítica en PowerStudio SCADA WAVE, software de supervisión y control energético. El fallo podría permitir el"
     },
     {
       "id": "b82fa404dbc62b4dc34e",

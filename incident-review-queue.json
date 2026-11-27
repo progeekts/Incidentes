@@ -1,6 +1,6 @@
 {
-  "lastGenerated": "2026-11-26T22:40:42+01:00",
-  "sourceReview": "2026-11-26T22:39:18+01:00",
+  "lastGenerated": "2026-11-27T09:43:44+01:00",
+  "sourceReview": "2026-11-27T09:43:12+01:00",
   "count": 46,
   "publicationPolicy": "Solo cola de revisión. Prohibida la incorporación automática a incidents.json, incidents.js o RSS editorial.",
   "items": [
@@ -572,27 +572,6 @@
       ]
     },
     {
-      "id": "14ff74fac7ac419762b1",
-      "title": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
-      "source": "INCIBE-CERT",
-      "sourceType": "official",
-      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
-      "published": "2026-11-17",
-      "categoryHint": "otro",
-      "score": 43,
-      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
-      "status": "pendiente de verificación humana",
-      "evidenceCount": 1,
-      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
-      "requires": [
-        "Confirmar hecho y fecha con fuente primaria",
-        "Identificar organización y alcance real",
-        "Distinguir acceso, exposición y exfiltración",
-        "Añadir recomendaciones comprobables",
-        "Aprobar ficha editorial antes de publicar"
-      ]
-    },
-    {
       "id": "2b90ef71fb0880376bf8",
       "title": "Critical Java Vulnerability Requires Immediate Patching",
       "source": "CISA",
@@ -959,6 +938,27 @@
       "categoryHint": "vulnerabilidad",
       "score": 43,
       "reason": "Puede describir una vulnerabilidad; normalmente debe permanecer en Security Advisories.",
+      "status": "pendiente de verificación humana",
+      "evidenceCount": 1,
+      "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
+      "requires": [
+        "Confirmar hecho y fecha con fuente primaria",
+        "Identificar organización y alcance real",
+        "Distinguir acceso, exposición y exfiltración",
+        "Añadir recomendaciones comprobables",
+        "Aprobar ficha editorial antes de publicar"
+      ]
+    },
+    {
+      "id": "ac86d89b2032c83573ac",
+      "title": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
+      "source": "INCIBE-CERT",
+      "sourceType": "official",
+      "sourceUrl": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
+      "published": "2026-11-26",
+      "categoryHint": "otro",
+      "score": 43,
+      "reason": "Revisar el aviso y comprobar que describe un caso concreto, no una guía general.",
       "status": "pendiente de verificación humana",
       "evidenceCount": 1,
       "duplicateCheck": "sin coincidencia exacta por URL, título o CVE; no descarta duplicados semánticos",
